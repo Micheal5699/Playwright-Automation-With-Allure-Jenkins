@@ -1,0 +1,7 @@
+⚠️ Authorization field is disabled. Skipping this step...
+✅ Selected random Check-in date: Saturday, November 29th,
+✅ Selected random Check-out date: Thursday, December 4th,
+‼️  Check a reason for discharge checkbox to enable the Submit button.
+✔️ Clicked checkbox at index: 0
+🟦 FINAL UI LABEL TO CLICK: Thursday, November 27th,
+✔️ Clicked custom checkbox at index: 0

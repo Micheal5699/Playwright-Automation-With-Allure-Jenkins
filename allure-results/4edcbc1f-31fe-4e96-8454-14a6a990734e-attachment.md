@@ -1,0 +1,213 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - region "Notifications Alt+T"
+    - generic [ref=e4]:
+      - region "Notifications Alt+T"
+      - main [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - generic [ref=e8]:
+              - img "Indigo EMR" [ref=e10]
+              - generic [ref=e11]:
+                - generic [ref=e13] [cursor=pointer]: L
+                - text: 
+              - navigation [ref=e14]:
+                - link " Dashboard" [ref=e15] [cursor=pointer]:
+                  - /url: /in-patient/dashboard
+                  - generic [ref=e16]: 
+                  - generic [ref=e17]: Dashboard
+                - link " Patients" [ref=e18] [cursor=pointer]:
+                  - /url: /in-patient/patients
+                  - generic [ref=e19]: 
+                  - generic [ref=e20]: Patients
+                - link " Calendar" [ref=e21] [cursor=pointer]:
+                  - /url: /in-patient/calendar
+                  - generic [ref=e22]: 
+                  - generic [ref=e23]: Calendar
+            - list [ref=e25]:
+              - listitem [ref=e26] [cursor=pointer]:
+                - generic [ref=e27]:
+                  - generic [ref=e28]:
+                    - generic [ref=e29]: 
+                    - generic [ref=e30]: 
+                  - generic [ref=e31]: Notification
+              - listitem [ref=e32] [cursor=pointer]:
+                - link " Subscription & payment" [ref=e33]:
+                  - /url: /settings/subscription
+                  - generic [ref=e34]:
+                    - generic [ref=e35]: 
+                    - generic [ref=e36]: Subscription & payment
+              - listitem [ref=e37] [cursor=pointer]:
+                - link " Help Center Answers Here" [ref=e38]:
+                  - /url: /support
+                  - generic [ref=e39]:
+                    - generic [ref=e40]: 
+                    - generic [ref=e41]:
+                      - text: Help Center
+                      - paragraph [ref=e42]: Answers Here
+              - button "Indigo User Avatar Adeolu1 Ogungbesan " [ref=e45] [cursor=pointer]:
+                - img "Indigo User Avatar" [ref=e46]
+                - generic [ref=e47]:
+                  - generic [ref=e48]: Adeolu1 Ogungbesan
+                  - generic [ref=e49]: 
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - generic [ref=e56]:
+                - generic [ref=e57]:
+                  - generic [ref=e59]: Search by filter
+                  - textbox "Search..." [ref=e60]
+                - button "Name" [ref=e62] [cursor=pointer]:
+                  - text: Name
+                  - img
+              - button "Admit patient" [ref=e63] [cursor=pointer]
+            - heading "Dashboard" [level=3] [ref=e64]
+            - generic [ref=e65]:
+              - generic [ref=e66]:
+                - generic [ref=e67]:
+                  - button "Discharged 0  Today" [ref=e68] [cursor=pointer]:
+                    - heading "Discharged" [level=4] [ref=e69]
+                    - generic [ref=e70]:
+                      - paragraph [ref=e71]: "0"
+                      - generic [ref=e73]: 
+                    - paragraph [ref=e74]: Today
+                  - button "Admission 0  Today" [ref=e75] [cursor=pointer]:
+                    - heading "Admission" [level=4] [ref=e76]
+                    - generic [ref=e77]:
+                      - paragraph [ref=e78]: "0"
+                      - generic [ref=e80]: 
+                    - paragraph [ref=e81]: Today
+                  - button "Emergency 0  Today" [ref=e82] [cursor=pointer]:
+                    - heading "Emergency" [level=4] [ref=e83]
+                    - generic [ref=e84]:
+                      - paragraph [ref=e85]: "0"
+                      - generic [ref=e87]: 
+                    - paragraph [ref=e88]: Today
+                  - button "Surgery 0  Today" [ref=e89] [cursor=pointer]:
+                    - heading "Surgery" [level=4] [ref=e90]
+                    - generic [ref=e91]:
+                      - paragraph [ref=e92]: "0"
+                      - generic [ref=e94]: 
+                    - paragraph [ref=e95]: Today
+                - generic [ref=e96]:
+                  - generic [ref=e98]:
+                    - generic [ref=e100]:
+                      - text: Recommended Patients
+                      - generic [ref=e101]: ( 0 )
+                    - button "Filters" [ref=e103] [cursor=pointer]:
+                      - img
+                      - generic [ref=e104]: Filters
+                  - heading "No Appointment found for Today" [level=4] [ref=e109]
+              - generic [ref=e111]:
+                - heading "Admissions by wards" [level=4] [ref=e113]
+                - generic [ref=e115]:
+                  - img [ref=e116]
+                  - generic [ref=e117]:
+                    - generic [ref=e118]: "0"
+                    - generic [ref=e119]: Patient
+  - dialog [ref=e121]:
+    - document:
+      - generic [ref=e123]:
+        - generic [ref=e126]:
+          - heading "Admit Patient" [level=3] [ref=e128]
+          - img [ref=e130] [cursor=pointer]
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - heading "Patient Details" [level=3] [ref=e135]
+            - generic [ref=e138]:
+              - switch [ref=e139] [cursor=pointer]
+              - checkbox
+              - generic [ref=e140]: Emergency
+          - generic [ref=e141]:
+            - generic [ref=e144]:
+              - generic [ref=e145]:
+                - generic [ref=e147]: 
+                - generic [ref=e148]:
+                  - generic [ref=e149]:
+                    - heading "PatVcrIS PeWXxMGeE" [level=2] [ref=e150]
+                    - generic [ref=e151]: "-"
+                  - paragraph [ref=e152]: Luth00678
+              - generic [ref=e153]:
+                - img [ref=e154]
+                - generic [ref=e159]: Female
+              - generic [ref=e160]:
+                - img [ref=e161]
+                - generic [ref=e163]: "23499141858861"
+              - button "Delete profile" [ref=e165] [cursor=pointer]:
+                - img
+                - generic [ref=e166]: Delete profile
+            - generic [ref=e169]:
+              - generic [ref=e171]: Authorization Code
+              - textbox "Enter code here" [disabled] [ref=e172]
+            - generic [ref=e175]:
+              - generic [ref=e176]:
+                - generic [ref=e177]: Reason For Visit
+                - generic [ref=e178]: "*"
+              - textbox "Enter text" [ref=e179]
+            - button "Check-in-date * DD-MM-YYYY " [ref=e182] [cursor=pointer]:
+              - generic [ref=e183]:
+                - generic [ref=e184]:
+                  - paragraph [ref=e185]: Check-in-date *
+                  - text: DD-MM-YYYY
+                - generic [ref=e186]: 
+            - button "Check-out-date DD-MM-YYYY " [disabled] [ref=e189]:
+              - generic [ref=e190]:
+                - generic [ref=e191]:
+                  - paragraph [ref=e192]: Check-out-date
+                  - text: DD-MM-YYYY
+                - generic [ref=e193]: 
+            - generic [ref=e196]:
+              - generic [ref=e197]:
+                - generic [ref=e198]: Specialty
+                - generic [ref=e199]: "*"
+              - generic [ref=e200]:
+                - log [ref=e202]
+                - generic [ref=e203]:
+                  - combobox [ref=e206]
+                  - img [ref=e209]
+            - generic [ref=e213]:
+              - generic [ref=e214]:
+                - generic [ref=e215]: Ward
+                - generic [ref=e216]: "*"
+              - generic [ref=e217]:
+                - log [ref=e219]
+                - generic [ref=e220]:
+                  - generic [ref=e221]:
+                    - generic [ref=e222]: Select Option
+                    - combobox [ref=e224]
+                  - img [ref=e227]
+            - generic [ref=e231]:
+              - generic [ref=e232]:
+                - generic [ref=e233]: Room
+                - generic [ref=e234]: "*"
+              - generic [ref=e235]:
+                - log [ref=e237]
+                - generic [ref=e238]:
+                  - generic [ref=e239]:
+                    - generic [ref=e240]: Select Option
+                    - combobox [ref=e242]
+                  - img [ref=e245]
+            - generic [ref=e249]:
+              - generic [ref=e250]:
+                - generic [ref=e251]: Bedspace no
+                - generic [ref=e252]: "*"
+              - generic [ref=e253]:
+                - log [ref=e255]
+                - generic [ref=e256]:
+                  - generic [ref=e257]:
+                    - generic [ref=e258]: Select Option
+                    - combobox [ref=e260]
+                  - img [ref=e263]
+            - generic [ref=e267]:
+              - generic [ref=e269]: Consultant
+              - generic [ref=e270]:
+                - log [ref=e272]
+                - generic [ref=e273]:
+                  - generic [ref=e274]:
+                    - generic [ref=e275]: Select Consultant
+                    - combobox [ref=e277]
+                  - img [ref=e280]
+          - button "Admit Patient" [disabled] [ref=e283]
+```

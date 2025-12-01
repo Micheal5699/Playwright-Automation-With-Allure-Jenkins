@@ -1,0 +1,324 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - region "Notifications Alt+T"
+    - generic [ref=e4]:
+      - region "Notifications Alt+T"
+      - main [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - generic [ref=e8]:
+              - img "Indigo EMR" [ref=e10]
+              - generic [ref=e11]:
+                - generic [ref=e13] [cursor=pointer]: L
+                - text: 
+              - navigation [ref=e14]:
+                - link " Dashboard" [ref=e15] [cursor=pointer]:
+                  - /url: /in-patient/dashboard
+                  - generic [ref=e16]: 
+                  - generic [ref=e17]: Dashboard
+                - link " Patients" [ref=e18] [cursor=pointer]:
+                  - /url: /in-patient/patients
+                  - generic [ref=e19]: 
+                  - generic [ref=e20]: Patients
+                - link " Calendar" [ref=e21] [cursor=pointer]:
+                  - /url: /in-patient/calendar
+                  - generic [ref=e22]: 
+                  - generic [ref=e23]: Calendar
+            - list [ref=e25]:
+              - listitem [ref=e26] [cursor=pointer]:
+                - generic [ref=e27]:
+                  - generic [ref=e28]:
+                    - generic [ref=e29]: 
+                    - generic [ref=e30]: 
+                  - generic [ref=e31]: Notification
+              - listitem [ref=e32] [cursor=pointer]:
+                - link " Subscription & payment" [ref=e33]:
+                  - /url: /settings/subscription
+                  - generic [ref=e34]:
+                    - generic [ref=e35]: 
+                    - generic [ref=e36]: Subscription & payment
+              - listitem [ref=e37] [cursor=pointer]:
+                - link " Help Center Answers Here" [ref=e38]:
+                  - /url: /support
+                  - generic [ref=e39]:
+                    - generic [ref=e40]: 
+                    - generic [ref=e41]:
+                      - text: Help Center
+                      - paragraph [ref=e42]: Answers Here
+              - button "Indigo User Avatar Adeolu1 Ogungbesan " [ref=e45] [cursor=pointer]:
+                - img "Indigo User Avatar" [ref=e46]
+                - generic [ref=e47]:
+                  - generic [ref=e48]: Adeolu1 Ogungbesan
+                  - generic [ref=e49]: 
+          - generic [ref=e52]:
+            - heading "Patient Details" [level=3] [ref=e54]
+            - generic [ref=e55]:
+              - generic [ref=e56] [cursor=pointer]:
+                - generic [ref=e57]: 
+                - paragraph [ref=e58]: Go Back
+              - button "Book Surgery" [ref=e60] [cursor=pointer]
+            - generic [ref=e61]:
+              - generic [ref=e64]:
+                - generic [ref=e67]:
+                  - img [ref=e70]
+                  - generic [ref=e73]:
+                    - generic [ref=e74]:
+                      - heading "Dr. Sydnie Windler | Luth01359" [level=2] [ref=e75]
+                      - paragraph [ref=e76]: "65 Yrs, Female • Plan: Average"
+                    - paragraph [ref=e78]: Sponsors - Private Patient
+                    - generic [ref=e79]:
+                      - generic [ref=e80]:
+                        - generic [ref=e81]: "Wallet Balance:"
+                        - generic [ref=e82]: ₦0
+                      - generic [ref=e83]:
+                        - generic [ref=e84]: "Credit Balance:"
+                        - generic [ref=e85]: ₦0
+                - generic [ref=e87]:
+                  - generic [ref=e88]:
+                    - generic [ref=e89]:
+                      - generic [ref=e90]:
+                        - generic [ref=e91] [cursor=pointer]:
+                          - text: Allergies
+                          - img [ref=e92]
+                        - button "N/A" [ref=e94] [cursor=pointer]:
+                          - generic [ref=e95]: N/A
+                      - generic [ref=e96]:
+                        - generic [ref=e97] [cursor=pointer]:
+                          - text: Medical History
+                          - img [ref=e98]
+                        - button "N/A" [ref=e100] [cursor=pointer]:
+                          - generic [ref=e101]: N/A
+                      - generic [ref=e102]:
+                        - generic [ref=e103] [cursor=pointer]: Previous Diagnosis
+                        - button "N/A" [ref=e104] [cursor=pointer]:
+                          - generic [ref=e105]: N/A
+                    - generic [ref=e106]:
+                      - button "0 Pending Bills" [ref=e107] [cursor=pointer]:
+                        - generic [ref=e108]: 0 Pending Bills
+                      - button "More Options " [ref=e111] [cursor=pointer]:
+                        - text: More Options
+                        - generic [ref=e112]: 
+                  - button "Show More" [ref=e113] [cursor=pointer]:
+                    - text: Show More
+                    - img
+              - generic [ref=e115]:
+                - list [ref=e117]:
+                  - listitem [ref=e118]:
+                    - link "Profile Details" [ref=e119] [cursor=pointer]:
+                      - /url: /in-patient/patients/690ee7cb0d50a79d4699d6a7?tab=profile-details
+                      - generic [ref=e120]: 
+                      - text: Profile Details
+                  - listitem [ref=e121]:
+                    - link "Appointments" [ref=e122] [cursor=pointer]:
+                      - /url: /in-patient/patients/690ee7cb0d50a79d4699d6a7?tab=appointments
+                      - generic [ref=e123]: 
+                      - text: Appointments
+                  - listitem [ref=e124]:
+                    - link "Admission" [ref=e125] [cursor=pointer]:
+                      - /url: /in-patient/patients/690ee7cb0d50a79d4699d6a7?tab=admission
+                      - generic [ref=e126]: 
+                      - text: Admission
+                  - listitem [ref=e127]:
+                    - link "Surgery" [ref=e128] [cursor=pointer]:
+                      - /url: /in-patient/patients/690ee7cb0d50a79d4699d6a7?tab=surgery
+                      - generic [ref=e129]: 
+                      - text: Surgery
+                - generic [ref=e133]:
+                  - generic [ref=e134]:
+                    - generic [ref=e135] [cursor=pointer]:
+                      - generic [ref=e136]: 
+                      - paragraph [ref=e137]: Go Back to Appointments
+                    - generic [ref=e138]:
+                      - generic [ref=e142]:
+                        - generic [ref=e143]: 25h
+                        - text: ":"
+                        - generic [ref=e144]: 49m
+                        - text: ":"
+                        - generic [ref=e145]: 46s
+                      - button "End Session" [ref=e146] [cursor=pointer]
+                  - generic [ref=e147]:
+                    - generic [ref=e149]:
+                      - button " Visit Summary" [ref=e150] [cursor=pointer]:
+                        - generic [ref=e151]: 
+                        - paragraph [ref=e152]: Visit Summary
+                      - button " Vital Signs" [ref=e153] [cursor=pointer]:
+                        - generic [ref=e154]: 
+                        - paragraph [ref=e155]: Vital Signs
+                      - button " Case Note" [ref=e156] [cursor=pointer]:
+                        - generic [ref=e157]: 
+                        - paragraph [ref=e158]: Case Note
+                      - button " Prescription" [ref=e159] [cursor=pointer]:
+                        - generic [ref=e160]: 
+                        - paragraph [ref=e161]: Prescription
+                      - button " Drug Charts" [ref=e162] [cursor=pointer]:
+                        - generic [ref=e163]: 
+                        - paragraph [ref=e164]: Drug Charts
+                      - button " Progress Note" [ref=e165] [cursor=pointer]:
+                        - generic [ref=e166]: 
+                        - paragraph [ref=e167]: Progress Note
+                      - button " Investigation" [ref=e168] [cursor=pointer]:
+                        - generic [ref=e169]: 
+                        - paragraph [ref=e170]: Investigation
+                      - button " File Upload" [ref=e171] [cursor=pointer]:
+                        - generic [ref=e172]: 
+                        - paragraph [ref=e173]: File Upload
+                      - button " Referral" [ref=e174] [cursor=pointer]:
+                        - generic [ref=e175]: 
+                        - paragraph [ref=e176]: Referral
+                      - button " Procedures" [ref=e177] [cursor=pointer]:
+                        - generic [ref=e178]: 
+                        - paragraph [ref=e179]: Procedures
+                      - button "Daily Bills" [ref=e180] [cursor=pointer]:
+                        - paragraph [ref=e181]: Daily Bills
+                      - button " Custom Records" [ref=e182] [cursor=pointer]:
+                        - generic [ref=e183]: 
+                        - paragraph [ref=e184]: Custom Records
+                    - generic [ref=e187]:
+                      - heading "Referral" [level=4] [ref=e189]
+                      - generic [ref=e190]:
+                        - button "Show All (5) " [ref=e191] [cursor=pointer]:
+                          - generic [ref=e192]: Show All (5)
+                          - generic [ref=e193]: 
+                        - button " Add Entry" [ref=e195] [cursor=pointer]:
+                          - generic [ref=e196]: 
+                          - text: Add Entry
+                      - generic [ref=e199]:
+                        - paragraph [ref=e200]: No record has been added yet
+                        - paragraph
+  - dialog [ref=e201]:
+    - document:
+      - generic [ref=e206]:
+        - heading "Referral" [level=3] [ref=e208]
+        - img [ref=e210] [cursor=pointer]
+  - dialog [ref=e214]:
+    - document:
+      - generic [ref=e216]:
+        - generic [ref=e217]:
+          - heading "Referral Form" [level=4] [ref=e218]
+          - img [ref=e219] [cursor=pointer]
+        - img "Hospital logo" [ref=e222]
+        - generic [ref=e224]:
+          - generic [ref=e225]:
+            - paragraph [ref=e226]: "Hospital Name:"
+            - paragraph [ref=e227]: Lemon Group of Hospitals
+          - generic [ref=e228]:
+            - paragraph [ref=e229]: "Hospital Address:"
+            - paragraph [ref=e230]: Harvard University, Cambridge, MA, USA
+          - generic [ref=e231]:
+            - paragraph [ref=e232]: "Hospital Email:"
+            - paragraph [ref=e233]: luth@inboxkitten.com
+          - generic [ref=e234]:
+            - paragraph [ref=e235]: "Hospital Phone Number:"
+            - paragraph [ref=e236]: "23470"
+        - generic [ref=e237]:
+          - heading "Patient Details" [level=5] [ref=e238]
+          - generic [ref=e239]:
+            - generic [ref=e240]:
+              - generic [ref=e241]: Patient Name:Sydnie Windler
+              - generic [ref=e242]: DOB:29/09/1960
+              - generic [ref=e243]: HMO:None
+              - generic [ref=e244]: Allergy:-
+            - generic [ref=e245]:
+              - generic [ref=e246]: Age:65
+              - generic [ref=e247]: Sex:Female
+              - generic [ref=e248]: Phone Number:16356079337
+              - generic [ref=e249]: Blood Group:-
+        - generic [ref=e250]:
+          - heading "Clinical Information" [level=5] [ref=e251]
+          - generic [ref=e252]:
+            - generic [ref=e257]:
+              - generic [ref=e258]: Primary Diagnosis *
+              - generic [ref=e259]:
+                - img [ref=e261]
+                - textbox "Type in to search" [ref=e263]
+            - generic [ref=e268]:
+              - generic [ref=e269]: Other Diagnosis *
+              - generic [ref=e270]:
+                - img [ref=e272]
+                - textbox "Type in to search" [ref=e274]
+            - generic [ref=e279]:
+              - generic [ref=e280]: Complaints *
+              - generic [ref=e281]:
+                - img [ref=e283]
+                - textbox "Type in to search" [ref=e285]
+            - generic [ref=e287]:
+              - generic [ref=e288]: Investigation
+              - textbox "Type here" [ref=e289]
+            - generic [ref=e290]: Medications:-
+            - generic [ref=e291]:
+              - generic [ref=e293]:
+                - generic [ref=e295]: Drug
+                - generic [ref=e296]:
+                  - log [ref=e298]
+                  - generic [ref=e299]:
+                    - generic [ref=e300]:
+                      - generic [ref=e301]: Amoxicillin
+                      - combobox [ref=e303]
+                    - img [ref=e306]
+              - generic [ref=e309]:
+                - generic [ref=e310]: Duration
+                - textbox "Type here" [ref=e311]: 5 days
+              - generic [ref=e313]:
+                - generic [ref=e314]:
+                  - generic [ref=e315]:
+                    - generic [ref=e316]: Dosage
+                    - textbox "0" [active] [ref=e317]: 500mg
+                  - generic [ref=e318]:
+                    - generic [ref=e319]: 
+                    - generic [ref=e320]: 
+                - paragraph [ref=e321]
+              - button " Add Medication" [ref=e323] [cursor=pointer]:
+                - generic [ref=e324]: 
+                - generic [ref=e325]: Add Medication
+              - generic [ref=e327]:
+                - generic [ref=e328]: Reason For Referral
+                - textbox "Type here" [ref=e329]
+              - generic [ref=e331]:
+                - generic [ref=e332]: Comment
+                - textbox "Type here" [ref=e333]
+          - generic [ref=e334]:
+            - heading "Referring Physician Information" [level=5] [ref=e335]
+            - generic [ref=e336]:
+              - generic [ref=e338] [cursor=pointer]:
+                - text: Internal
+                - radio "Internal" [checked]
+              - generic [ref=e341] [cursor=pointer]:
+                - text: External
+                - radio "External"
+            - generic [ref=e343]:
+              - generic [ref=e345]:
+                - generic [ref=e347]: Hospital Branch
+                - generic [ref=e348]:
+                  - log [ref=e350]
+                  - generic [ref=e351]:
+                    - generic [ref=e352]:
+                      - generic [ref=e353]: Type here
+                      - combobox [ref=e355]
+                    - img [ref=e358]
+              - generic [ref=e361]:
+                - generic [ref=e363]: Physician Name
+                - generic [ref=e364]:
+                  - log [ref=e366]
+                  - generic [ref=e367]:
+                    - generic [ref=e368]:
+                      - generic [ref=e369]: Select Option
+                      - combobox [ref=e371]
+                    - img [ref=e374]
+              - generic [ref=e377]:
+                - generic [ref=e379]: Specialty
+                - generic [ref=e380]:
+                  - log [ref=e382]
+                  - generic [ref=e383]:
+                    - generic [ref=e384]:
+                      - generic [ref=e385]: Select Option
+                      - combobox [ref=e387]
+                    - img [ref=e390]
+            - generic [ref=e393]:
+              - generic [ref=e395]: 
+              - generic [ref=e396] [cursor=pointer]: Add Attachment
+          - button "Signed By:" [ref=e398] [cursor=pointer]
+        - button "Submit" [disabled] [ref=e402]
+```

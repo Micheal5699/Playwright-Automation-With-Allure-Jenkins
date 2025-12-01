@@ -1,0 +1,6 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="68.58617200000002">
+<testsuite name="inpatient\extendHMOpatient.spec.js" timestamp="2025-11-28T16:52:54.994Z" hostname="chromium" tests="1" failures="0" skipped="0" time="61.736" errors="0">
+<testcase name="TC1.001 Discharge an Private Patient successfully" classname="inpatient\extendHMOpatient.spec.js" time="61.736">
+</testcase>
+</testsuite>
+</testsuites>

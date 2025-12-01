@@ -1,0 +1,194 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - region "Notifications Alt+T"
+  - generic [ref=e4]:
+    - region "Notifications Alt+T":
+      - alert [ref=e6]:
+        - img [ref=e8]
+        - text: Prescription added successfully
+        - progressbar [ref=e12]
+    - main [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - img "Indigo EMR" [ref=e18]
+            - generic [ref=e19]:
+              - generic [ref=e21] [cursor=pointer]: L
+              - text: 
+            - navigation [ref=e22]:
+              - link " Dashboard" [ref=e23] [cursor=pointer]:
+                - /url: /in-patient/dashboard
+                - generic [ref=e24]: 
+                - generic [ref=e25]: Dashboard
+              - link " Patients" [ref=e26] [cursor=pointer]:
+                - /url: /in-patient/patients
+                - generic [ref=e27]: 
+                - generic [ref=e28]: Patients
+              - link " Calendar" [ref=e29] [cursor=pointer]:
+                - /url: /in-patient/calendar
+                - generic [ref=e30]: 
+                - generic [ref=e31]: Calendar
+          - list [ref=e33]:
+            - listitem [ref=e34] [cursor=pointer]:
+              - generic [ref=e35]:
+                - generic [ref=e36]:
+                  - generic [ref=e37]: 
+                  - generic [ref=e38]: 
+                - generic [ref=e39]: Notification
+            - listitem [ref=e40] [cursor=pointer]:
+              - link " Subscription & payment" [ref=e41]:
+                - /url: /settings/subscription
+                - generic [ref=e42]:
+                  - generic [ref=e43]: 
+                  - generic [ref=e44]: Subscription & payment
+            - listitem [ref=e45] [cursor=pointer]:
+              - link " Help Center Answers Here" [ref=e46]:
+                - /url: /support
+                - generic [ref=e47]:
+                  - generic [ref=e48]: 
+                  - generic [ref=e49]:
+                    - text: Help Center
+                    - paragraph [ref=e50]: Answers Here
+            - button "Indigo User Avatar Adeolu1 Ogungbesan " [ref=e53] [cursor=pointer]:
+              - img "Indigo User Avatar" [ref=e54]
+              - generic [ref=e55]:
+                - generic [ref=e56]: Adeolu1 Ogungbesan
+                - generic [ref=e57]: 
+        - generic [ref=e60]:
+          - heading "Patient Details" [level=3] [ref=e62]
+          - generic [ref=e63]:
+            - generic [ref=e64] [cursor=pointer]:
+              - generic [ref=e65]: 
+              - paragraph [ref=e66]: Go Back
+            - button "Book Surgery" [ref=e68] [cursor=pointer]
+          - generic [ref=e69]:
+            - generic [ref=e72]:
+              - generic [ref=e75]:
+                - img [ref=e78]
+                - generic [ref=e81]:
+                  - generic [ref=e82]:
+                    - heading "PROF. Eunice Smith | Luth01338" [level=2] [ref=e83]
+                    - paragraph [ref=e84]: "68 Yrs, Female • Plan: Average"
+                  - paragraph [ref=e86]: Sponsors - Private Patient
+                  - generic [ref=e87]:
+                    - generic [ref=e88]:
+                      - generic [ref=e89]: "Wallet Balance:"
+                      - generic [ref=e90]: ₦0
+                    - generic [ref=e91]:
+                      - generic [ref=e92]: "Credit Balance:"
+                      - generic [ref=e93]: ₦0
+              - generic [ref=e95]:
+                - generic [ref=e96]:
+                  - generic [ref=e97]:
+                    - generic [ref=e98]:
+                      - generic [ref=e99] [cursor=pointer]:
+                        - text: Allergies
+                        - img [ref=e100]
+                      - button "N/A" [ref=e102] [cursor=pointer]:
+                        - generic [ref=e103]: N/A
+                    - generic [ref=e104]:
+                      - generic [ref=e105] [cursor=pointer]:
+                        - text: Medical History
+                        - img [ref=e106]
+                      - button "N/A" [ref=e108] [cursor=pointer]:
+                        - generic [ref=e109]: N/A
+                    - generic [ref=e110]:
+                      - generic [ref=e111] [cursor=pointer]: Previous Diagnosis
+                      - button "N/A" [ref=e112] [cursor=pointer]:
+                        - generic [ref=e113]: N/A
+                  - generic [ref=e114]:
+                    - button "0 Pending Bills" [ref=e115] [cursor=pointer]:
+                      - generic [ref=e116]: 0 Pending Bills
+                    - button "More Options " [ref=e119] [cursor=pointer]:
+                      - text: More Options
+                      - generic [ref=e120]: 
+                - button "Show More" [ref=e121] [cursor=pointer]:
+                  - text: Show More
+                  - img
+            - generic [ref=e123]:
+              - list [ref=e125]:
+                - listitem [ref=e126]:
+                  - link "Profile Details" [ref=e127] [cursor=pointer]:
+                    - /url: /in-patient/patients/68ecdaab1416c119266ee5f8?tab=profile-details
+                    - generic [ref=e128]: 
+                    - text: Profile Details
+                - listitem [ref=e129]:
+                  - link "Appointments" [ref=e130] [cursor=pointer]:
+                    - /url: /in-patient/patients/68ecdaab1416c119266ee5f8?tab=appointments
+                    - generic [ref=e131]: 
+                    - text: Appointments
+                - listitem [ref=e132]:
+                  - link "Admission" [ref=e133] [cursor=pointer]:
+                    - /url: /in-patient/patients/68ecdaab1416c119266ee5f8?tab=admission
+                    - generic [ref=e134]: 
+                    - text: Admission
+                - listitem [ref=e135]:
+                  - link "Surgery" [ref=e136] [cursor=pointer]:
+                    - /url: /in-patient/patients/68ecdaab1416c119266ee5f8?tab=surgery
+                    - generic [ref=e137]: 
+                    - text: Surgery
+              - generic [ref=e141]:
+                - generic [ref=e142]:
+                  - generic [ref=e143] [cursor=pointer]:
+                    - generic [ref=e144]: 
+                    - paragraph [ref=e145]: Go Back to Appointments
+                  - generic [ref=e146]:
+                    - generic [ref=e150]:
+                      - generic [ref=e151]: 129h
+                      - text: ":"
+                      - generic [ref=e152]: 49m
+                      - text: ":"
+                      - generic [ref=e153]: 23s
+                    - button "End Session" [ref=e154] [cursor=pointer]
+                - generic [ref=e155]:
+                  - generic [ref=e157]:
+                    - button " Visit Summary" [ref=e158] [cursor=pointer]:
+                      - generic [ref=e159]: 
+                      - paragraph [ref=e160]: Visit Summary
+                    - button " Vital Signs" [ref=e161] [cursor=pointer]:
+                      - generic [ref=e162]: 
+                      - paragraph [ref=e163]: Vital Signs
+                    - button " Case Note" [ref=e164] [cursor=pointer]:
+                      - generic [ref=e165]: 
+                      - paragraph [ref=e166]: Case Note
+                    - button " Prescription" [ref=e167] [cursor=pointer]:
+                      - generic [ref=e168]: 
+                      - paragraph [ref=e169]: Prescription
+                    - button " Drug Charts" [active] [ref=e170] [cursor=pointer]:
+                      - generic [ref=e171]: 
+                      - paragraph [ref=e172]: Drug Charts
+                    - button " Progress Note" [ref=e173] [cursor=pointer]:
+                      - generic [ref=e174]: 
+                      - paragraph [ref=e175]: Progress Note
+                    - button " Investigation" [ref=e176] [cursor=pointer]:
+                      - generic [ref=e177]: 
+                      - paragraph [ref=e178]: Investigation
+                    - button " File Upload" [ref=e179] [cursor=pointer]:
+                      - generic [ref=e180]: 
+                      - paragraph [ref=e181]: File Upload
+                    - button " Referral" [ref=e182] [cursor=pointer]:
+                      - generic [ref=e183]: 
+                      - paragraph [ref=e184]: Referral
+                    - button " Procedures" [ref=e185] [cursor=pointer]:
+                      - generic [ref=e186]: 
+                      - paragraph [ref=e187]: Procedures
+                    - button "Daily Bills" [ref=e188] [cursor=pointer]:
+                      - paragraph [ref=e189]: Daily Bills
+                    - button " Custom Records" [ref=e190] [cursor=pointer]:
+                      - generic [ref=e191]: 
+                      - paragraph [ref=e192]: Custom Records
+                  - generic [ref=e196]:
+                    - generic [ref=e197]:
+                      - paragraph [ref=e198]: Drug Chart
+                      - generic [ref=e199]:
+                        - button "List" [ref=e200] [cursor=pointer]
+                        - button "Chart" [ref=e201] [cursor=pointer]
+                    - button "October 19th, 2025 " [ref=e203] [cursor=pointer]:
+                      - generic [ref=e204]:
+                        - generic [ref=e205]:
+                          - paragraph
+                          - text: October 19th, 2025
+                        - generic [ref=e206]: 
+```

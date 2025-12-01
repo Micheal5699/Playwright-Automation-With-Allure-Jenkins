@@ -1,0 +1,237 @@
+import  { expect, request } from "@playwright/test";
+import { LoginPage } from "../../pages/loginPage";
+import { test } from "../../fixture/fixture-loader";
+import { ModuleSelectorPage } from "../../pages/moduleSelectorPage";
+const {DischargePrivatePatientPage} = require("../../pages/inpatient/dischargePrivatePatient");
+const { getRandomPrivateName } = require("../../utils/PrivateAndHMOutils");
+const devUrl = 'https://dev.indigoemr.com';
+
+
+test("TC1.001 Discharge an Private Patient successfully", async ({ page }) => {
+        const loginPage = new LoginPage(page);
+        const selectLocation = new ModuleSelectorPage(page, "Front Desk");
+        const dischargePrivatePatientPage = new DischargePrivatePatientPage(page);
+        const randomPrivate = getRandomPrivateName();
+        // Step 1: Login and navigate
+        await page.goto(devUrl);
+        await loginPage.selectLocation();
+        await page.waitForURL("**/modules");
+        await selectLocation.selectInpatientModule();
+        await dischargePrivatePatientPage.clickAdmitPatientBtn();
+        await dischargePrivatePatientPage.patientNameField.fill(randomPrivate);
+        await dischargePrivatePatientPage.patientSearchedFor.click()
+        await dischargePrivatePatientPage.enterAuthorizationCode("AUTH12345");
+        await dischargePrivatePatientPage.enterReasonForVisit("Regular Checkup");
+        const checkInDate = await dischargePrivatePatientPage.enterCheckInDate();
+        await dischargePrivatePatientPage.enterCheckOutDate(checkInDate);
+        await dischargePrivatePatientPage.selectSpecialty("Ophthalmology");
+        await dischargePrivatePatientPage.selectWard("0-10 kids");
+        await dischargePrivatePatientPage.selectRoom("r 1");
+        await dischargePrivatePatientPage.selectBedSpaceNo("b 2");
+        await dischargePrivatePatientPage.selectConsultant();
+        await dischargePrivatePatientPage.clickSubmitAdmitPatientBtn();
+        await dischargePrivatePatientPage.clickAdmissionCardBtn();
+        await dischargePrivatePatientPage.clickTopPatient();
+        await dischargePrivatePatientPage.clickAdmittedCardElipsisBtn();
+        await dischargePrivatePatientPage.clickAwaitCheckoutBtn();
+        await dischargePrivatePatientPage.selectAttendingPhysician();
+        await dischargePrivatePatientPage.selectAttendingNurse();
+        await dischargePrivatePatientPage.enterTreatmentSummary("Patient treated successfully and ready for discharge.");
+        await dischargePrivatePatientPage.enterSymptoms("Fever, Cough");
+        await dischargePrivatePatientPage.enterDiagnosisAtDischarge();
+        await dischargePrivatePatientPage.clickReasonForDischargeCheckbox();
+        await dischargePrivatePatientPage.enterDischargePlan("Patient to follow up in 2 weeks.");
+        await dischargePrivatePatientPage.enterFollowUpDate(1, 7);
+        await dischargePrivatePatientPage.clickDischargeServicesCheckbox();
+        await dischargePrivatePatientPage.enterClinicalComments("Patient showed significant improvement.");
+        await dischargePrivatePatientPage.clickMakeBedAvailableCheckbox();
+        await dischargePrivatePatientPage.clickSubmitDischargeBtn();
+        await expect(page.getByText("Successfully Recorded Patient Discharge Notes")).toBeVisible();
+        await dischargePrivatePatientPage.clickCheckOutBtn();
+        await dischargePrivatePatientPage.clickProceedBtn();
+        await expect(page.getByText("Patient Successfully checked out")).toBeVisible();
+})
+test("TC2.002 Verify that user cannot Discharge a Private Patient when treatement Summary field is empty", async ({ page }) => {
+        const loginPage = new LoginPage(page);
+        const selectLocation = new ModuleSelectorPage(page, "Front Desk");
+        const dischargePrivatePatientPage = new DischargePrivatePatientPage(page);
+        const randomPrivate = getRandomPrivateName();
+        // Step 1: Login and navigate
+        await page.goto(devUrl);
+        await loginPage.selectLocation();
+        await page.waitForURL("**/modules");
+        await selectLocation.selectInpatientModule();
+        await dischargePrivatePatientPage.clickAdmitPatientBtn();
+        await dischargePrivatePatientPage.patientNameField.fill(randomPrivate);
+        await dischargePrivatePatientPage.patientSearchedFor.click()
+        await dischargePrivatePatientPage.enterAuthorizationCode("AUTH12345");
+        await dischargePrivatePatientPage.enterReasonForVisit("Regular Checkup");
+        const checkInDate = await dischargePrivatePatientPage.enterCheckInDate();
+        await dischargePrivatePatientPage.enterCheckOutDate(checkInDate);
+        await dischargePrivatePatientPage.selectSpecialty("Ophthalmology");
+        await dischargePrivatePatientPage.selectWard("0-10 kids");
+        await dischargePrivatePatientPage.selectRoom("r 1");
+        await dischargePrivatePatientPage.selectBedSpaceNo("b 2");
+        await dischargePrivatePatientPage.selectConsultant();
+        await dischargePrivatePatientPage.clickSubmitAdmitPatientBtn();
+        await dischargePrivatePatientPage.clickAdmissionCardBtn();
+        await dischargePrivatePatientPage.clickTopPatient();
+        await dischargePrivatePatientPage.clickAdmittedCardElipsisBtn();
+        await dischargePrivatePatientPage.clickAwaitCheckoutBtn();
+        await dischargePrivatePatientPage.selectAttendingPhysician();
+        await dischargePrivatePatientPage.selectAttendingNurse();
+        await dischargePrivatePatientPage.verifySubmitDischargeBtnIsDisabled();
+        await page.waitForTimeout(4000);
+        await dischargePrivatePatientPage.enterTreatmentSummary("Patient treated successfully and ready for discharge.");
+        await dischargePrivatePatientPage.enterSymptoms("Fever, Cough");
+        await dischargePrivatePatientPage.enterDiagnosisAtDischarge();
+        await dischargePrivatePatientPage.clickReasonForDischargeCheckbox();
+        await dischargePrivatePatientPage.enterDischargePlan("Patient to follow up in 2 weeks.");
+        await dischargePrivatePatientPage.enterFollowUpDate(1, 7);
+        await dischargePrivatePatientPage.clickDischargeServicesCheckbox();
+        await dischargePrivatePatientPage.enterClinicalComments("Patient showed significant improvement.");
+        await dischargePrivatePatientPage.clickMakeBedAvailableCheckbox();
+        await dischargePrivatePatientPage.clickSubmitDischargeBtn();
+        await expect(page.getByText("Successfully Recorded Patient Discharge Notes")).toBeVisible();
+        await dischargePrivatePatientPage.clickCheckOutBtn();
+        await dischargePrivatePatientPage.clickProceedBtn();
+        await expect(page.getByText("Patient Successfully checked out")).toBeVisible();
+})
+test("TC3.003 Verify that user cannot Discharge a Private Patient when the resonson for discharge checkbox is not click", async ({ page }) => {
+        const loginPage = new LoginPage(page);
+        const selectLocation = new ModuleSelectorPage(page, "Front Desk");
+        const dischargePrivatePatientPage = new DischargePrivatePatientPage(page);
+        const randomPrivate = getRandomPrivateName();
+        // Step 1: Login and navigate
+        await page.goto(devUrl);
+        await loginPage.selectLocation();
+        await page.waitForURL("**/modules");
+        await selectLocation.selectInpatientModule();
+        await dischargePrivatePatientPage.clickAdmitPatientBtn();
+        await dischargePrivatePatientPage.patientNameField.fill(randomPrivate);
+        await dischargePrivatePatientPage.patientSearchedFor.click()
+        await dischargePrivatePatientPage.enterAuthorizationCode("AUTH12345");
+        await dischargePrivatePatientPage.enterReasonForVisit("Regular Checkup");
+        const checkInDate = await dischargePrivatePatientPage.enterCheckInDate();
+        await dischargePrivatePatientPage.enterCheckOutDate(checkInDate);
+        await dischargePrivatePatientPage.selectSpecialty("Ophthalmology");
+        await dischargePrivatePatientPage.selectWard("0-10 kids");
+        await dischargePrivatePatientPage.selectRoom("r 1");
+        await dischargePrivatePatientPage.selectBedSpaceNo("b 2");
+        await dischargePrivatePatientPage.selectConsultant();
+        await dischargePrivatePatientPage.clickSubmitAdmitPatientBtn();
+        await dischargePrivatePatientPage.clickAdmissionCardBtn();
+        await dischargePrivatePatientPage.clickTopPatient();
+        await dischargePrivatePatientPage.clickAdmittedCardElipsisBtn();
+        await dischargePrivatePatientPage.clickAwaitCheckoutBtn();
+        await dischargePrivatePatientPage.selectAttendingPhysician();
+        await dischargePrivatePatientPage.selectAttendingNurse();
+        await dischargePrivatePatientPage.enterTreatmentSummary("Patient treated successfully and ready for discharge.");
+        await dischargePrivatePatientPage.enterSymptoms("Fever, Cough");
+        await dischargePrivatePatientPage.enterDiagnosisAtDischarge();
+        await dischargePrivatePatientPage.verifySubmitDischargeBtnIsDisabledCB();
+        await page.waitForTimeout(4000);
+        await dischargePrivatePatientPage.clickReasonForDischargeCheckbox();
+        await dischargePrivatePatientPage.enterDischargePlan("Patient to follow up in 2 weeks.");
+        await dischargePrivatePatientPage.enterFollowUpDate(1, 7);
+        await dischargePrivatePatientPage.clickDischargeServicesCheckbox();
+        await dischargePrivatePatientPage.enterClinicalComments("Patient showed significant improvement.");
+        await dischargePrivatePatientPage.clickMakeBedAvailableCheckbox();
+        await dischargePrivatePatientPage.clickSubmitDischargeBtn();
+        await expect(page.getByText("Successfully Recorded Patient Discharge Notes")).toBeVisible();
+        await dischargePrivatePatientPage.clickCheckOutBtn();
+        await dischargePrivatePatientPage.clickProceedBtn();
+        await expect(page.getByText("Patient Successfully checked out")).toBeVisible();
+})
+test("TC4.004 Vrrify that user cannot Discharge a Private Patient while the discharge plan field is empty", async ({ page }) => {
+        const loginPage = new LoginPage(page);
+        const selectLocation = new ModuleSelectorPage(page, "Front Desk");
+        const dischargePrivatePatientPage = new DischargePrivatePatientPage(page);
+        const randomPrivate = getRandomPrivateName();
+        // Step 1: Login and navigate
+        await page.goto(devUrl);
+        await loginPage.selectLocation();
+        await page.waitForURL("**/modules");
+        await selectLocation.selectInpatientModule();
+        await dischargePrivatePatientPage.clickAdmitPatientBtn();
+        await dischargePrivatePatientPage.patientNameField.fill(randomPrivate);
+        await dischargePrivatePatientPage.patientSearchedFor.click()
+        await dischargePrivatePatientPage.enterAuthorizationCode("AUTH12345");
+        await dischargePrivatePatientPage.enterReasonForVisit("Regular Checkup");
+        const checkInDate = await dischargePrivatePatientPage.enterCheckInDate();
+        await dischargePrivatePatientPage.enterCheckOutDate(checkInDate);
+        await dischargePrivatePatientPage.selectSpecialty("Ophthalmology");
+        await dischargePrivatePatientPage.selectWard("0-10 kids");
+        await dischargePrivatePatientPage.selectRoom("r 1");
+        await dischargePrivatePatientPage.selectBedSpaceNo("b 2");
+        await dischargePrivatePatientPage.selectConsultant();
+        await dischargePrivatePatientPage.clickSubmitAdmitPatientBtn();
+        await dischargePrivatePatientPage.clickAdmissionCardBtn();
+        await dischargePrivatePatientPage.clickTopPatient();
+        await dischargePrivatePatientPage.clickAdmittedCardElipsisBtn();
+        await dischargePrivatePatientPage.clickAwaitCheckoutBtn();
+        await dischargePrivatePatientPage.selectAttendingPhysician();
+        await dischargePrivatePatientPage.selectAttendingNurse();
+        await dischargePrivatePatientPage.enterTreatmentSummary("Patient treated successfully and ready for discharge.");
+        await dischargePrivatePatientPage.enterSymptoms("Fever, Cough");
+        await dischargePrivatePatientPage.enterDiagnosisAtDischarge();
+        await dischargePrivatePatientPage.clickReasonForDischargeCheckbox();
+        await dischargePrivatePatientPage.verifySubmitDischargeBtnIsDisabledDP();
+        await page.waitForTimeout(4000);
+        await dischargePrivatePatientPage.enterDischargePlan("Patient to follow up in 2 weeks.");
+        await dischargePrivatePatientPage.enterFollowUpDate(1, 7);
+        await dischargePrivatePatientPage.clickDischargeServicesCheckbox();
+        await dischargePrivatePatientPage.enterClinicalComments("Patient showed significant improvement.");
+        await dischargePrivatePatientPage.clickMakeBedAvailableCheckbox();
+        await dischargePrivatePatientPage.clickSubmitDischargeBtn();
+        await expect(page.getByText("Successfully Recorded Patient Discharge Notes")).toBeVisible();
+        await dischargePrivatePatientPage.clickCheckOutBtn();
+        await dischargePrivatePatientPage.clickProceedBtn();
+        await expect(page.getByText("Patient Successfully checked out")).toBeVisible();
+})
+test("TC5.005 Verify that user cannot Discharge a Private Patient Clinical comment field is empty", async ({ page }) => {
+        const loginPage = new LoginPage(page);
+        const selectLocation = new ModuleSelectorPage(page, "Front Desk");
+        const dischargePrivatePatientPage = new DischargePrivatePatientPage(page);
+        const randomPrivate = getRandomPrivateName();
+        // Step 1: Login and navigate
+        await page.goto(devUrl);
+        await loginPage.selectLocation();
+        await page.waitForURL("**/modules");
+        await selectLocation.selectInpatientModule();
+        await dischargePrivatePatientPage.clickAdmitPatientBtn();
+        await dischargePrivatePatientPage.patientNameField.fill(randomPrivate);
+        await dischargePrivatePatientPage.patientSearchedFor.click()
+        await dischargePrivatePatientPage.enterAuthorizationCode("AUTH12345");
+        await dischargePrivatePatientPage.enterReasonForVisit("Regular Checkup");
+        const checkInDate = await dischargePrivatePatientPage.enterCheckInDate();
+        await dischargePrivatePatientPage.enterCheckOutDate(checkInDate);
+        await dischargePrivatePatientPage.selectSpecialty("Ophthalmology");
+        await dischargePrivatePatientPage.selectWard("0-10 kids");
+        await dischargePrivatePatientPage.selectRoom("r 1");
+        await dischargePrivatePatientPage.selectBedSpaceNo("b 2");
+        await dischargePrivatePatientPage.selectConsultant();
+        await dischargePrivatePatientPage.clickSubmitAdmitPatientBtn();
+        await dischargePrivatePatientPage.clickAdmissionCardBtn();
+        await dischargePrivatePatientPage.clickTopPatient();
+        await dischargePrivatePatientPage.clickAdmittedCardElipsisBtn();
+        await dischargePrivatePatientPage.clickAwaitCheckoutBtn();
+        await dischargePrivatePatientPage.selectAttendingPhysician();
+        await dischargePrivatePatientPage.selectAttendingNurse();
+        await dischargePrivatePatientPage.enterTreatmentSummary("Patient treated successfully and ready for discharge.");
+        await dischargePrivatePatientPage.enterSymptoms("Fever, Cough");
+        await dischargePrivatePatientPage.enterDiagnosisAtDischarge();
+        await dischargePrivatePatientPage.clickReasonForDischargeCheckbox();
+        await dischargePrivatePatientPage.enterDischargePlan("Patient to follow up in 2 weeks.");
+        await dischargePrivatePatientPage.enterFollowUpDate(1, 7);
+        await dischargePrivatePatientPage.clickDischargeServicesCheckbox();
+        await dischargePrivatePatientPage.verifySubmitDischargeBtnIsDisabledCC();
+        await page.waitForTimeout(4000);
+        await dischargePrivatePatientPage.enterClinicalComments("Patient showed significant improvement.");
+        await dischargePrivatePatientPage.clickMakeBedAvailableCheckbox();
+        await dischargePrivatePatientPage.clickSubmitDischargeBtn();
+        await expect(page.getByText("Successfully Recorded Patient Discharge Notes")).toBeVisible();
+        await dischargePrivatePatientPage.clickCheckOutBtn();
+        await dischargePrivatePatientPage.clickProceedBtn();
+        await expect(page.getByText("Patient Successfully checked out")).toBeVisible();
+})

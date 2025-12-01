@@ -1,0 +1,504 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - region "Notifications Alt+T"
+  - generic [ref=e4]:
+    - region "Notifications Alt+T"
+    - main [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e8]:
+            - img "Indigo EMR" [ref=e10]
+            - generic [ref=e11]:
+              - generic [ref=e13] [cursor=pointer]: L
+              - text: 
+            - navigation [ref=e14]:
+              - link " Dashboard" [ref=e15] [cursor=pointer]:
+                - /url: /in-patient/dashboard
+                - generic [ref=e16]: 
+                - generic [ref=e17]: Dashboard
+              - link " Patients" [ref=e18] [cursor=pointer]:
+                - /url: /in-patient/patients
+                - generic [ref=e19]: 
+                - generic [ref=e20]: Patients
+              - link " Calendar" [ref=e21] [cursor=pointer]:
+                - /url: /in-patient/calendar
+                - generic [ref=e22]: 
+                - generic [ref=e23]: Calendar
+          - list [ref=e25]:
+            - listitem [ref=e26] [cursor=pointer]:
+              - generic [ref=e27]:
+                - generic [ref=e28]:
+                  - generic [ref=e29]: 
+                  - generic [ref=e30]: 
+                - generic [ref=e31]: Notification
+            - listitem [ref=e32] [cursor=pointer]:
+              - link " Subscription & payment" [ref=e33]:
+                - /url: /settings/subscription
+                - generic [ref=e34]:
+                  - generic [ref=e35]: 
+                  - generic [ref=e36]: Subscription & payment
+            - listitem [ref=e37] [cursor=pointer]:
+              - link " Help Center Answers Here" [ref=e38]:
+                - /url: /support
+                - generic [ref=e39]:
+                  - generic [ref=e40]: 
+                  - generic [ref=e41]:
+                    - text: Help Center
+                    - paragraph [ref=e42]: Answers Here
+            - button "Indigo User Avatar Adeolu1 Ogungbesan " [ref=e45] [cursor=pointer]:
+              - img "Indigo User Avatar" [ref=e46]
+              - generic [ref=e47]:
+                - generic [ref=e48]: Adeolu1 Ogungbesan
+                - generic [ref=e49]: 
+        - generic [ref=e52]:
+          - heading "Patient Details" [level=3] [ref=e54]
+          - generic [ref=e55]:
+            - generic [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: 
+              - paragraph [ref=e58]: Go Back
+            - button "Book Surgery" [ref=e60] [cursor=pointer]
+          - generic [ref=e61]:
+            - generic [ref=e64]:
+              - generic [ref=e67]:
+                - img [ref=e70]
+                - generic [ref=e73]:
+                  - generic [ref=e74]:
+                    - heading "MISS. Boyede Modupe | lem00063" [level=2] [ref=e75]
+                    - paragraph [ref=e76]: "19 Yrs, Male • Plan: consultss"
+                  - paragraph [ref=e78]: Sponsors - BASTION CORPORATE
+                  - generic [ref=e79]:
+                    - generic [ref=e80]:
+                      - generic [ref=e81]: "Wallet Balance:"
+                      - generic [ref=e82]: ₦346,752
+                    - generic [ref=e83]:
+                      - generic [ref=e84]: "Credit Balance:"
+                      - generic [ref=e85]: ₦0
+              - generic [ref=e87]:
+                - generic [ref=e88]:
+                  - generic [ref=e89]:
+                    - generic [ref=e90]:
+                      - generic [ref=e91] [cursor=pointer]:
+                        - text: Allergies
+                        - img [ref=e92]
+                      - button "N/A" [ref=e94] [cursor=pointer]:
+                        - generic [ref=e95]: N/A
+                    - generic [ref=e96]:
+                      - generic [ref=e97] [cursor=pointer]:
+                        - text: Medical History
+                        - img [ref=e98]
+                      - button "N/A" [ref=e100] [cursor=pointer]:
+                        - generic [ref=e101]: N/A
+                    - generic [ref=e102]:
+                      - generic [ref=e103] [cursor=pointer]: Previous Diagnosis
+                      - button "N/A" [ref=e104] [cursor=pointer]:
+                        - generic [ref=e105]: N/A
+                  - generic [ref=e106]:
+                    - generic [ref=e108] [cursor=pointer]: 1 Allergies
+                    - button "20 Pending Bills " [ref=e109] [cursor=pointer]:
+                      - generic [ref=e110]: 20 Pending Bills
+                      - generic [ref=e112]: 
+                    - button "More Options " [ref=e115] [cursor=pointer]:
+                      - text: More Options
+                      - generic [ref=e116]: 
+                - button "Show More" [ref=e117] [cursor=pointer]:
+                  - text: Show More
+                  - img
+            - generic [ref=e119]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Profile Details" [ref=e123] [cursor=pointer]:
+                    - /url: /in-patient/patients/62cecce1d02720dc84b9a468?tab=profile-details
+                    - generic [ref=e124]: 
+                    - text: Profile Details
+                - listitem [ref=e125]:
+                  - link "Appointments" [ref=e126] [cursor=pointer]:
+                    - /url: /in-patient/patients/62cecce1d02720dc84b9a468?tab=appointments
+                    - generic [ref=e127]: 
+                    - text: Appointments
+                - listitem [ref=e128]:
+                  - link "Admission" [ref=e129] [cursor=pointer]:
+                    - /url: /in-patient/patients/62cecce1d02720dc84b9a468?tab=admission
+                    - generic [ref=e130]: 
+                    - text: Admission
+                - listitem [ref=e131]:
+                  - link "Surgery" [ref=e132] [cursor=pointer]:
+                    - /url: /in-patient/patients/62cecce1d02720dc84b9a468?tab=surgery
+                    - generic [ref=e133]: 
+                    - text: Surgery
+              - generic [ref=e137]:
+                - generic [ref=e138]:
+                  - generic [ref=e139]:
+                    - heading "Page 1" [level=3] [ref=e140]
+                    - generic [ref=e141]: Total Pages 1
+                  - generic [ref=e142]:
+                    - button "" [disabled] [ref=e143] [cursor=pointer]:
+                      - generic [ref=e144]: 
+                    - button "" [disabled] [ref=e145] [cursor=pointer]:
+                      - generic [ref=e146]: 
+                - generic [ref=e147]:
+                  - button "Regular Checkup ADMITTED  Cancel admission Extend Admission Await Checkout Patient Referral View Bills ADMITTED 2025-11-21 01:43 AM DAYS USED -7 DISCHARGED ON NA MEDICATIONS Not Provided IV FLUIDS None ALLERGIES None LOCATION Not Provided WARD 0-10 kids ROOM r 1 BED b 2 SPECIALTY ophthalmology Operator Adeolu1 Ogungbesan Discharge Date NA Not Provided" [ref=e148] [cursor=pointer]:
+                    - generic [ref=e149]:
+                      - heading "Regular Checkup" [level=3] [ref=e150]
+                      - generic [ref=e151]: ADMITTED
+                      - generic [ref=e152]:
+                        - generic [ref=e153]: 
+                        - list:
+                          - listitem [ref=e154]: Cancel admission
+                          - listitem [ref=e155]: Extend Admission
+                          - listitem [ref=e156]: Await Checkout
+                          - listitem [ref=e157]: Patient Referral
+                          - listitem [ref=e158]: View Bills
+                    - generic [ref=e160]:
+                      - generic [ref=e161]:
+                        - heading "ADMITTED" [level=4] [ref=e162]
+                        - paragraph [ref=e163]: 2025-11-21 01:43 AM
+                      - generic [ref=e164]:
+                        - heading "DAYS USED" [level=4] [ref=e165]
+                        - paragraph [ref=e166]: "-7"
+                      - generic [ref=e167]:
+                        - heading "DISCHARGED ON" [level=4] [ref=e168]
+                        - paragraph [ref=e169]: NA
+                      - generic [ref=e170]:
+                        - heading "MEDICATIONS" [level=4] [ref=e171]
+                        - paragraph [ref=e172]: Not Provided
+                      - generic [ref=e173]:
+                        - heading "IV FLUIDS" [level=4] [ref=e174]
+                        - paragraph [ref=e175]: None
+                      - generic [ref=e176]:
+                        - heading "ALLERGIES" [level=4] [ref=e177]
+                        - paragraph [ref=e178]: None
+                      - generic [ref=e179]:
+                        - heading "LOCATION" [level=4] [ref=e180]
+                        - paragraph [ref=e181]: Not Provided
+                      - generic [ref=e182]:
+                        - heading "WARD" [level=4] [ref=e183]
+                        - paragraph [ref=e184]: 0-10 kids
+                      - generic [ref=e185]:
+                        - heading "ROOM" [level=4] [ref=e186]
+                        - paragraph [ref=e187]: r 1
+                      - generic [ref=e188]:
+                        - heading "BED" [level=4] [ref=e189]
+                        - paragraph [ref=e190]: b 2
+                      - generic [ref=e191]:
+                        - heading "SPECIALTY" [level=4] [ref=e192]
+                        - paragraph [ref=e193]: ophthalmology
+                      - generic [ref=e194]:
+                        - heading "Operator" [level=4] [ref=e195]
+                        - paragraph [ref=e196]: Adeolu1 Ogungbesan
+                      - generic [ref=e197]:
+                        - heading "Discharge Date" [level=4] [ref=e198]
+                        - paragraph [ref=e199]: NA
+                    - paragraph [ref=e201]: Not Provided
+                  - button "nnnnnnnnnnn CHECKED OUT ADMITTED 2023-04-02 10:31 PM DAYS USED 964 DISCHARGED ON 13-31-2023 04:31 PM MEDICATIONS Not Provided IV FLUIDS None ALLERGIES None LOCATION Not Provided WARD DIH VIP ward ROOM A1 BED u8 SPECIALTY generalPractice Operator Phebe Akozor Discharge Date 13-31-2023 04:31 PM Not Provided" [ref=e202] [cursor=pointer]:
+                    - generic [ref=e203]:
+                      - heading "nnnnnnnnnnn" [level=3] [ref=e204]
+                      - generic [ref=e205]: CHECKED OUT
+                    - generic [ref=e207]:
+                      - generic [ref=e208]:
+                        - heading "ADMITTED" [level=4] [ref=e209]
+                        - paragraph [ref=e210]: 2023-04-02 10:31 PM
+                      - generic [ref=e211]:
+                        - heading "DAYS USED" [level=4] [ref=e212]
+                        - paragraph [ref=e213]: "964"
+                      - generic [ref=e214]:
+                        - heading "DISCHARGED ON" [level=4] [ref=e215]
+                        - paragraph [ref=e216]: 13-31-2023 04:31 PM
+                      - generic [ref=e217]:
+                        - heading "MEDICATIONS" [level=4] [ref=e218]
+                        - paragraph [ref=e219]: Not Provided
+                      - generic [ref=e220]:
+                        - heading "IV FLUIDS" [level=4] [ref=e221]
+                        - paragraph [ref=e222]: None
+                      - generic [ref=e223]:
+                        - heading "ALLERGIES" [level=4] [ref=e224]
+                        - paragraph [ref=e225]: None
+                      - generic [ref=e226]:
+                        - heading "LOCATION" [level=4] [ref=e227]
+                        - paragraph [ref=e228]: Not Provided
+                      - generic [ref=e229]:
+                        - heading "WARD" [level=4] [ref=e230]
+                        - paragraph [ref=e231]: DIH VIP ward
+                      - generic [ref=e232]:
+                        - heading "ROOM" [level=4] [ref=e233]
+                        - paragraph [ref=e234]: A1
+                      - generic [ref=e235]:
+                        - heading "BED" [level=4] [ref=e236]
+                        - paragraph [ref=e237]: u8
+                      - generic [ref=e238]:
+                        - heading "SPECIALTY" [level=4] [ref=e239]
+                        - paragraph [ref=e240]: generalPractice
+                      - generic [ref=e241]:
+                        - heading "Operator" [level=4] [ref=e242]
+                        - paragraph [ref=e243]: Phebe Akozor
+                      - generic [ref=e244]:
+                        - heading "Discharge Date" [level=4] [ref=e245]
+                        - paragraph [ref=e246]: 13-31-2023 04:31 PM
+                    - paragraph [ref=e248]: Not Provided
+                  - button "I don't even know Checkout  Cancel admission Extend Admission Await Checkout Patient Referral View Bills ADMITTED 2022-10-20 11:43 AM DAYS USED 1128 DISCHARGED ON 02-57-2023 02:57 PM MEDICATIONS Not Provided IV FLUIDS None ALLERGIES None LOCATION Not Provided WARD managers ROOM e29 BED 01 SPECIALTY generalPractice Operator Lemon Barry Discharge Date 02-57-2023 02:57 PM Not Provided" [ref=e249] [cursor=pointer]:
+                    - generic [ref=e250]:
+                      - heading "I don't even know" [level=3] [ref=e251]
+                      - generic [ref=e253]: Checkout
+                      - generic [ref=e254]:
+                        - generic [ref=e255]: 
+                        - list:
+                          - listitem [ref=e256]: Cancel admission
+                          - listitem [ref=e257]: Extend Admission
+                          - listitem [ref=e258]: Await Checkout
+                          - listitem [ref=e259]: Patient Referral
+                          - listitem [ref=e260]: View Bills
+                    - generic [ref=e262]:
+                      - generic [ref=e263]:
+                        - heading "ADMITTED" [level=4] [ref=e264]
+                        - paragraph [ref=e265]: 2022-10-20 11:43 AM
+                      - generic [ref=e266]:
+                        - heading "DAYS USED" [level=4] [ref=e267]
+                        - paragraph [ref=e268]: "1128"
+                      - generic [ref=e269]:
+                        - heading "DISCHARGED ON" [level=4] [ref=e270]
+                        - paragraph [ref=e271]: 02-57-2023 02:57 PM
+                      - generic [ref=e272]:
+                        - heading "MEDICATIONS" [level=4] [ref=e273]
+                        - paragraph [ref=e274]: Not Provided
+                      - generic [ref=e275]:
+                        - heading "IV FLUIDS" [level=4] [ref=e276]
+                        - paragraph [ref=e277]: None
+                      - generic [ref=e278]:
+                        - heading "ALLERGIES" [level=4] [ref=e279]
+                        - paragraph [ref=e280]: None
+                      - generic [ref=e281]:
+                        - heading "LOCATION" [level=4] [ref=e282]
+                        - paragraph [ref=e283]: Not Provided
+                      - generic [ref=e284]:
+                        - heading "WARD" [level=4] [ref=e285]
+                        - paragraph [ref=e286]: managers
+                      - generic [ref=e287]:
+                        - heading "ROOM" [level=4] [ref=e288]
+                        - paragraph [ref=e289]: e29
+                      - generic [ref=e290]:
+                        - heading "BED" [level=4] [ref=e291]
+                        - paragraph [ref=e292]: "01"
+                      - generic [ref=e293]:
+                        - heading "SPECIALTY" [level=4] [ref=e294]
+                        - paragraph [ref=e295]: generalPractice
+                      - generic [ref=e296]:
+                        - heading "Operator" [level=4] [ref=e297]
+                        - paragraph [ref=e298]: Lemon Barry
+                      - generic [ref=e299]:
+                        - heading "Discharge Date" [level=4] [ref=e300]
+                        - paragraph [ref=e301]: 02-57-2023 02:57 PM
+                    - paragraph [ref=e303]: Not Provided
+                  - button "Bed Rest Checkout  Cancel admission Extend Admission Await Checkout Patient Referral View Bills ADMITTED 2022-10-19 11:07 PM DAYS USED 1129 DISCHARGED ON 19-30-2022 11:30 PM MEDICATIONS Not Provided IV FLUIDS ALLERGIES None LOCATION Not Provided WARD covid ROOM e23 BED A39554 SPECIALTY generalPractice Operator Lemon Barry Discharge Date 19-30-2022 11:30 PM Not Provided" [ref=e304] [cursor=pointer]:
+                    - generic [ref=e305]:
+                      - heading "Bed Rest" [level=3] [ref=e306]
+                      - generic [ref=e308]: Checkout
+                      - generic [ref=e309]:
+                        - generic [ref=e310]: 
+                        - list:
+                          - listitem [ref=e311]: Cancel admission
+                          - listitem [ref=e312]: Extend Admission
+                          - listitem [ref=e313]: Await Checkout
+                          - listitem [ref=e314]: Patient Referral
+                          - listitem [ref=e315]: View Bills
+                    - generic [ref=e317]:
+                      - generic [ref=e318]:
+                        - heading "ADMITTED" [level=4] [ref=e319]
+                        - paragraph [ref=e320]: 2022-10-19 11:07 PM
+                      - generic [ref=e321]:
+                        - heading "DAYS USED" [level=4] [ref=e322]
+                        - paragraph [ref=e323]: "1129"
+                      - generic [ref=e324]:
+                        - heading "DISCHARGED ON" [level=4] [ref=e325]
+                        - paragraph [ref=e326]: 19-30-2022 11:30 PM
+                      - generic [ref=e327]:
+                        - heading "MEDICATIONS" [level=4] [ref=e328]
+                        - paragraph [ref=e329]: Not Provided
+                      - generic [ref=e330]:
+                        - heading "IV FLUIDS" [level=4] [ref=e331]
+                        - paragraph
+                      - generic [ref=e332]:
+                        - heading "ALLERGIES" [level=4] [ref=e333]
+                        - paragraph [ref=e334]: None
+                      - generic [ref=e335]:
+                        - heading "LOCATION" [level=4] [ref=e336]
+                        - paragraph [ref=e337]: Not Provided
+                      - generic [ref=e338]:
+                        - heading "WARD" [level=4] [ref=e339]
+                        - paragraph [ref=e340]: covid
+                      - generic [ref=e341]:
+                        - heading "ROOM" [level=4] [ref=e342]
+                        - paragraph [ref=e343]: e23
+                      - generic [ref=e344]:
+                        - heading "BED" [level=4] [ref=e345]
+                        - paragraph [ref=e346]: A39554
+                      - generic [ref=e347]:
+                        - heading "SPECIALTY" [level=4] [ref=e348]
+                        - paragraph [ref=e349]: generalPractice
+                      - generic [ref=e350]:
+                        - heading "Operator" [level=4] [ref=e351]
+                        - paragraph [ref=e352]: Lemon Barry
+                      - generic [ref=e353]:
+                        - heading "Discharge Date" [level=4] [ref=e354]
+                        - paragraph [ref=e355]: 19-30-2022 11:30 PM
+                    - paragraph [ref=e357]: Not Provided
+                  - button "none Checkout  Cancel admission Extend Admission Await Checkout Patient Referral View Bills ADMITTED 2022-10-09 05:21 PM DAYS USED 1139 DISCHARGED ON 02-03-2023 03:03 PM MEDICATIONS Not Provided IV FLUIDS None ALLERGIES None LOCATION Not Provided WARD Covidplus ROOM A1 BED B1 SPECIALTY generalPractice Operator Nurse Bariduanen Discharge Date 02-03-2023 03:03 PM Not Provided" [ref=e358] [cursor=pointer]:
+                    - generic [ref=e359]:
+                      - heading "none" [level=3] [ref=e360]
+                      - generic [ref=e362]: Checkout
+                      - generic [ref=e363]:
+                        - generic [ref=e364]: 
+                        - list:
+                          - listitem [ref=e365]: Cancel admission
+                          - listitem [ref=e366]: Extend Admission
+                          - listitem [ref=e367]: Await Checkout
+                          - listitem [ref=e368]: Patient Referral
+                          - listitem [ref=e369]: View Bills
+                    - generic [ref=e371]:
+                      - generic [ref=e372]:
+                        - heading "ADMITTED" [level=4] [ref=e373]
+                        - paragraph [ref=e374]: 2022-10-09 05:21 PM
+                      - generic [ref=e375]:
+                        - heading "DAYS USED" [level=4] [ref=e376]
+                        - paragraph [ref=e377]: "1139"
+                      - generic [ref=e378]:
+                        - heading "DISCHARGED ON" [level=4] [ref=e379]
+                        - paragraph [ref=e380]: 02-03-2023 03:03 PM
+                      - generic [ref=e381]:
+                        - heading "MEDICATIONS" [level=4] [ref=e382]
+                        - paragraph [ref=e383]: Not Provided
+                      - generic [ref=e384]:
+                        - heading "IV FLUIDS" [level=4] [ref=e385]
+                        - paragraph [ref=e386]: None
+                      - generic [ref=e387]:
+                        - heading "ALLERGIES" [level=4] [ref=e388]
+                        - paragraph [ref=e389]: None
+                      - generic [ref=e390]:
+                        - heading "LOCATION" [level=4] [ref=e391]
+                        - paragraph [ref=e392]: Not Provided
+                      - generic [ref=e393]:
+                        - heading "WARD" [level=4] [ref=e394]
+                        - paragraph [ref=e395]: Covidplus
+                      - generic [ref=e396]:
+                        - heading "ROOM" [level=4] [ref=e397]
+                        - paragraph [ref=e398]: A1
+                      - generic [ref=e399]:
+                        - heading "BED" [level=4] [ref=e400]
+                        - paragraph [ref=e401]: B1
+                      - generic [ref=e402]:
+                        - heading "SPECIALTY" [level=4] [ref=e403]
+                        - paragraph [ref=e404]: generalPractice
+                      - generic [ref=e405]:
+                        - heading "Operator" [level=4] [ref=e406]
+                        - paragraph [ref=e407]: Nurse Bariduanen
+                      - generic [ref=e408]:
+                        - heading "Discharge Date" [level=4] [ref=e409]
+                        - paragraph [ref=e410]: 02-03-2023 03:03 PM
+                    - paragraph [ref=e412]: Not Provided
+                  - button "jjjjjjjjjjjjjjjjjjj ADMITTED  Cancel admission Extend Admission Await Checkout Patient Referral View Bills ADMITTED 2022-09-26 02:41 PM DAYS USED 1152 DISCHARGED ON NA MEDICATIONS Not Provided IV FLUIDS None ALLERGIES None LOCATION Not Provided WARD artisan ROOM e30 BED 1456 SPECIALTY generalPractice Operator Nurse Bariduanen Discharge Date NA Not Provided" [ref=e413] [cursor=pointer]:
+                    - generic [ref=e414]:
+                      - heading "jjjjjjjjjjjjjjjjjjj" [level=3] [ref=e415]
+                      - generic [ref=e416]: ADMITTED
+                      - generic [ref=e417]:
+                        - generic [ref=e418]: 
+                        - list:
+                          - listitem [ref=e419]: Cancel admission
+                          - listitem [ref=e420]: Extend Admission
+                          - listitem [ref=e421]: Await Checkout
+                          - listitem [ref=e422]: Patient Referral
+                          - listitem [ref=e423]: View Bills
+                    - generic [ref=e425]:
+                      - generic [ref=e426]:
+                        - heading "ADMITTED" [level=4] [ref=e427]
+                        - paragraph [ref=e428]: 2022-09-26 02:41 PM
+                      - generic [ref=e429]:
+                        - heading "DAYS USED" [level=4] [ref=e430]
+                        - paragraph [ref=e431]: "1152"
+                      - generic [ref=e432]:
+                        - heading "DISCHARGED ON" [level=4] [ref=e433]
+                        - paragraph [ref=e434]: NA
+                      - generic [ref=e435]:
+                        - heading "MEDICATIONS" [level=4] [ref=e436]
+                        - paragraph [ref=e437]: Not Provided
+                      - generic [ref=e438]:
+                        - heading "IV FLUIDS" [level=4] [ref=e439]
+                        - paragraph [ref=e440]: None
+                      - generic [ref=e441]:
+                        - heading "ALLERGIES" [level=4] [ref=e442]
+                        - paragraph [ref=e443]: None
+                      - generic [ref=e444]:
+                        - heading "LOCATION" [level=4] [ref=e445]
+                        - paragraph [ref=e446]: Not Provided
+                      - generic [ref=e447]:
+                        - heading "WARD" [level=4] [ref=e448]
+                        - paragraph [ref=e449]: artisan
+                      - generic [ref=e450]:
+                        - heading "ROOM" [level=4] [ref=e451]
+                        - paragraph [ref=e452]: e30
+                      - generic [ref=e453]:
+                        - heading "BED" [level=4] [ref=e454]
+                        - paragraph [ref=e455]: "1456"
+                      - generic [ref=e456]:
+                        - heading "SPECIALTY" [level=4] [ref=e457]
+                        - paragraph [ref=e458]: generalPractice
+                      - generic [ref=e459]:
+                        - heading "Operator" [level=4] [ref=e460]
+                        - paragraph [ref=e461]: Nurse Bariduanen
+                      - generic [ref=e462]:
+                        - heading "Discharge Date" [level=4] [ref=e463]
+                        - paragraph [ref=e464]: NA
+                    - paragraph [ref=e466]: Not Provided
+                  - button "surgery ADMITTED  Cancel admission Extend Admission Await Checkout Patient Referral View Bills ADMITTED 2022-07-13 02:47 PM DAYS USED 1227 DISCHARGED ON NA MEDICATIONS Not Provided IV FLUIDS None ALLERGIES None LOCATION Not Provided WARD SIN ROOM 400 BED burrr SPECIALTY generalPractice Operator Lemon Barry Discharge Date NA appendicitis" [ref=e467] [cursor=pointer]:
+                    - generic [ref=e468]:
+                      - heading "surgery" [level=3] [ref=e469]
+                      - generic [ref=e470]: ADMITTED
+                      - generic [ref=e471]:
+                        - generic [ref=e472]: 
+                        - list:
+                          - listitem [ref=e473]: Cancel admission
+                          - listitem [ref=e474]: Extend Admission
+                          - listitem [ref=e475]: Await Checkout
+                          - listitem [ref=e476]: Patient Referral
+                          - listitem [ref=e477]: View Bills
+                    - generic [ref=e479]:
+                      - generic [ref=e480]:
+                        - heading "ADMITTED" [level=4] [ref=e481]
+                        - paragraph [ref=e482]: 2022-07-13 02:47 PM
+                      - generic [ref=e483]:
+                        - heading "DAYS USED" [level=4] [ref=e484]
+                        - paragraph [ref=e485]: "1227"
+                      - generic [ref=e486]:
+                        - heading "DISCHARGED ON" [level=4] [ref=e487]
+                        - paragraph [ref=e488]: NA
+                      - generic [ref=e489]:
+                        - heading "MEDICATIONS" [level=4] [ref=e490]
+                        - paragraph [ref=e491]: Not Provided
+                      - generic [ref=e492]:
+                        - heading "IV FLUIDS" [level=4] [ref=e493]
+                        - paragraph [ref=e494]: None
+                      - generic [ref=e495]:
+                        - heading "ALLERGIES" [level=4] [ref=e496]
+                        - paragraph [ref=e497]: None
+                      - generic [ref=e498]:
+                        - heading "LOCATION" [level=4] [ref=e499]
+                        - paragraph [ref=e500]: Not Provided
+                      - generic [ref=e501]:
+                        - heading "WARD" [level=4] [ref=e502]
+                        - paragraph [ref=e503]: SIN
+                      - generic [ref=e504]:
+                        - heading "ROOM" [level=4] [ref=e505]
+                        - paragraph [ref=e506]: "400"
+                      - generic [ref=e507]:
+                        - heading "BED" [level=4] [ref=e508]
+                        - paragraph [ref=e509]: burrr
+                      - generic [ref=e510]:
+                        - heading "SPECIALTY" [level=4] [ref=e511]
+                        - paragraph [ref=e512]: generalPractice
+                      - generic [ref=e513]:
+                        - heading "Operator" [level=4] [ref=e514]
+                        - paragraph [ref=e515]: Lemon Barry
+                      - generic [ref=e516]:
+                        - heading "Discharge Date" [level=4] [ref=e517]
+                        - paragraph [ref=e518]: NA
+                    - paragraph [ref=e520]: appendicitis
+```

@@ -1,0 +1,61 @@
+{
+  "cookies": [
+    {
+      "name": "indigov2",
+      "value": "s%3AOXJV33LKrqFu4O7DVfLJa28o7WM8H-Up.C15UuvN3gg9hSPxJf0urZGqw9R7TUbtybX%2F1Ek6i33k",
+      "domain": "dev-api.indigoemr.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AWSALB",
+      "value": "nHiIkYxIlJk7rXn74Jg8CtomD07JYdJbNZ5s5Jg2vwPWbO/VMRVKsB6pnpftOQEzfPnS11mW6ZQQ7jxlY2Z5akT5h2wuL74nC6DaQ7xq6v/+Www8umUL5LABKxvY",
+      "domain": "dev-api.indigoemr.com",
+      "path": "/",
+      "expires": 1756441367,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALBCORS",
+      "value": "nHiIkYxIlJk7rXn74Jg8CtomD07JYdJbNZ5s5Jg2vwPWbO/VMRVKsB6pnpftOQEzfPnS11mW6ZQQ7jxlY2Z5akT5h2wuL74nC6DaQ7xq6v/+Www8umUL5LABKxvY",
+      "domain": "dev-api.indigoemr.com",
+      "path": "/",
+      "expires": 1756441367,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://dev.indigoemr.com",
+      "localStorage": [
+        {
+          "name": "consent",
+          "value": "true"
+        },
+        {
+          "name": "persist:root",
+          "value": "{\"auth\":\"{\\\"loggedIn\\\":true}\",\"user\":\"{\\\"orgBranches\\\":[{\\\"_id\\\":\\\"5fd740d728641f3f787edcb5\\\",\\\"name\\\":\\\"Lemon Group of Hospitals\\\",\\\"parent\\\":true,\\\"modules\\\":[\\\"frontdesk\\\",\\\"billing\\\",\\\"pharmacy\\\",\\\"inventory\\\",\\\"in-patient\\\",\\\"out-patient\\\",\\\"laboratory\\\",\\\"report\\\"],\\\"label\\\":\\\"Lemon Group of Hospitals\\\",\\\"value\\\":\\\"5fd740d728641f3f787edcb5\\\"},{\\\"_id\\\":\\\"63e4d12fbd35d7770e009f6d\\\",\\\"name\\\":\\\"Test0209\\\",\\\"parent\\\":true,\\\"modules\\\":[\\\"frontdesk\\\",\\\"billing\\\",\\\"pharmacy\\\",\\\"inventory\\\",\\\"in-patient\\\",\\\"out-patient\\\",\\\"laboratory\\\",\\\"report\\\"],\\\"label\\\":\\\"Test0209\\\",\\\"value\\\":\\\"63e4d12fbd35d7770e009f6d\\\"},{\\\"_id\\\":\\\"63e5091a667f1809f2042488\\\",\\\"name\\\":\\\"Benue\\\",\\\"parent\\\":false,\\\"modules\\\":[\\\"frontdesk\\\",\\\"billing\\\",\\\"pharmacy\\\",\\\"inventory\\\",\\\"in-patient\\\",\\\"out-patient\\\",\\\"laboratory\\\",\\\"report\\\"],\\\"label\\\":\\\"Benue\\\",\\\"value\\\":\\\"63e5091a667f1809f2042488\\\"},{\\\"_id\\\":\\\"60faa95c3276126c2907fd79\\\",\\\"name\\\":\\\"Lemon branch test\\\",\\\"parent\\\":false,\\\"modules\\\":[\\\"frontdesk\\\",\\\"billing\\\",\\\"pharmacy\\\",\\\"inventory\\\",\\\"in-patient\\\",\\\"out-patient\\\",\\\"laboratory\\\",\\\"report\\\"],\\\"label\\\":\\\"Lemon branch test\\\",\\\"value\\\":\\\"60faa95c3276126c2907fd79\\\"},{\\\"_id\\\":\\\"5fda193b28641f3f787d1339\\\",\\\"name\\\":\\\"Ikeja\\\",\\\"parent\\\":false,\\\"modules\\\":[\\\"frontdesk\\\",\\\"billing\\\",\\\"pharmacy\\\",\\\"inventory\\\",\\\"in-patient\\\",\\\"out-patient\\\",\\\"laboratory\\\",\\\"report\\\"],\\\"label\\\":\\\"Ikeja\\\",\\\"value\\\":\\\"5fda193b28641f3f787d1339\\\"},{\\\"_id\\\":\\\"5fe0a45f0de6b9d5e097f1dd\\\",\\\"name\\\":\\\"Luth\\\",\\\"parent\\\":false,\\\"modules\\\":[\\\"frontdesk\\\",\\\"billing\\\",\\\"pharmacy\\\",\\\"inventory\\\",\\\"in-patient\\\",\\\"out-patient\\\",\\\"laboratory\\\",\\\"report\\\"],\\\"label\\\":\\\"Luth\\\",\\\"value\\\":\\\"5fe0a45f0de6b9d5e097f1dd\\\"}]}\",\"branches\":\"{}\",\"company\":\"{\\\"locations\\\":[{\\\"_id\\\":\\\"5fd740d728641f3f787edcb5\\\",\\\"name\\\":\\\"Lemon Group of Hospitals\\\",\\\"parent\\\":true,\\\"modules\\\":[\\\"frontdesk\\\",\\\"billing\\\",\\\"pharmacy\\\",\\\"inventory\\\",\\\"in-patient\\\",\\\"out-patient\\\",\\\"laboratory\\\",\\\"report\\\"],\\\"label\\\":\\\"Lemon Group of Hospitals\\\",\\\"value\\\":\\\"5fd740d728641f3f787edcb5\\\"},{\\\"_id\\\":\\\"63e4d12fbd35d7770e009f6d\\\",\\\"name\\\":\\\"Test0209\\\",\\\"parent\\\":true,\\\"modules\\\":[\\\"frontdesk\\\",\\\"billing\\\",\\\"pharmacy\\\",\\\"inventory\\\",\\\"in-patient\\\",\\\"out-patient\\\",\\\"laboratory\\\",\\\"report\\\"],\\\"label\\\":\\\"Test0209\\\",\\\"value\\\":\\\"63e4d12fbd35d7770e009f6d\\\"},{\\\"_id\\\":\\\"63e5091a667f1809f2042488\\\",\\\"name\\\":\\\"Benue\\\",\\\"parent\\\":false,\\\"modules\\\":[\\\"frontdesk\\\",\\\"billing\\\",\\\"pharmacy\\\",\\\"inventory\\\",\\\"in-patient\\\",\\\"out-patient\\\",\\\"laboratory\\\",\\\"report\\\"],\\\"label\\\":\\\"Benue\\\",\\\"value\\\":\\\"63e5091a667f1809f2042488\\\"},{\\\"_id\\\":\\\"60faa95c3276126c2907fd79\\\",\\\"name\\\":\\\"Lemon branch test\\\",\\\"parent\\\":false,\\\"modules\\\":[\\\"frontdesk\\\",\\\"billing\\\",\\\"pharmacy\\\",\\\"inventory\\\",\\\"in-patient\\\",\\\"out-patient\\\",\\\"laboratory\\\",\\\"report\\\"],\\\"label\\\":\\\"Lemon branch test\\\",\\\"value\\\":\\\"60faa95c3276126c2907fd79\\\"},{\\\"_id\\\":\\\"5fda193b28641f3f787d1339\\\",\\\"name\\\":\\\"Ikeja\\\",\\\"parent\\\":false,\\\"modules\\\":[\\\"frontdesk\\\",\\\"billing\\\",\\\"pharmacy\\\",\\\"inventory\\\",\\\"in-patient\\\",\\\"out-patient\\\",\\\"laboratory\\\",\\\"report\\\"],\\\"label\\\":\\\"Ikeja\\\",\\\"value\\\":\\\"5fda193b28641f3f787d1339\\\"},{\\\"_id\\\":\\\"5fe0a45f0de6b9d5e097f1dd\\\",\\\"name\\\":\\\"Luth\\\",\\\"parent\\\":false,\\\"modules\\\":[\\\"frontdesk\\\",\\\"billing\\\",\\\"pharmacy\\\",\\\"inventory\\\",\\\"in-patient\\\",\\\"out-patient\\\",\\\"laboratory\\\",\\\"report\\\"],\\\"label\\\":\\\"Luth\\\",\\\"value\\\":\\\"5fe0a45f0de6b9d5e097f1dd\\\"}]}\",\"roles\":\"{}\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}"
+        },
+        {
+          "name": "email",
+          "value": "adeolu@summitech.io"
+        },
+        {
+          "name": "NRBA_SESSION",
+          "value": "{\"value\":\"10df32ef9bcdc9d7\",\"inactiveAt\":1755838357468,\"expiresAt\":1755850957192,\"updatedAt\":1755836557468,\"sessionReplay\":0,\"sessionReplaySentFirstChunk\":false,\"sessionTraceMode\":0,\"custom\":{}}"
+        },
+        {
+          "name": "pastDate",
+          "value": "\"2025-08-22T04:22:37.642Z\""
+        }
+      ]
+    }
+  ]
+}

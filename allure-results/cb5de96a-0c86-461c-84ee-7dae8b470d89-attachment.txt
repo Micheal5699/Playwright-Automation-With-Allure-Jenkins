@@ -1,0 +1,7 @@
+✅ Authorization field is enabled. Filling in the code...
+✅ Selected random Check-in date: Monday, December 1st,
+✅ Selected random Check-out date: Tuesday, December 2nd,
+‼️  Check a reason for discharge checkbox to enable the Submit button.
+✔️ Clicked checkbox at index: 1
+🟦 FINAL UI LABEL TO CLICK: Sunday, November 23rd,
+✔️ Clicked custom checkbox at index: 0

@@ -1,0 +1,423 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - region "Notifications Alt+T"
+    - generic [ref=e4]:
+      - region "Notifications Alt+T"
+      - main [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - generic [ref=e8]:
+              - img "Indigo EMR" [ref=e10]
+              - generic [ref=e11]:
+                - generic [ref=e13] [cursor=pointer]: L
+                - text: 
+              - navigation [ref=e14]:
+                - link " Dashboard" [ref=e15] [cursor=pointer]:
+                  - /url: /in-patient/dashboard
+                  - generic [ref=e16]: 
+                  - generic [ref=e17]: Dashboard
+                - link " Patients" [ref=e18] [cursor=pointer]:
+                  - /url: /in-patient/patients
+                  - generic [ref=e19]: 
+                  - generic [ref=e20]: Patients
+                - link " Calendar" [ref=e21] [cursor=pointer]:
+                  - /url: /in-patient/calendar
+                  - generic [ref=e22]: 
+                  - generic [ref=e23]: Calendar
+            - list [ref=e25]:
+              - listitem [ref=e26] [cursor=pointer]:
+                - generic [ref=e27]:
+                  - generic [ref=e28]:
+                    - generic [ref=e29]: 
+                    - generic [ref=e30]: 
+                  - generic [ref=e31]: Notification
+              - listitem [ref=e32] [cursor=pointer]:
+                - link " Subscription & payment" [ref=e33]:
+                  - /url: /settings/subscription
+                  - generic [ref=e34]:
+                    - generic [ref=e35]: 
+                    - generic [ref=e36]: Subscription & payment
+              - listitem [ref=e37] [cursor=pointer]:
+                - link " Help Center Answers Here" [ref=e38]:
+                  - /url: /support
+                  - generic [ref=e39]:
+                    - generic [ref=e40]: 
+                    - generic [ref=e41]:
+                      - text: Help Center
+                      - paragraph [ref=e42]: Answers Here
+              - button "Indigo User Avatar Adeolu1 Ogungbesan " [ref=e45] [cursor=pointer]:
+                - img "Indigo User Avatar" [ref=e46]
+                - generic [ref=e47]:
+                  - generic [ref=e48]: Adeolu1 Ogungbesan
+                  - generic [ref=e49]: 
+          - generic [ref=e52]:
+            - heading "Patient Details" [level=3] [ref=e54]
+            - generic [ref=e55]:
+              - generic [ref=e56] [cursor=pointer]:
+                - generic [ref=e57]: 
+                - paragraph [ref=e58]: Go Back
+              - button "Book Surgery" [ref=e60] [cursor=pointer]
+            - generic [ref=e61]:
+              - generic [ref=e64]:
+                - generic [ref=e67]:
+                  - img [ref=e70]
+                  - generic [ref=e73]:
+                    - generic [ref=e74]:
+                      - heading "Babatope Arowolo | Luth00413" [level=2] [ref=e75]
+                      - paragraph [ref=e76]: "- Yrs, Male • Plan: NA"
+                    - paragraph [ref=e78]: Sponsors - Private Patient
+                    - generic [ref=e79]:
+                      - generic [ref=e80]:
+                        - generic [ref=e81]: "Wallet Balance:"
+                        - generic [ref=e82]: ₦0
+                      - generic [ref=e83]:
+                        - generic [ref=e84]: "Credit Balance:"
+                        - generic [ref=e85]: ₦0
+                - generic [ref=e87]:
+                  - generic [ref=e88]:
+                    - generic [ref=e89]:
+                      - generic [ref=e90]:
+                        - generic [ref=e91] [cursor=pointer]:
+                          - text: Allergies
+                          - img [ref=e92]
+                        - button "N/A" [ref=e94] [cursor=pointer]:
+                          - generic [ref=e95]: N/A
+                      - generic [ref=e96]:
+                        - generic [ref=e97] [cursor=pointer]:
+                          - text: Medical History
+                          - img [ref=e98]
+                        - button "N/A" [ref=e100] [cursor=pointer]:
+                          - generic [ref=e101]: N/A
+                      - generic [ref=e102]:
+                        - generic [ref=e103] [cursor=pointer]: Previous Diagnosis
+                        - button "N/A" [ref=e104] [cursor=pointer]:
+                          - generic [ref=e105]: N/A
+                    - generic [ref=e106]:
+                      - button "0 Pending Bills" [ref=e107] [cursor=pointer]:
+                        - generic [ref=e108]: 0 Pending Bills
+                      - button "More Options " [ref=e111] [cursor=pointer]:
+                        - text: More Options
+                        - generic [ref=e112]: 
+                  - button "Show More" [ref=e113] [cursor=pointer]:
+                    - text: Show More
+                    - img
+              - generic [ref=e115]:
+                - list [ref=e117]:
+                  - listitem [ref=e118]:
+                    - link "Profile Details" [ref=e119] [cursor=pointer]:
+                      - /url: /in-patient/patients/64dabfb84219d889fb27899a?tab=profile-details
+                      - generic [ref=e120]: 
+                      - text: Profile Details
+                  - listitem [ref=e121]:
+                    - link "Appointments" [ref=e122] [cursor=pointer]:
+                      - /url: /in-patient/patients/64dabfb84219d889fb27899a?tab=appointments
+                      - generic [ref=e123]: 
+                      - text: Appointments
+                  - listitem [ref=e124]:
+                    - link "Admission" [ref=e125] [cursor=pointer]:
+                      - /url: /in-patient/patients/64dabfb84219d889fb27899a?tab=admission
+                      - generic [ref=e126]: 
+                      - text: Admission
+                  - listitem [ref=e127]:
+                    - link "Surgery" [ref=e128] [cursor=pointer]:
+                      - /url: /in-patient/patients/64dabfb84219d889fb27899a?tab=surgery
+                      - generic [ref=e129]: 
+                      - text: Surgery
+                - generic [ref=e133]:
+                  - generic [ref=e134]:
+                    - generic [ref=e135]:
+                      - heading "Page 1" [level=3] [ref=e136]
+                      - generic [ref=e137]: Total Pages 1
+                    - generic [ref=e138]:
+                      - button "" [disabled] [ref=e139] [cursor=pointer]:
+                        - generic [ref=e140]: 
+                      - button "" [disabled] [ref=e141] [cursor=pointer]:
+                        - generic [ref=e142]: 
+                  - generic [ref=e143]:
+                    - button "Regular Checkup ADMITTED  Cancel admission Extend Admission Await Checkout Patient Referral View Bills ADMITTED 2025-11-21 10:42 AM DAYS USED -9 DISCHARGED ON NA MEDICATIONS Not Provided IV FLUIDS None ALLERGIES None LOCATION Not Provided WARD 0-10 kids ROOM r 1 BED b 2 SPECIALTY ophthalmology Operator Adeolu1 Ogungbesan Discharge Date NA Not Provided" [ref=e144] [cursor=pointer]:
+                      - generic [ref=e145]:
+                        - heading "Regular Checkup" [level=3] [ref=e146]
+                        - generic [ref=e147]: ADMITTED
+                        - generic [ref=e148]:
+                          - generic [ref=e149]: 
+                          - list [ref=e150]:
+                            - listitem [ref=e151]: Cancel admission
+                            - listitem [ref=e152]: Extend Admission
+                            - listitem [ref=e153]: Await Checkout
+                            - listitem [ref=e154]: Patient Referral
+                            - listitem [ref=e155]: View Bills
+                      - generic [ref=e157]:
+                        - generic [ref=e158]:
+                          - heading "ADMITTED" [level=4] [ref=e159]
+                          - paragraph [ref=e160]: 2025-11-21 10:42 AM
+                        - generic [ref=e161]:
+                          - heading "DAYS USED" [level=4] [ref=e162]
+                          - paragraph [ref=e163]: "-9"
+                        - generic [ref=e164]:
+                          - heading "DISCHARGED ON" [level=4] [ref=e165]
+                          - paragraph [ref=e166]: NA
+                        - generic [ref=e167]:
+                          - heading "MEDICATIONS" [level=4] [ref=e168]
+                          - paragraph [ref=e169]: Not Provided
+                        - generic [ref=e170]:
+                          - heading "IV FLUIDS" [level=4] [ref=e171]
+                          - paragraph [ref=e172]: None
+                        - generic [ref=e173]:
+                          - heading "ALLERGIES" [level=4] [ref=e174]
+                          - paragraph [ref=e175]: None
+                        - generic [ref=e176]:
+                          - heading "LOCATION" [level=4] [ref=e177]
+                          - paragraph [ref=e178]: Not Provided
+                        - generic [ref=e179]:
+                          - heading "WARD" [level=4] [ref=e180]
+                          - paragraph [ref=e181]: 0-10 kids
+                        - generic [ref=e182]:
+                          - heading "ROOM" [level=4] [ref=e183]
+                          - paragraph [ref=e184]: r 1
+                        - generic [ref=e185]:
+                          - heading "BED" [level=4] [ref=e186]
+                          - paragraph [ref=e187]: b 2
+                        - generic [ref=e188]:
+                          - heading "SPECIALTY" [level=4] [ref=e189]
+                          - paragraph [ref=e190]: ophthalmology
+                        - generic [ref=e191]:
+                          - heading "Operator" [level=4] [ref=e192]
+                          - paragraph [ref=e193]: Adeolu1 Ogungbesan
+                        - generic [ref=e194]:
+                          - heading "Discharge Date" [level=4] [ref=e195]
+                          - paragraph [ref=e196]: NA
+                      - paragraph [ref=e198]: Not Provided
+                    - button "Regular Checkup CHECKED OUT ADMITTED 2025-11-21 08:23 AM DAYS USED -8 DISCHARGED ON 21-42-2025 08:42 AM MEDICATIONS Not Provided IV FLUIDS None ALLERGIES None LOCATION Not Provided WARD 0-10 kids ROOM r 1 BED b 2 SPECIALTY ophthalmology Operator Adeolu1 Ogungbesan Discharge Date 21-42-2025 08:42 AM Not Provided" [ref=e199] [cursor=pointer]:
+                      - generic [ref=e200]:
+                        - heading "Regular Checkup" [level=3] [ref=e201]
+                        - generic [ref=e202]: CHECKED OUT
+                      - generic [ref=e204]:
+                        - generic [ref=e205]:
+                          - heading "ADMITTED" [level=4] [ref=e206]
+                          - paragraph [ref=e207]: 2025-11-21 08:23 AM
+                        - generic [ref=e208]:
+                          - heading "DAYS USED" [level=4] [ref=e209]
+                          - paragraph [ref=e210]: "-8"
+                        - generic [ref=e211]:
+                          - heading "DISCHARGED ON" [level=4] [ref=e212]
+                          - paragraph [ref=e213]: 21-42-2025 08:42 AM
+                        - generic [ref=e214]:
+                          - heading "MEDICATIONS" [level=4] [ref=e215]
+                          - paragraph [ref=e216]: Not Provided
+                        - generic [ref=e217]:
+                          - heading "IV FLUIDS" [level=4] [ref=e218]
+                          - paragraph [ref=e219]: None
+                        - generic [ref=e220]:
+                          - heading "ALLERGIES" [level=4] [ref=e221]
+                          - paragraph [ref=e222]: None
+                        - generic [ref=e223]:
+                          - heading "LOCATION" [level=4] [ref=e224]
+                          - paragraph [ref=e225]: Not Provided
+                        - generic [ref=e226]:
+                          - heading "WARD" [level=4] [ref=e227]
+                          - paragraph [ref=e228]: 0-10 kids
+                        - generic [ref=e229]:
+                          - heading "ROOM" [level=4] [ref=e230]
+                          - paragraph [ref=e231]: r 1
+                        - generic [ref=e232]:
+                          - heading "BED" [level=4] [ref=e233]
+                          - paragraph [ref=e234]: b 2
+                        - generic [ref=e235]:
+                          - heading "SPECIALTY" [level=4] [ref=e236]
+                          - paragraph [ref=e237]: ophthalmology
+                        - generic [ref=e238]:
+                          - heading "Operator" [level=4] [ref=e239]
+                          - paragraph [ref=e240]: Adeolu1 Ogungbesan
+                        - generic [ref=e241]:
+                          - heading "Discharge Date" [level=4] [ref=e242]
+                          - paragraph [ref=e243]: 21-42-2025 08:42 AM
+                      - paragraph [ref=e245]: Not Provided
+                    - button "Regular Checkup CHECKED OUT ADMITTED 2025-11-21 02:33 AM DAYS USED -6 DISCHARGED ON 21-36-2025 02:36 AM MEDICATIONS Not Provided IV FLUIDS None ALLERGIES None LOCATION Not Provided WARD 0-10 kids ROOM r 1 BED b 2 SPECIALTY ophthalmology Operator Adeolu1 Ogungbesan Discharge Date 21-36-2025 02:36 AM Not Provided" [ref=e246] [cursor=pointer]:
+                      - generic [ref=e247]:
+                        - heading "Regular Checkup" [level=3] [ref=e248]
+                        - generic [ref=e249]: CHECKED OUT
+                      - generic [ref=e251]:
+                        - generic [ref=e252]:
+                          - heading "ADMITTED" [level=4] [ref=e253]
+                          - paragraph [ref=e254]: 2025-11-21 02:33 AM
+                        - generic [ref=e255]:
+                          - heading "DAYS USED" [level=4] [ref=e256]
+                          - paragraph [ref=e257]: "-6"
+                        - generic [ref=e258]:
+                          - heading "DISCHARGED ON" [level=4] [ref=e259]
+                          - paragraph [ref=e260]: 21-36-2025 02:36 AM
+                        - generic [ref=e261]:
+                          - heading "MEDICATIONS" [level=4] [ref=e262]
+                          - paragraph [ref=e263]: Not Provided
+                        - generic [ref=e264]:
+                          - heading "IV FLUIDS" [level=4] [ref=e265]
+                          - paragraph [ref=e266]: None
+                        - generic [ref=e267]:
+                          - heading "ALLERGIES" [level=4] [ref=e268]
+                          - paragraph [ref=e269]: None
+                        - generic [ref=e270]:
+                          - heading "LOCATION" [level=4] [ref=e271]
+                          - paragraph [ref=e272]: Not Provided
+                        - generic [ref=e273]:
+                          - heading "WARD" [level=4] [ref=e274]
+                          - paragraph [ref=e275]: 0-10 kids
+                        - generic [ref=e276]:
+                          - heading "ROOM" [level=4] [ref=e277]
+                          - paragraph [ref=e278]: r 1
+                        - generic [ref=e279]:
+                          - heading "BED" [level=4] [ref=e280]
+                          - paragraph [ref=e281]: b 2
+                        - generic [ref=e282]:
+                          - heading "SPECIALTY" [level=4] [ref=e283]
+                          - paragraph [ref=e284]: ophthalmology
+                        - generic [ref=e285]:
+                          - heading "Operator" [level=4] [ref=e286]
+                          - paragraph [ref=e287]: Adeolu1 Ogungbesan
+                        - generic [ref=e288]:
+                          - heading "Discharge Date" [level=4] [ref=e289]
+                          - paragraph [ref=e290]: 21-36-2025 02:36 AM
+                      - paragraph [ref=e292]: Not Provided
+                    - button "Regular Checkup CHECKED OUT ADMITTED 2025-11-21 02:03 AM DAYS USED -5 DISCHARGED ON 21-05-2025 02:05 AM MEDICATIONS Not Provided IV FLUIDS None ALLERGIES None LOCATION Not Provided WARD 0-10 kids ROOM r 1 BED b 2 SPECIALTY ophthalmology Operator Adeolu1 Ogungbesan Discharge Date 21-05-2025 02:05 AM Not Provided" [ref=e293] [cursor=pointer]:
+                      - generic [ref=e294]:
+                        - heading "Regular Checkup" [level=3] [ref=e295]
+                        - generic [ref=e296]: CHECKED OUT
+                      - generic [ref=e298]:
+                        - generic [ref=e299]:
+                          - heading "ADMITTED" [level=4] [ref=e300]
+                          - paragraph [ref=e301]: 2025-11-21 02:03 AM
+                        - generic [ref=e302]:
+                          - heading "DAYS USED" [level=4] [ref=e303]
+                          - paragraph [ref=e304]: "-5"
+                        - generic [ref=e305]:
+                          - heading "DISCHARGED ON" [level=4] [ref=e306]
+                          - paragraph [ref=e307]: 21-05-2025 02:05 AM
+                        - generic [ref=e308]:
+                          - heading "MEDICATIONS" [level=4] [ref=e309]
+                          - paragraph [ref=e310]: Not Provided
+                        - generic [ref=e311]:
+                          - heading "IV FLUIDS" [level=4] [ref=e312]
+                          - paragraph [ref=e313]: None
+                        - generic [ref=e314]:
+                          - heading "ALLERGIES" [level=4] [ref=e315]
+                          - paragraph [ref=e316]: None
+                        - generic [ref=e317]:
+                          - heading "LOCATION" [level=4] [ref=e318]
+                          - paragraph [ref=e319]: Not Provided
+                        - generic [ref=e320]:
+                          - heading "WARD" [level=4] [ref=e321]
+                          - paragraph [ref=e322]: 0-10 kids
+                        - generic [ref=e323]:
+                          - heading "ROOM" [level=4] [ref=e324]
+                          - paragraph [ref=e325]: r 1
+                        - generic [ref=e326]:
+                          - heading "BED" [level=4] [ref=e327]
+                          - paragraph [ref=e328]: b 2
+                        - generic [ref=e329]:
+                          - heading "SPECIALTY" [level=4] [ref=e330]
+                          - paragraph [ref=e331]: ophthalmology
+                        - generic [ref=e332]:
+                          - heading "Operator" [level=4] [ref=e333]
+                          - paragraph [ref=e334]: Adeolu1 Ogungbesan
+                        - generic [ref=e335]:
+                          - heading "Discharge Date" [level=4] [ref=e336]
+                          - paragraph [ref=e337]: 21-05-2025 02:05 AM
+                      - paragraph [ref=e339]: Not Provided
+                    - button "Regular Checkup CHECKED OUT ADMITTED 2025-11-21 01:22 AM DAYS USED -9 DISCHARGED ON 21-41-2025 01:41 AM MEDICATIONS Not Provided IV FLUIDS None ALLERGIES None LOCATION Not Provided WARD 0-10 kids ROOM r 1 BED b 2 SPECIALTY ophthalmology Operator Adeolu1 Ogungbesan Discharge Date 21-41-2025 01:41 AM Not Provided" [ref=e340] [cursor=pointer]:
+                      - generic [ref=e341]:
+                        - heading "Regular Checkup" [level=3] [ref=e342]
+                        - generic [ref=e343]: CHECKED OUT
+                      - generic [ref=e345]:
+                        - generic [ref=e346]:
+                          - heading "ADMITTED" [level=4] [ref=e347]
+                          - paragraph [ref=e348]: 2025-11-21 01:22 AM
+                        - generic [ref=e349]:
+                          - heading "DAYS USED" [level=4] [ref=e350]
+                          - paragraph [ref=e351]: "-9"
+                        - generic [ref=e352]:
+                          - heading "DISCHARGED ON" [level=4] [ref=e353]
+                          - paragraph [ref=e354]: 21-41-2025 01:41 AM
+                        - generic [ref=e355]:
+                          - heading "MEDICATIONS" [level=4] [ref=e356]
+                          - paragraph [ref=e357]: Not Provided
+                        - generic [ref=e358]:
+                          - heading "IV FLUIDS" [level=4] [ref=e359]
+                          - paragraph [ref=e360]: None
+                        - generic [ref=e361]:
+                          - heading "ALLERGIES" [level=4] [ref=e362]
+                          - paragraph [ref=e363]: None
+                        - generic [ref=e364]:
+                          - heading "LOCATION" [level=4] [ref=e365]
+                          - paragraph [ref=e366]: Not Provided
+                        - generic [ref=e367]:
+                          - heading "WARD" [level=4] [ref=e368]
+                          - paragraph [ref=e369]: 0-10 kids
+                        - generic [ref=e370]:
+                          - heading "ROOM" [level=4] [ref=e371]
+                          - paragraph [ref=e372]: r 1
+                        - generic [ref=e373]:
+                          - heading "BED" [level=4] [ref=e374]
+                          - paragraph [ref=e375]: b 2
+                        - generic [ref=e376]:
+                          - heading "SPECIALTY" [level=4] [ref=e377]
+                          - paragraph [ref=e378]: ophthalmology
+                        - generic [ref=e379]:
+                          - heading "Operator" [level=4] [ref=e380]
+                          - paragraph [ref=e381]: Adeolu1 Ogungbesan
+                        - generic [ref=e382]:
+                          - heading "Discharge Date" [level=4] [ref=e383]
+                          - paragraph [ref=e384]: 21-41-2025 01:41 AM
+                      - paragraph [ref=e386]: Not Provided
+                    - button "Regular Checkup CHECKED OUT ADMITTED 2025-11-21 12:59 AM DAYS USED -3 DISCHARGED ON 21-00-2025 01:00 AM MEDICATIONS Not Provided IV FLUIDS None ALLERGIES None LOCATION Not Provided WARD 0-10 kids ROOM r 1 BED b 2 SPECIALTY ophthalmology Operator Adeolu1 Ogungbesan Discharge Date 21-00-2025 01:00 AM Not Provided" [ref=e387] [cursor=pointer]:
+                      - generic [ref=e388]:
+                        - heading "Regular Checkup" [level=3] [ref=e389]
+                        - generic [ref=e390]: CHECKED OUT
+                      - generic [ref=e392]:
+                        - generic [ref=e393]:
+                          - heading "ADMITTED" [level=4] [ref=e394]
+                          - paragraph [ref=e395]: 2025-11-21 12:59 AM
+                        - generic [ref=e396]:
+                          - heading "DAYS USED" [level=4] [ref=e397]
+                          - paragraph [ref=e398]: "-3"
+                        - generic [ref=e399]:
+                          - heading "DISCHARGED ON" [level=4] [ref=e400]
+                          - paragraph [ref=e401]: 21-00-2025 01:00 AM
+                        - generic [ref=e402]:
+                          - heading "MEDICATIONS" [level=4] [ref=e403]
+                          - paragraph [ref=e404]: Not Provided
+                        - generic [ref=e405]:
+                          - heading "IV FLUIDS" [level=4] [ref=e406]
+                          - paragraph [ref=e407]: None
+                        - generic [ref=e408]:
+                          - heading "ALLERGIES" [level=4] [ref=e409]
+                          - paragraph [ref=e410]: None
+                        - generic [ref=e411]:
+                          - heading "LOCATION" [level=4] [ref=e412]
+                          - paragraph [ref=e413]: Not Provided
+                        - generic [ref=e414]:
+                          - heading "WARD" [level=4] [ref=e415]
+                          - paragraph [ref=e416]: 0-10 kids
+                        - generic [ref=e417]:
+                          - heading "ROOM" [level=4] [ref=e418]
+                          - paragraph [ref=e419]: r 1
+                        - generic [ref=e420]:
+                          - heading "BED" [level=4] [ref=e421]
+                          - paragraph [ref=e422]: b 2
+                        - generic [ref=e423]:
+                          - heading "SPECIALTY" [level=4] [ref=e424]
+                          - paragraph [ref=e425]: ophthalmology
+                        - generic [ref=e426]:
+                          - heading "Operator" [level=4] [ref=e427]
+                          - paragraph [ref=e428]: Adeolu1 Ogungbesan
+                        - generic [ref=e429]:
+                          - heading "Discharge Date" [level=4] [ref=e430]
+                          - paragraph [ref=e431]: 21-00-2025 01:00 AM
+                      - paragraph [ref=e433]: Not Provided
+  - dialog [active] [ref=e434]:
+    - document:
+      - generic [ref=e439]:
+        - heading "Hospital Discharge Form" [level=3] [ref=e441]
+        - img [ref=e443] [cursor=pointer]
+```

@@ -1,0 +1,787 @@
+🟦 test1 siblings = []
+🟦 test2 parent = [ 'Check-out-date\n\nNovember 28th, 2025' ]
+🟦 test3 ancestor = [
+  'L\n' +
+    'Dashboard\n' +
+    'Patients\n' +
+    'Calendar\n' +
+    'Notification\n' +
+    'Subscription & Payment\n' +
+    'Help Center\n' +
+    '\n' +
+    'Answers Here\n' +
+    '\n' +
+    'Adeolu1 Ogungbesan\n' +
+    'Patient Details\n' +
+    '\n' +
+    'Go Back\n' +
+    '\n' +
+    'Book Surgery\n' +
+    'MRS. Elizabeth Oni | Luth01143\n' +
+    '\n' +
+    '33 Yrs, Female • Plan: Gold Member\n' +
+    '\n' +
+    'Sponsors - Private Patient\n' +
+    '\n' +
+    'Wallet Balance:\n' +
+    '₦0\n' +
+    'Credit Balance:\n' +
+    '₦0\n' +
+    'Allergies\n' +
+    'N/A\n' +
+    'Medical History\n' +
+    'N/A\n' +
+    'Previous Diagnosis\n' +
+    'N/A\n' +
+    '0 Pending Bills\n' +
+    'More Options\n' +
+    'Show More\n' +
+    'Profile Details\n' +
+    'Appointments\n' +
+    'Admission\n' +
+    'Surgery\n' +
+    'Page 1\n' +
+    'Total Pages 1\n' +
+    'to be teated for TB 94749\n' +
+    'ADMITTED\n' +
+    'Cancel admission\n' +
+    'Extend Admission\n' +
+    'Await Checkout\n' +
+    'Patient Referral\n' +
+    'View Bills\n' +
+    'ADMITTED\n' +
+    '\n' +
+    '2025-07-04 09:55 AM\n' +
+    '\n' +
+    'DAYS USED\n' +
+    '\n' +
+    '146\n' +
+    '\n' +
+    'DISCHARGED ON\n' +
+    '\n' +
+    'NA\n' +
+    '\n' +
+    'MEDICATIONS\n' +
+    '\n' +
+    'Not Provided\n' +
+    '\n' +
+    'IV FLUIDS\n' +
+    '\n' +
+    'None\n' +
+    '\n' +
+    'ALLERGIES\n' +
+    '\n' +
+    'None\n' +
+    '\n' +
+    'LOCATION\n' +
+    '\n' +
+    'Not Provided\n' +
+    '\n' +
+    'WARD\n' +
+    '\n' +
+    'ISREAL\n' +
+    '\n' +
+    'ROOM\n' +
+    '\n' +
+    'IRAN\n' +
+    '\n' +
+    'BED\n' +
+    '\n' +
+    'RUSSIA\n' +
+    '\n' +
+    'SPECIALTY\n' +
+    '\n' +
+    'ophthalmology\n' +
+    '\n' +
+    'Operator\n' +
+    '\n' +
+    'Adeolu1 Ogungbesan\n' +
+    '\n' +
+    'Discharge Date\n' +
+    '\n' +
+    'NA\n' +
+    '\n' +
+    'Not Provided\n' +
+    '\n' +
+    'HANGOVER\n' +
+    'ADMITTED\n' +
+    'Cancel admission\n' +
+    'Extend Admission\n' +
+    'Await Checkout\n' +
+    'Patient Referral\n' +
+    'View Bills\n' +
+    'ADMITTED\n' +
+    '\n' +
+    '2025-07-03 02:10 PM\n' +
+    '\n' +
+    'DAYS USED\n' +
+    '\n' +
+    '148\n' +
+    '\n' +
+    'DISCHARGED ON\n' +
+    '\n' +
+    'NA\n' +
+    '\n' +
+    'MEDICATIONS\n' +
+    '\n' +
+    'Not Provided\n' +
+    '\n' +
+    'IV FLUIDS\n' +
+    '\n' +
+    'ALLERGIES\n' +
+    '\n' +
+    'None\n' +
+    '\n' +
+    'LOCATION\n' +
+    '\n' +
+    'Not Provided\n' +
+    '\n' +
+    'WARD\n' +
+    '\n' +
+    'partners\n' +
+    '\n' +
+    'ROOM\n' +
+    '\n' +
+    'e31\n' +
+    '\n' +
+    'BED\n' +
+    '\n' +
+    '1456\n' +
+    '\n' +
+    'SPECIALTY\n' +
+    '\n' +
+    'ophthalmology\n' +
+    '\n' +
+    'Operator\n' +
+    '\n' +
+    'Nurse Bariduanen\n' +
+    '\n' +
+    'Discharge Date\n' +
+    '\n' +
+    'NA\n' +
+    '\n' +
+    'Cicatricial ectropion of right lower eyelid\n' +
+    '\n' +
+    'Admit Patient\n' +
+    'Emergency\n' +
+    '\n' +
+    'Special Instructions\n' +
+    '\n' +
+    'None\n' +
+    '\n' +
+    'MRN\n' +
+    '*\n' +
+    'Patient Name\n' +
+    'HMO/Corporate\n' +
+    'Authorization Code\n' +
+    'Reason For Visit\n' +
+    '*\n' +
+    '\n' +
+    'Check-in-date *\n' +
+    '\n' +
+    'July 5th, 2025\n' +
+    '\n' +
+    'Check-out-date\n' +
+    '\n' +
+    'November 28th, 2025\n' +
+    'Ward\n' +
+    '*\n' +
+    'ISREAL\n' +
+    'Loading...\n' +
+    'Room\n' +
+    '*\n' +
+    'IRAN\n' +
+    'Loading...\n' +
+    'Bedspace No\n' +
+    '*\n' +
+    'RUSSIA\n' +
+    'Loading...\n' +
+    'Consultant\n' +
+    '*\n' +
+    'dami\n' +
+    'Admit Patient',
+  'L\n' +
+    'Dashboard\n' +
+    'Patients\n' +
+    'Calendar\n' +
+    'Notification\n' +
+    'Subscription & Payment\n' +
+    'Help Center\n' +
+    '\n' +
+    'Answers Here\n' +
+    '\n' +
+    'Adeolu1 Ogungbesan\n' +
+    'Patient Details\n' +
+    '\n' +
+    'Go Back\n' +
+    '\n' +
+    'Book Surgery\n' +
+    'MRS. Elizabeth Oni | Luth01143\n' +
+    '\n' +
+    '33 Yrs, Female • Plan: Gold Member\n' +
+    '\n' +
+    'Sponsors - Private Patient\n' +
+    '\n' +
+    'Wallet Balance:\n' +
+    '₦0\n' +
+    'Credit Balance:\n' +
+    '₦0\n' +
+    'Allergies\n' +
+    'N/A\n' +
+    'Medical History\n' +
+    'N/A\n' +
+    'Previous Diagnosis\n' +
+    'N/A\n' +
+    '0 Pending Bills\n' +
+    'More Options\n' +
+    'Show More\n' +
+    'Profile Details\n' +
+    'Appointments\n' +
+    'Admission\n' +
+    'Surgery\n' +
+    'Page 1\n' +
+    'Total Pages 1\n' +
+    'to be teated for TB 94749\n' +
+    'ADMITTED\n' +
+    'Cancel admission\n' +
+    'Extend Admission\n' +
+    'Await Checkout\n' +
+    'Patient Referral\n' +
+    'View Bills\n' +
+    'ADMITTED\n' +
+    '\n' +
+    '2025-07-04 09:55 AM\n' +
+    '\n' +
+    'DAYS USED\n' +
+    '\n' +
+    '146\n' +
+    '\n' +
+    'DISCHARGED ON\n' +
+    '\n' +
+    'NA\n' +
+    '\n' +
+    'MEDICATIONS\n' +
+    '\n' +
+    'Not Provided\n' +
+    '\n' +
+    'IV FLUIDS\n' +
+    '\n' +
+    'None\n' +
+    '\n' +
+    'ALLERGIES\n' +
+    '\n' +
+    'None\n' +
+    '\n' +
+    'LOCATION\n' +
+    '\n' +
+    'Not Provided\n' +
+    '\n' +
+    'WARD\n' +
+    '\n' +
+    'ISREAL\n' +
+    '\n' +
+    'ROOM\n' +
+    '\n' +
+    'IRAN\n' +
+    '\n' +
+    'BED\n' +
+    '\n' +
+    'RUSSIA\n' +
+    '\n' +
+    'SPECIALTY\n' +
+    '\n' +
+    'ophthalmology\n' +
+    '\n' +
+    'Operator\n' +
+    '\n' +
+    'Adeolu1 Ogungbesan\n' +
+    '\n' +
+    'Discharge Date\n' +
+    '\n' +
+    'NA\n' +
+    '\n' +
+    'Not Provided\n' +
+    '\n' +
+    'HANGOVER\n' +
+    'ADMITTED\n' +
+    'Cancel admission\n' +
+    'Extend Admission\n' +
+    'Await Checkout\n' +
+    'Patient Referral\n' +
+    'View Bills\n' +
+    'ADMITTED\n' +
+    '\n' +
+    '2025-07-03 02:10 PM\n' +
+    '\n' +
+    'DAYS USED\n' +
+    '\n' +
+    '148\n' +
+    '\n' +
+    'DISCHARGED ON\n' +
+    '\n' +
+    'NA\n' +
+    '\n' +
+    'MEDICATIONS\n' +
+    '\n' +
+    'Not Provided\n' +
+    '\n' +
+    'IV FLUIDS\n' +
+    '\n' +
+    'ALLERGIES\n' +
+    '\n' +
+    'None\n' +
+    '\n' +
+    'LOCATION\n' +
+    '\n' +
+    'Not Provided\n' +
+    '\n' +
+    'WARD\n' +
+    '\n' +
+    'partners\n' +
+    '\n' +
+    'ROOM\n' +
+    '\n' +
+    'e31\n' +
+    '\n' +
+    'BED\n' +
+    '\n' +
+    '1456\n' +
+    '\n' +
+    'SPECIALTY\n' +
+    '\n' +
+    'ophthalmology\n' +
+    '\n' +
+    'Operator\n' +
+    '\n' +
+    'Nurse Bariduanen\n' +
+    '\n' +
+    'Discharge Date\n' +
+    '\n' +
+    'NA\n' +
+    '\n' +
+    'Cicatricial ectropion of right lower eyelid\n' +
+    '\n' +
+    'Admit Patient\n' +
+    'Emergency\n' +
+    '\n' +
+    'Special Instructions\n' +
+    '\n' +
+    'None\n' +
+    '\n' +
+    'MRN\n' +
+    '*\n' +
+    'Patient Name\n' +
+    'HMO/Corporate\n' +
+    'Authorization Code\n' +
+    'Reason For Visit\n' +
+    '*\n' +
+    '\n' +
+    'Check-in-date *\n' +
+    '\n' +
+    'July 5th, 2025\n' +
+    '\n' +
+    'Check-out-date\n' +
+    '\n' +
+    'November 28th, 2025\n' +
+    'Ward\n' +
+    '*\n' +
+    'ISREAL\n' +
+    'Loading...\n' +
+    'Room\n' +
+    '*\n' +
+    'IRAN\n' +
+    'Loading...\n' +
+    'Bedspace No\n' +
+    '*\n' +
+    'RUSSIA\n' +
+    'Loading...\n' +
+    'Consultant\n' +
+    '*\n' +
+    'dami\n' +
+    'Admit Patient',
+  'Admit Patient\n' +
+    'Emergency\n' +
+    '\n' +
+    'Special Instructions\n' +
+    '\n' +
+    'None\n' +
+    '\n' +
+    'MRN\n' +
+    '*\n' +
+    'Patient Name\n' +
+    'HMO/Corporate\n' +
+    'Authorization Code\n' +
+    'Reason For Visit\n' +
+    '*\n' +
+    '\n' +
+    'Check-in-date *\n' +
+    '\n' +
+    'July 5th, 2025\n' +
+    '\n' +
+    'Check-out-date\n' +
+    '\n' +
+    'November 28th, 2025\n' +
+    'Ward\n' +
+    '*\n' +
+    'ISREAL\n' +
+    'Loading...\n' +
+    'Room\n' +
+    '*\n' +
+    'IRAN\n' +
+    'Loading...\n' +
+    'Bedspace No\n' +
+    '*\n' +
+    'RUSSIA\n' +
+    'Loading...\n' +
+    'Consultant\n' +
+    '*\n' +
+    'dami\n' +
+    'Admit Patient',
+  'Admit Patient\n' +
+    'Emergency\n' +
+    '\n' +
+    'Special Instructions\n' +
+    '\n' +
+    'None\n' +
+    '\n' +
+    'MRN\n' +
+    '*\n' +
+    'Patient Name\n' +
+    'HMO/Corporate\n' +
+    'Authorization Code\n' +
+    'Reason For Visit\n' +
+    '*\n' +
+    '\n' +
+    'Check-in-date *\n' +
+    '\n' +
+    'July 5th, 2025\n' +
+    '\n' +
+    'Check-out-date\n' +
+    '\n' +
+    'November 28th, 2025\n' +
+    'Ward\n' +
+    '*\n' +
+    'ISREAL\n' +
+    'Loading...\n' +
+    'Room\n' +
+    '*\n' +
+    'IRAN\n' +
+    'Loading...\n' +
+    'Bedspace No\n' +
+    '*\n' +
+    'RUSSIA\n' +
+    'Loading...\n' +
+    'Consultant\n' +
+    '*\n' +
+    'dami\n' +
+    'Admit Patient',
+  'Admit Patient\n' +
+    'Emergency\n' +
+    '\n' +
+    'Special Instructions\n' +
+    '\n' +
+    'None\n' +
+    '\n' +
+    'MRN\n' +
+    '*\n' +
+    'Patient Name\n' +
+    'HMO/Corporate\n' +
+    'Authorization Code\n' +
+    'Reason For Visit\n' +
+    '*\n' +
+    '\n' +
+    'Check-in-date *\n' +
+    '\n' +
+    'July 5th, 2025\n' +
+    '\n' +
+    'Check-out-date\n' +
+    '\n' +
+    'November 28th, 2025\n' +
+    'Ward\n' +
+    '*\n' +
+    'ISREAL\n' +
+    'Loading...\n' +
+    'Room\n' +
+    '*\n' +
+    'IRAN\n' +
+    'Loading...\n' +
+    'Bedspace No\n' +
+    '*\n' +
+    'RUSSIA\n' +
+    'Loading...\n' +
+    'Consultant\n' +
+    '*\n' +
+    'dami\n' +
+    'Admit Patient',
+  'Admit Patient\n' +
+    'Emergency\n' +
+    '\n' +
+    'Special Instructions\n' +
+    '\n' +
+    'None\n' +
+    '\n' +
+    'MRN\n' +
+    '*\n' +
+    'Patient Name\n' +
+    'HMO/Corporate\n' +
+    'Authorization Code\n' +
+    'Reason For Visit\n' +
+    '*\n' +
+    '\n' +
+    'Check-in-date *\n' +
+    '\n' +
+    'July 5th, 2025\n' +
+    '\n' +
+    'Check-out-date\n' +
+    '\n' +
+    'November 28th, 2025\n' +
+    'Ward\n' +
+    '*\n' +
+    'ISREAL\n' +
+    'Loading...\n' +
+    'Room\n' +
+    '*\n' +
+    'IRAN\n' +
+    'Loading...\n' +
+    'Bedspace No\n' +
+    '*\n' +
+    'RUSSIA\n' +
+    'Loading...\n' +
+    'Consultant\n' +
+    '*\n' +
+    'dami\n' +
+    'Admit Patient',
+  'Admit Patient\n' +
+    'Emergency\n' +
+    '\n' +
+    'Special Instructions\n' +
+    '\n' +
+    'None\n' +
+    '\n' +
+    'MRN\n' +
+    '*\n' +
+    'Patient Name\n' +
+    'HMO/Corporate\n' +
+    'Authorization Code\n' +
+    'Reason For Visit\n' +
+    '*\n' +
+    '\n' +
+    'Check-in-date *\n' +
+    '\n' +
+    'July 5th, 2025\n' +
+    '\n' +
+    'Check-out-date\n' +
+    '\n' +
+    'November 28th, 2025\n' +
+    'Ward\n' +
+    '*\n' +
+    'ISREAL\n' +
+    'Loading...\n' +
+    'Room\n' +
+    '*\n' +
+    'IRAN\n' +
+    'Loading...\n' +
+    'Bedspace No\n' +
+    '*\n' +
+    'RUSSIA\n' +
+    'Loading...\n' +
+    'Consultant\n' +
+    '*\n' +
+    'dami\n' +
+    'Admit Patient',
+  'Admit Patient\n' +
+    'Emergency\n' +
+    '\n' +
+    'Special Instructions\n' +
+    '\n' +
+    'None\n' +
+    '\n' +
+    'MRN\n' +
+    '*\n' +
+    'Patient Name\n' +
+    'HMO/Corporate\n' +
+    'Authorization Code\n' +
+    'Reason For Visit\n' +
+    '*\n' +
+    '\n' +
+    'Check-in-date *\n' +
+    '\n' +
+    'July 5th, 2025\n' +
+    '\n' +
+    'Check-out-date\n' +
+    '\n' +
+    'November 28th, 2025\n' +
+    'Ward\n' +
+    '*\n' +
+    'ISREAL\n' +
+    'Loading...\n' +
+    'Room\n' +
+    '*\n' +
+    'IRAN\n' +
+    'Loading...\n' +
+    'Bedspace No\n' +
+    '*\n' +
+    'RUSSIA\n' +
+    'Loading...\n' +
+    'Consultant\n' +
+    '*\n' +
+    'dami\n' +
+    'Admit Patient',
+  'Emergency\n' +
+    '\n' +
+    'Special Instructions\n' +
+    '\n' +
+    'None\n' +
+    '\n' +
+    'MRN\n' +
+    '*\n' +
+    'Patient Name\n' +
+    'HMO/Corporate\n' +
+    'Authorization Code\n' +
+    'Reason For Visit\n' +
+    '*\n' +
+    '\n' +
+    'Check-in-date *\n' +
+    '\n' +
+    'July 5th, 2025\n' +
+    '\n' +
+    'Check-out-date\n' +
+    '\n' +
+    'November 28th, 2025\n' +
+    'Ward\n' +
+    '*\n' +
+    'ISREAL\n' +
+    'Loading...\n' +
+    'Room\n' +
+    '*\n' +
+    'IRAN\n' +
+    'Loading...\n' +
+    'Bedspace No\n' +
+    '*\n' +
+    'RUSSIA\n' +
+    'Loading...\n' +
+    'Consultant\n' +
+    '*\n' +
+    'dami\n' +
+    'Admit Patient',
+  'Emergency\n' +
+    '\n' +
+    'Special Instructions\n' +
+    '\n' +
+    'None\n' +
+    '\n' +
+    'MRN\n' +
+    '*\n' +
+    'Patient Name\n' +
+    'HMO/Corporate\n' +
+    'Authorization Code\n' +
+    'Reason For Visit\n' +
+    '*\n' +
+    '\n' +
+    'Check-in-date *\n' +
+    '\n' +
+    'July 5th, 2025\n' +
+    '\n' +
+    'Check-out-date\n' +
+    '\n' +
+    'November 28th, 2025\n' +
+    'Ward\n' +
+    '*\n' +
+    'ISREAL\n' +
+    'Loading...\n' +
+    'Room\n' +
+    '*\n' +
+    'IRAN\n' +
+    'Loading...\n' +
+    'Bedspace No\n' +
+    '*\n' +
+    'RUSSIA\n' +
+    'Loading...\n' +
+    'Consultant\n' +
+    '*\n' +
+    'dami\n' +
+    'Admit Patient',
+  'Emergency\n' +
+    '\n' +
+    'Special Instructions\n' +
+    '\n' +
+    'None\n' +
+    '\n' +
+    'MRN\n' +
+    '*\n' +
+    'Patient Name\n' +
+    'HMO/Corporate\n' +
+    'Authorization Code\n' +
+    'Reason For Visit\n' +
+    '*\n' +
+    '\n' +
+    'Check-in-date *\n' +
+    '\n' +
+    'July 5th, 2025\n' +
+    '\n' +
+    'Check-out-date\n' +
+    '\n' +
+    'November 28th, 2025\n' +
+    'Ward\n' +
+    '*\n' +
+    'ISREAL\n' +
+    'Loading...\n' +
+    'Room\n' +
+    '*\n' +
+    'IRAN\n' +
+    'Loading...\n' +
+    'Bedspace No\n' +
+    '*\n' +
+    'RUSSIA\n' +
+    'Loading...\n' +
+    'Consultant\n' +
+    '*\n' +
+    'dami\n' +
+    'Admit Patient',
+  'MRN\n' +
+    '*\n' +
+    'Patient Name\n' +
+    'HMO/Corporate\n' +
+    'Authorization Code\n' +
+    'Reason For Visit\n' +
+    '*\n' +
+    '\n' +
+    'Check-in-date *\n' +
+    '\n' +
+    'July 5th, 2025\n' +
+    '\n' +
+    'Check-out-date\n' +
+    '\n' +
+    'November 28th, 2025\n' +
+    'Ward\n' +
+    '*\n' +
+    'ISREAL\n' +
+    'Loading...\n' +
+    'Room\n' +
+    '*\n' +
+    'IRAN\n' +
+    'Loading...\n' +
+    'Bedspace No\n' +
+    '*\n' +
+    'RUSSIA\n' +
+    'Loading...\n' +
+    'Consultant\n' +
+    '*\n' +
+    'dami',
+  'Check-out-date\n\nNovember 28th, 2025',
+  'Check-out-date\n\nNovember 28th, 2025',
+  'Check-out-date\n\nNovember 28th, 2025',
+  'Check-out-date\n\nNovember 28th, 2025'
+]
+🟦 test4 following = [
+  '',
+  'Ward\n*\nISREAL\nLoading...',
+  'Ward\n*\nISREAL',
+  'Ward\n*',
+  'Ward',
+  '*',
+  'ISREAL',
+  '',
+  '',
+  'ISREAL'
+]

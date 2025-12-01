@@ -1,0 +1,574 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - region "Notifications Alt+T"
+    - generic [ref=e4]:
+      - region "Notifications Alt+T"
+      - main [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - generic [ref=e8]:
+              - img "Indigo EMR" [ref=e10]
+              - generic [ref=e11]:
+                - generic [ref=e13] [cursor=pointer]: L
+                - text: 
+              - navigation [ref=e14]:
+                - link " Dashboard" [ref=e15] [cursor=pointer]:
+                  - /url: /in-patient/dashboard
+                  - generic [ref=e16]: 
+                  - generic [ref=e17]: Dashboard
+                - link " Patients" [ref=e18] [cursor=pointer]:
+                  - /url: /in-patient/patients
+                  - generic [ref=e19]: 
+                  - generic [ref=e20]: Patients
+                - link " Calendar" [ref=e21] [cursor=pointer]:
+                  - /url: /in-patient/calendar
+                  - generic [ref=e22]: 
+                  - generic [ref=e23]: Calendar
+            - list [ref=e25]:
+              - listitem [ref=e26] [cursor=pointer]:
+                - generic [ref=e27]:
+                  - generic [ref=e28]:
+                    - generic [ref=e29]: 
+                    - generic [ref=e30]: 
+                  - generic [ref=e31]: Notification
+              - listitem [ref=e32] [cursor=pointer]:
+                - link " Subscription & payment" [ref=e33]:
+                  - /url: /settings/subscription
+                  - generic [ref=e34]:
+                    - generic [ref=e35]: 
+                    - generic [ref=e36]: Subscription & payment
+              - listitem [ref=e37] [cursor=pointer]:
+                - link " Help Center Answers Here" [ref=e38]:
+                  - /url: /support
+                  - generic [ref=e39]:
+                    - generic [ref=e40]: 
+                    - generic [ref=e41]:
+                      - text: Help Center
+                      - paragraph [ref=e42]: Answers Here
+              - button "Indigo User Avatar Adeolu1 Ogungbesan " [ref=e45] [cursor=pointer]:
+                - img "Indigo User Avatar" [ref=e46]
+                - generic [ref=e47]:
+                  - generic [ref=e48]: Adeolu1 Ogungbesan
+                  - generic [ref=e49]: 
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - generic [ref=e54] [cursor=pointer]:
+                - generic [ref=e55]: 
+                - paragraph [ref=e56]: Go Back
+              - generic [ref=e58]:
+                - heading "Admitted Patients" [level=3] [ref=e59]
+                - heading "You can view and manage all patients that are currently admitted" [level=4] [ref=e60]
+            - generic [ref=e61]:
+              - tablist [ref=e62]:
+                - tab "Admitted (135)" [selected] [ref=e63] [cursor=pointer]
+                - tab "Recommended (0)" [ref=e64] [cursor=pointer]
+              - tabpanel "Admitted (135)" [ref=e65]:
+                - generic [ref=e66]:
+                  - generic [ref=e67]:
+                    - generic [ref=e68]:
+                      - generic [ref=e69]: 
+                      - textbox "Search..." [ref=e71]
+                    - button "Filters" [ref=e73] [cursor=pointer]:
+                      - img
+                      - generic [ref=e74]: Filters
+                  - generic [ref=e75]:
+                    - table [ref=e78]:
+                      - rowgroup [ref=e79]:
+                        - row "PATIENT MRN WARD/ ROOM/ BED No DIAGNOSIS ADMISSION DATE DISCHARGE DATE HMO/CORPORATE ADMISSION STATUS" [ref=e80]:
+                          - cell "PATIENT" [ref=e81]
+                          - cell "MRN" [ref=e82]
+                          - cell "WARD/ ROOM/ BED No" [ref=e83]
+                          - cell "DIAGNOSIS" [ref=e84]
+                          - cell "ADMISSION DATE" [ref=e85]
+                          - cell "DISCHARGE DATE" [ref=e86]
+                          - cell "HMO/CORPORATE" [ref=e87]
+                          - cell "ADMISSION STATUS" [ref=e88]
+                          - cell [ref=e89]
+                      - rowgroup [ref=e90]:
+                        - row "GO Gbemi Ogunse (F) Private Patient/NA Luth0005651 0-10 kids / r 1 / b 2 Not Provided 13-11-2025 9:24 AM No Date Yet Private Patient Admitted" [ref=e91]:
+                          - cell "GO Gbemi Ogunse (F) Private Patient/NA" [ref=e92]:
+                            - generic [ref=e93]:
+                              - generic [ref=e95]: GO
+                              - generic [ref=e96]:
+                                - link "Gbemi Ogunse (F)" [ref=e97] [cursor=pointer]:
+                                  - /url: /in-patient/patients/691483884f7917ee7bf3cdb2?tab=admission
+                                - paragraph [ref=e98]: Private Patient/NA
+                          - cell "Luth0005651" [ref=e99]:
+                            - paragraph [ref=e100]: Luth0005651
+                          - cell "0-10 kids / r 1 / b 2" [ref=e101]:
+                            - paragraph [ref=e102]: 0-10 kids / r 1 / b 2
+                          - cell "Not Provided" [ref=e103]:
+                            - paragraph [ref=e104]: Not Provided
+                          - cell "13-11-2025 9:24 AM" [ref=e105]:
+                            - paragraph [ref=e106]: 13-11-2025 9:24 AM
+                          - cell "No Date Yet" [ref=e107]:
+                            - paragraph [ref=e108]: No Date Yet
+                          - cell "Private Patient" [ref=e109]:
+                            - generic [ref=e110]: Private Patient
+                          - cell "Admitted" [ref=e111]:
+                            - generic [ref=e112] [cursor=pointer]: Admitted
+                          - cell [ref=e113]
+                        - row "AS Adeshola Shopeju (F) Private Patient/NA Luth01267 0-10 kids / 100 / ER1 Not Provided 12-11-2025 5:27 PM No Date Yet Private Patient Admitted" [ref=e114]:
+                          - cell "AS Adeshola Shopeju (F) Private Patient/NA" [ref=e115]:
+                            - generic [ref=e116]:
+                              - generic [ref=e118]: AS
+                              - generic [ref=e119]:
+                                - link "Adeshola Shopeju (F)" [ref=e120] [cursor=pointer]:
+                                  - /url: /in-patient/patients/68c0377000d4b8513cc83d77?tab=admission
+                                - paragraph [ref=e121]: Private Patient/NA
+                          - cell "Luth01267" [ref=e122]:
+                            - paragraph [ref=e123]: Luth01267
+                          - cell "0-10 kids / 100 / ER1" [ref=e124]:
+                            - paragraph [ref=e125]: 0-10 kids / 100 / ER1
+                          - cell "Not Provided" [ref=e126]:
+                            - paragraph [ref=e127]: Not Provided
+                          - cell "12-11-2025 5:27 PM" [ref=e128]:
+                            - paragraph [ref=e129]: 12-11-2025 5:27 PM
+                          - cell "No Date Yet" [ref=e130]:
+                            - paragraph [ref=e131]: No Date Yet
+                          - cell "Private Patient" [ref=e132]:
+                            - generic [ref=e133]: Private Patient
+                          - cell "Admitted" [ref=e134]:
+                            - generic [ref=e135] [cursor=pointer]: Admitted
+                          - cell [ref=e136]
+                        - row "GA Gbadbo Adejoke (F) Private Patient/NA Luth01354 0-10 kids / 100 / ER Not Provided 09-11-2025 4:0 AM No Date Yet Private Patient Admitted" [ref=e137]:
+                          - cell "GA Gbadbo Adejoke (F) Private Patient/NA" [ref=e138]:
+                            - generic [ref=e139]:
+                              - generic [ref=e141]: GA
+                              - generic [ref=e142]:
+                                - link "Gbadbo Adejoke (F)" [ref=e143] [cursor=pointer]:
+                                  - /url: /in-patient/patients/6908b324a55d40b4bdd794e0?tab=admission
+                                - paragraph [ref=e144]: Private Patient/NA
+                          - cell "Luth01354" [ref=e145]:
+                            - paragraph [ref=e146]: Luth01354
+                          - cell "0-10 kids / 100 / ER" [ref=e147]:
+                            - paragraph [ref=e148]: 0-10 kids / 100 / ER
+                          - cell "Not Provided" [ref=e149]:
+                            - paragraph [ref=e150]: Not Provided
+                          - cell "09-11-2025 4:0 AM" [ref=e151]:
+                            - paragraph [ref=e152]: 09-11-2025 4:0 AM
+                          - cell "No Date Yet" [ref=e153]:
+                            - paragraph [ref=e154]: No Date Yet
+                          - cell "Private Patient" [ref=e155]:
+                            - generic [ref=e156]: Private Patient
+                          - cell "Admitted" [ref=e157]:
+                            - generic [ref=e158] [cursor=pointer]: Admitted
+                          - cell [ref=e159]
+                        - row "AS Adeshola Shopeju (F) Private Patient/NA Luth01256 Ent / e24 / 024 Not Provided 06-11-2025 10:12 AM No Date Yet Private Patient Admitted" [ref=e160]:
+                          - cell "AS Adeshola Shopeju (F) Private Patient/NA" [ref=e161]:
+                            - generic [ref=e162]:
+                              - generic [ref=e164]: AS
+                              - generic [ref=e165]:
+                                - link "Adeshola Shopeju (F)" [ref=e166] [cursor=pointer]:
+                                  - /url: /in-patient/patients/68b8501faf85da9c265012b6?tab=admission
+                                - paragraph [ref=e167]: Private Patient/NA
+                          - cell "Luth01256" [ref=e168]:
+                            - paragraph [ref=e169]: Luth01256
+                          - cell "Ent / e24 / 024" [ref=e170]:
+                            - paragraph [ref=e171]: Ent / e24 / 024
+                          - cell "Not Provided" [ref=e172]:
+                            - paragraph [ref=e173]: Not Provided
+                          - cell "06-11-2025 10:12 AM" [ref=e174]:
+                            - paragraph [ref=e175]: 06-11-2025 10:12 AM
+                          - cell "No Date Yet" [ref=e176]:
+                            - paragraph [ref=e177]: No Date Yet
+                          - cell "Private Patient" [ref=e178]:
+                            - generic [ref=e179]: Private Patient
+                          - cell "Admitted" [ref=e180]:
+                            - generic [ref=e181] [cursor=pointer]: Admitted
+                          - cell [ref=e182]
+                        - row "TG Teagan Gottlieb (F) Private Patient/NA Luth01326 Baby / room 1 / 2r Not Provided 08-10-2025 9:24 AM No Date Yet Private Patient Admitted" [ref=e183]:
+                          - cell "TG Teagan Gottlieb (F) Private Patient/NA" [ref=e184]:
+                            - generic [ref=e185]:
+                              - generic [ref=e187]: TG
+                              - generic [ref=e188]:
+                                - link "Teagan Gottlieb (F)" [ref=e189] [cursor=pointer]:
+                                  - /url: /in-patient/patients/68d5c21f3aa7895798e74436?tab=admission
+                                - paragraph [ref=e190]: Private Patient/NA
+                          - cell "Luth01326" [ref=e191]:
+                            - paragraph [ref=e192]: Luth01326
+                          - cell "Baby / room 1 / 2r" [ref=e193]:
+                            - paragraph [ref=e194]: Baby / room 1 / 2r
+                          - cell "Not Provided" [ref=e195]:
+                            - paragraph [ref=e196]: Not Provided
+                          - cell "08-10-2025 9:24 AM" [ref=e197]:
+                            - paragraph [ref=e198]: 08-10-2025 9:24 AM
+                          - cell "No Date Yet" [ref=e199]:
+                            - paragraph [ref=e200]: No Date Yet
+                          - cell "Private Patient" [ref=e201]:
+                            - generic [ref=e202]: Private Patient
+                          - cell "Admitted" [ref=e203]:
+                            - generic [ref=e204] [cursor=pointer]: Admitted
+                          - cell [ref=e205]
+                        - row "GB Godfrey Beatty (F) Private Patient/NA Luth01293 Baby / room 1 / gr Not Provided 19-09-2025 6:46 PM No Date Yet Private Patient Admitted" [ref=e206]:
+                          - cell "GB Godfrey Beatty (F) Private Patient/NA" [ref=e207]:
+                            - generic [ref=e208]:
+                              - generic [ref=e210]: GB
+                              - generic [ref=e211]:
+                                - link "Godfrey Beatty (F)" [ref=e212] [cursor=pointer]:
+                                  - /url: /in-patient/patients/68cbfa57f6adb55efa6fe716?tab=admission
+                                - paragraph [ref=e213]: Private Patient/NA
+                          - cell "Luth01293" [ref=e214]:
+                            - paragraph [ref=e215]: Luth01293
+                          - cell "Baby / room 1 / gr" [ref=e216]:
+                            - paragraph [ref=e217]: Baby / room 1 / gr
+                          - cell "Not Provided" [ref=e218]:
+                            - paragraph [ref=e219]: Not Provided
+                          - cell "19-09-2025 6:46 PM" [ref=e220]:
+                            - paragraph [ref=e221]: 19-09-2025 6:46 PM
+                          - cell "No Date Yet" [ref=e222]:
+                            - paragraph [ref=e223]: No Date Yet
+                          - cell "Private Patient" [ref=e224]:
+                            - generic [ref=e225]: Private Patient
+                          - cell "Admitted" [ref=e226]:
+                            - generic [ref=e227] [cursor=pointer]: Admitted
+                          - cell [ref=e228]
+                        - row "FM Filomena Mraz (F) Private Patient/NA Luth01295 Baby / room 1 / ddd Not Provided 19-09-2025 4:0 PM No Date Yet Private Patient Admitted" [ref=e229]:
+                          - cell "FM Filomena Mraz (F) Private Patient/NA" [ref=e230]:
+                            - generic [ref=e231]:
+                              - generic [ref=e233]: FM
+                              - generic [ref=e234]:
+                                - link "Filomena Mraz (F)" [ref=e235] [cursor=pointer]:
+                                  - /url: /in-patient/patients/68cbfaa2f6adb55efa6fe837?tab=admission
+                                - paragraph [ref=e236]: Private Patient/NA
+                          - cell "Luth01295" [ref=e237]:
+                            - paragraph [ref=e238]: Luth01295
+                          - cell "Baby / room 1 / ddd" [ref=e239]:
+                            - paragraph [ref=e240]: Baby / room 1 / ddd
+                          - cell "Not Provided" [ref=e241]:
+                            - paragraph [ref=e242]: Not Provided
+                          - cell "19-09-2025 4:0 PM" [ref=e243]:
+                            - paragraph [ref=e244]: 19-09-2025 4:0 PM
+                          - cell "No Date Yet" [ref=e245]:
+                            - paragraph [ref=e246]: No Date Yet
+                          - cell "Private Patient" [ref=e247]:
+                            - generic [ref=e248]: Private Patient
+                          - cell "Admitted" [ref=e249]:
+                            - generic [ref=e250] [cursor=pointer]: Admitted
+                          - cell [ref=e251]
+                        - row "TP T Patient (F) Private Patient/NA Luth01284 partners / e31 / 1456 Not Provided 17-09-2025 8:23 AM No Date Yet Private Patient Admitted" [ref=e252]:
+                          - cell "TP T Patient (F) Private Patient/NA" [ref=e253]:
+                            - generic [ref=e254]:
+                              - generic [ref=e256]: TP
+                              - generic [ref=e257]:
+                                - link "T Patient (F)" [ref=e258] [cursor=pointer]:
+                                  - /url: /in-patient/patients/68ca610fd313b52c9104406a?tab=admission
+                                - paragraph [ref=e259]: Private Patient/NA
+                          - cell "Luth01284" [ref=e260]:
+                            - paragraph [ref=e261]: Luth01284
+                          - cell "partners / e31 / 1456" [ref=e262]:
+                            - paragraph [ref=e263]: partners / e31 / 1456
+                          - cell "Not Provided" [ref=e264]:
+                            - paragraph [ref=e265]: Not Provided
+                          - cell "17-09-2025 8:23 AM" [ref=e266]:
+                            - paragraph [ref=e267]: 17-09-2025 8:23 AM
+                          - cell "No Date Yet" [ref=e268]:
+                            - paragraph [ref=e269]: No Date Yet
+                          - cell "Private Patient" [ref=e270]:
+                            - generic [ref=e271]: Private Patient
+                          - cell "Admitted" [ref=e272]:
+                            - generic [ref=e273] [cursor=pointer]: Admitted
+                          - cell [ref=e274]
+                        - row "JB James Bond (M) Private Patient/NA Luth01282 artisan / e30 / r4 Not Provided 16-09-2025 1:48 PM No Date Yet Private Patient Admitted" [ref=e275]:
+                          - cell "JB James Bond (M) Private Patient/NA" [ref=e276]:
+                            - generic [ref=e277]:
+                              - generic [ref=e279]: JB
+                              - generic [ref=e280]:
+                                - link "James Bond (M)" [ref=e281] [cursor=pointer]:
+                                  - /url: /in-patient/patients/68c95bd6d313b52c91f6098f?tab=admission
+                                - paragraph [ref=e282]: Private Patient/NA
+                          - cell "Luth01282" [ref=e283]:
+                            - paragraph [ref=e284]: Luth01282
+                          - cell "artisan / e30 / r4" [ref=e285]:
+                            - paragraph [ref=e286]: artisan / e30 / r4
+                          - cell "Not Provided" [ref=e287]:
+                            - paragraph [ref=e288]: Not Provided
+                          - cell "16-09-2025 1:48 PM" [ref=e289]:
+                            - paragraph [ref=e290]: 16-09-2025 1:48 PM
+                          - cell "No Date Yet" [ref=e291]:
+                            - paragraph [ref=e292]: No Date Yet
+                          - cell "Private Patient" [ref=e293]:
+                            - generic [ref=e294]: Private Patient
+                          - cell "Admitted" [ref=e295]:
+                            - generic [ref=e296] [cursor=pointer]: Admitted
+                          - cell [ref=e297]
+                        - row "TA Tayo Adedayo (M) Private Patient/NA Luth01268 small room / 1 / taylor Not Provided 16-09-2025 11:30 AM No Date Yet Private Patient Admitted" [ref=e298]:
+                          - cell "TA Tayo Adedayo (M) Private Patient/NA" [ref=e299]:
+                            - generic [ref=e300]:
+                              - generic [ref=e302]: TA
+                              - generic [ref=e303]:
+                                - link "Tayo Adedayo (M)" [ref=e304] [cursor=pointer]:
+                                  - /url: /in-patient/patients/68c03bdf00d4b8513cc849e7?tab=admission
+                                - paragraph [ref=e305]: Private Patient/NA
+                          - cell "Luth01268" [ref=e306]:
+                            - paragraph [ref=e307]: Luth01268
+                          - cell "small room / 1 / taylor" [ref=e308]:
+                            - paragraph [ref=e309]: small room / 1 / taylor
+                          - cell "Not Provided" [ref=e310]:
+                            - paragraph [ref=e311]: Not Provided
+                          - cell "16-09-2025 11:30 AM" [ref=e312]:
+                            - paragraph [ref=e313]: 16-09-2025 11:30 AM
+                          - cell "No Date Yet" [ref=e314]:
+                            - paragraph [ref=e315]: No Date Yet
+                          - cell "Private Patient" [ref=e316]:
+                            - generic [ref=e317]: Private Patient
+                          - cell "Admitted" [ref=e318]:
+                            - generic [ref=e319] [cursor=pointer]: Admitted
+                          - cell [ref=e320]
+                        - row "AM adeola moses (M) Private Patient/NA Luth01266 Adult care / vvip / 4 Not Provided 11-09-2025 9:1 PM No Date Yet Private Patient Admitted" [ref=e321]:
+                          - cell "AM adeola moses (M) Private Patient/NA" [ref=e322]:
+                            - generic [ref=e323]:
+                              - generic [ref=e325]: AM
+                              - generic [ref=e326]:
+                                - link "adeola moses (M)" [ref=e327] [cursor=pointer]:
+                                  - /url: /in-patient/patients/68c0365600d4b8513cc83bb2?tab=admission
+                                - paragraph [ref=e328]: Private Patient/NA
+                          - cell "Luth01266" [ref=e329]:
+                            - paragraph [ref=e330]: Luth01266
+                          - cell "Adult care / vvip / 4" [ref=e331]:
+                            - paragraph [ref=e332]: Adult care / vvip / 4
+                          - cell "Not Provided" [ref=e333]:
+                            - paragraph [ref=e334]: Not Provided
+                          - cell "11-09-2025 9:1 PM" [ref=e335]:
+                            - paragraph [ref=e336]: 11-09-2025 9:1 PM
+                          - cell "No Date Yet" [ref=e337]:
+                            - paragraph [ref=e338]: No Date Yet
+                          - cell "Private Patient" [ref=e339]:
+                            - generic [ref=e340]: Private Patient
+                          - cell "Admitted" [ref=e341]:
+                            - generic [ref=e342] [cursor=pointer]: Admitted
+                          - cell [ref=e343]
+                        - row "KA kolade akinyemi (F) Private Patient/NA lem00052 ISREAL / IRAN / UKRAINE Not Provided 18-07-2025 3:26 PM No Date Yet Private Patient Admitted" [ref=e344]:
+                          - cell "KA kolade akinyemi (F) Private Patient/NA" [ref=e345]:
+                            - generic [ref=e346]:
+                              - generic [ref=e348]: KA
+                              - generic [ref=e349]:
+                                - link "kolade akinyemi (F)" [ref=e350] [cursor=pointer]:
+                                  - /url: /in-patient/patients/62aaee8fc334803c3100ae9c?tab=admission
+                                - paragraph [ref=e351]: Private Patient/NA
+                          - cell "lem00052" [ref=e352]:
+                            - paragraph [ref=e353]: lem00052
+                          - cell "ISREAL / IRAN / UKRAINE" [ref=e354]:
+                            - paragraph [ref=e355]: ISREAL / IRAN / UKRAINE
+                          - cell "Not Provided" [ref=e356]:
+                            - paragraph [ref=e357]: Not Provided
+                          - cell "18-07-2025 3:26 PM" [ref=e358]:
+                            - paragraph [ref=e359]: 18-07-2025 3:26 PM
+                          - cell "No Date Yet" [ref=e360]:
+                            - paragraph [ref=e361]: No Date Yet
+                          - cell "Private Patient" [ref=e362]:
+                            - generic [ref=e363]: Private Patient
+                          - cell "Admitted" [ref=e364]:
+                            - generic [ref=e365] [cursor=pointer]: Admitted
+                          - cell [ref=e366]
+                        - row "H Handle (M) Private Patient/NA Luth00402 ISREAL / IRAN / UKRAINE Not Provided 16-07-2025 2:58 PM No Date Yet Private Patient Admitted" [ref=e367]:
+                          - cell "H Handle (M) Private Patient/NA" [ref=e368]:
+                            - generic [ref=e369]:
+                              - generic [ref=e371]: H
+                              - generic [ref=e372]:
+                                - link "Handle (M)" [ref=e373] [cursor=pointer]:
+                                  - /url: /in-patient/patients/64ca806b10eeb17abcace3d0?tab=admission
+                                - paragraph [ref=e374]: Private Patient/NA
+                          - cell "Luth00402" [ref=e375]:
+                            - paragraph [ref=e376]: Luth00402
+                          - cell "ISREAL / IRAN / UKRAINE" [ref=e377]:
+                            - paragraph [ref=e378]: ISREAL / IRAN / UKRAINE
+                          - cell "Not Provided" [ref=e379]:
+                            - paragraph [ref=e380]: Not Provided
+                          - cell "16-07-2025 2:58 PM" [ref=e381]:
+                            - paragraph [ref=e382]: 16-07-2025 2:58 PM
+                          - cell "No Date Yet" [ref=e383]:
+                            - paragraph [ref=e384]: No Date Yet
+                          - cell "Private Patient" [ref=e385]:
+                            - generic [ref=e386]: Private Patient
+                          - cell "Admitted" [ref=e387]:
+                            - generic [ref=e388] [cursor=pointer]: Admitted
+                          - cell [ref=e389]
+                        - row "GL GUMBORO LASOTA (M) Private Patient/NA Luth01192 TEST / NEST / NET TRIPPLE NODE 04-07-2025 10:44 AM No Date Yet Private Patient Admitted" [ref=e390]:
+                          - cell "GL GUMBORO LASOTA (M) Private Patient/NA" [ref=e391]:
+                            - generic [ref=e392]:
+                              - generic [ref=e394]: GL
+                              - generic [ref=e395]:
+                                - link "GUMBORO LASOTA (M)" [ref=e396] [cursor=pointer]:
+                                  - /url: /in-patient/patients/685dae1a9acfe816e74a60f7?tab=admission
+                                - paragraph [ref=e397]: Private Patient/NA
+                          - cell "Luth01192" [ref=e398]:
+                            - paragraph [ref=e399]: Luth01192
+                          - cell "TEST / NEST / NET" [ref=e400]:
+                            - paragraph [ref=e401]: TEST / NEST / NET
+                          - cell "TRIPPLE NODE" [ref=e402]:
+                            - paragraph [ref=e403]: TRIPPLE NODE
+                          - cell "04-07-2025 10:44 AM" [ref=e404]:
+                            - paragraph [ref=e405]: 04-07-2025 10:44 AM
+                          - cell "No Date Yet" [ref=e406]:
+                            - paragraph [ref=e407]: No Date Yet
+                          - cell "Private Patient" [ref=e408]:
+                            - generic [ref=e409]: Private Patient
+                          - cell "Admitted" [ref=e410]:
+                            - generic [ref=e411] [cursor=pointer]: Admitted
+                          - cell [ref=e412]
+                        - row "SRW Stone Roberson Whitley (M) Private Patient/NA Luth01145 ANDRE / ALBERT / ALDONE Not Provided 04-07-2025 10:36 AM No Date Yet Private Patient Admitted" [ref=e413]:
+                          - cell "SRW Stone Roberson Whitley (M) Private Patient/NA" [ref=e414]:
+                            - generic [ref=e415]:
+                              - generic [ref=e417]: SRW
+                              - generic [ref=e418]:
+                                - link "Stone Roberson Whitley (M)" [ref=e419] [cursor=pointer]:
+                                  - /url: /in-patient/patients/67f8b499c2e23e425bdb2679?tab=admission
+                                - paragraph [ref=e420]: Private Patient/NA
+                          - cell "Luth01145" [ref=e421]:
+                            - paragraph [ref=e422]: Luth01145
+                          - cell "ANDRE / ALBERT / ALDONE" [ref=e423]:
+                            - paragraph [ref=e424]: ANDRE / ALBERT / ALDONE
+                          - cell "Not Provided" [ref=e425]:
+                            - paragraph [ref=e426]: Not Provided
+                          - cell "04-07-2025 10:36 AM" [ref=e427]:
+                            - paragraph [ref=e428]: 04-07-2025 10:36 AM
+                          - cell "No Date Yet" [ref=e429]:
+                            - paragraph [ref=e430]: No Date Yet
+                          - cell "Private Patient" [ref=e431]:
+                            - generic [ref=e432]: Private Patient
+                          - cell "Admitted" [ref=e433]:
+                            - generic [ref=e434] [cursor=pointer]: Admitted
+                          - cell [ref=e435]
+                        - row "EO Elizabeth Oni (F) Private Patient/NA Luth01143 ISREAL / IRAN / RUSSIA Not Provided 04-07-2025 9:55 AM No Date Yet Private Patient Admitted" [ref=e436]:
+                          - cell "EO Elizabeth Oni (F) Private Patient/NA" [ref=e437]:
+                            - generic [ref=e438]:
+                              - generic [ref=e440]: EO
+                              - generic [ref=e441]:
+                                - link "Elizabeth Oni (F)" [ref=e442] [cursor=pointer]:
+                                  - /url: /in-patient/patients/67dd8d04eb047841b49d0882?tab=admission
+                                - paragraph [ref=e443]: Private Patient/NA
+                          - cell "Luth01143" [ref=e444]:
+                            - paragraph [ref=e445]: Luth01143
+                          - cell "ISREAL / IRAN / RUSSIA" [ref=e446]:
+                            - paragraph [ref=e447]: ISREAL / IRAN / RUSSIA
+                          - cell "Not Provided" [ref=e448]:
+                            - paragraph [ref=e449]: Not Provided
+                          - cell "04-07-2025 9:55 AM" [ref=e450]:
+                            - paragraph [ref=e451]: 04-07-2025 9:55 AM
+                          - cell "No Date Yet" [ref=e452]:
+                            - paragraph [ref=e453]: No Date Yet
+                          - cell "Private Patient" [ref=e454]:
+                            - generic [ref=e455]: Private Patient
+                          - cell "Admitted" [ref=e456]:
+                            - generic [ref=e457] [cursor=pointer]: Admitted
+                          - cell [ref=e458]
+                        - row "EO Elizabeth Oni (F) Private Patient/NA Luth01143 partners / e31 / 1456 Cicatricial ectropion of right lower eyelid 03-07-2025 2:10 PM No Date Yet Private Patient Admitted" [ref=e459]:
+                          - cell "EO Elizabeth Oni (F) Private Patient/NA" [ref=e460]:
+                            - generic [ref=e461]:
+                              - generic [ref=e463]: EO
+                              - generic [ref=e464]:
+                                - link "Elizabeth Oni (F)" [ref=e465] [cursor=pointer]:
+                                  - /url: /in-patient/patients/67dd8d04eb047841b49d0882?tab=admission
+                                - paragraph [ref=e466]: Private Patient/NA
+                          - cell "Luth01143" [ref=e467]:
+                            - paragraph [ref=e468]: Luth01143
+                          - cell "partners / e31 / 1456" [ref=e469]:
+                            - paragraph [ref=e470]: partners / e31 / 1456
+                          - cell "Cicatricial ectropion of right lower eyelid" [ref=e471]:
+                            - paragraph [ref=e472]: Cicatricial ectropion of right lower eyelid
+                          - cell "03-07-2025 2:10 PM" [ref=e473]:
+                            - paragraph [ref=e474]: 03-07-2025 2:10 PM
+                          - cell "No Date Yet" [ref=e475]:
+                            - paragraph [ref=e476]: No Date Yet
+                          - cell "Private Patient" [ref=e477]:
+                            - generic [ref=e478]: Private Patient
+                          - cell "Admitted" [ref=e479]:
+                            - generic [ref=e480] [cursor=pointer]: Admitted
+                          - cell [ref=e481]
+                        - row "AA Adewale Ayuba (m) Private Patient/NA Luth00390 0-10 kids / r 2 / g3 TRIPPLE NODE 03-07-2025 1:9 PM No Date Yet Private Patient Admitted" [ref=e482]:
+                          - cell "AA Adewale Ayuba (m) Private Patient/NA" [ref=e483]:
+                            - generic [ref=e484]:
+                              - generic [ref=e486]: AA
+                              - generic [ref=e487]:
+                                - link "Adewale Ayuba (m)" [ref=e488] [cursor=pointer]:
+                                  - /url: /in-patient/patients/64c12b62dd405c738b330568?tab=admission
+                                - paragraph [ref=e489]: Private Patient/NA
+                          - cell "Luth00390" [ref=e490]:
+                            - paragraph [ref=e491]: Luth00390
+                          - cell "0-10 kids / r 2 / g3" [ref=e492]:
+                            - paragraph [ref=e493]: 0-10 kids / r 2 / g3
+                          - cell "TRIPPLE NODE" [ref=e494]:
+                            - paragraph [ref=e495]: TRIPPLE NODE
+                          - cell "03-07-2025 1:9 PM" [ref=e496]:
+                            - paragraph [ref=e497]: 03-07-2025 1:9 PM
+                          - cell "No Date Yet" [ref=e498]:
+                            - paragraph [ref=e499]: No Date Yet
+                          - cell "Private Patient" [ref=e500]:
+                            - generic [ref=e501]: Private Patient
+                          - cell "Admitted" [ref=e502]:
+                            - generic [ref=e503] [cursor=pointer]: Admitted
+                          - cell [ref=e504]
+                        - row "DO DOMINION OYE (M) Private Patient/NA Luth00633 BUST / BOOM / BEAM Not Provided 03-07-2025 1:3 PM No Date Yet Private Patient Admitted" [ref=e505]:
+                          - cell "DO DOMINION OYE (M) Private Patient/NA" [ref=e506]:
+                            - generic [ref=e507]:
+                              - generic [ref=e509]: DO
+                              - generic [ref=e510]:
+                                - link "DOMINION OYE (M)" [ref=e511] [cursor=pointer]:
+                                  - /url: /in-patient/patients/673f22e571cebfdc671650c5?tab=admission
+                                - paragraph [ref=e512]: Private Patient/NA
+                          - cell "Luth00633" [ref=e513]:
+                            - paragraph [ref=e514]: Luth00633
+                          - cell "BUST / BOOM / BEAM" [ref=e515]:
+                            - paragraph [ref=e516]: BUST / BOOM / BEAM
+                          - cell "Not Provided" [ref=e517]:
+                            - paragraph [ref=e518]: Not Provided
+                          - cell "03-07-2025 1:3 PM" [ref=e519]:
+                            - paragraph [ref=e520]: 03-07-2025 1:3 PM
+                          - cell "No Date Yet" [ref=e521]:
+                            - paragraph [ref=e522]: No Date Yet
+                          - cell "Private Patient" [ref=e523]:
+                            - generic [ref=e524]: Private Patient
+                          - cell "Admitted" [ref=e525]:
+                            - generic [ref=e526] [cursor=pointer]: Admitted
+                          - cell [ref=e527]
+                        - 'row "EF ewlkrmgkm` frlgmkmfg (F) Private Patient/NA Luth00595 BUST / BOOM / BEE Not Provided 02-07-2025 8:55 AM No Date Yet Private Patient Admitted" [ref=e528]':
+                          - 'cell "EF ewlkrmgkm` frlgmkmfg (F) Private Patient/NA" [ref=e529]':
+                            - generic [ref=e530]:
+                              - generic [ref=e532]: EF
+                              - generic [ref=e533]:
+                                - 'link "ewlkrmgkm` frlgmkmfg (F)" [ref=e534] [cursor=pointer]':
+                                  - /url: /in-patient/patients/66cc93c4cb15d924c2e6174f?tab=admission
+                                - paragraph [ref=e535]: Private Patient/NA
+                          - cell "Luth00595" [ref=e536]:
+                            - paragraph [ref=e537]: Luth00595
+                          - cell "BUST / BOOM / BEE" [ref=e538]:
+                            - paragraph [ref=e539]: BUST / BOOM / BEE
+                          - cell "Not Provided" [ref=e540]:
+                            - paragraph [ref=e541]: Not Provided
+                          - cell "02-07-2025 8:55 AM" [ref=e542]:
+                            - paragraph [ref=e543]: 02-07-2025 8:55 AM
+                          - cell "No Date Yet" [ref=e544]:
+                            - paragraph [ref=e545]: No Date Yet
+                          - cell "Private Patient" [ref=e546]:
+                            - generic [ref=e547]: Private Patient
+                          - cell "Admitted" [ref=e548]:
+                            - generic [ref=e549] [cursor=pointer]: Admitted
+                          - cell [ref=e550]
+                    - generic [ref=e551]:
+                      - text:  
+                      - generic [ref=e552]:
+                        - generic [ref=e553]:
+                          - generic [ref=e554]: Page
+                          - strong [ref=e555]: 1 of 7
+                        - generic [ref=e556]:
+                          - button " Previous" [disabled] [ref=e557]:
+                            - generic [ref=e558]: 
+                            - generic [ref=e559]: Previous
+                          - button "1" [ref=e560] [cursor=pointer]
+                          - button "2" [ref=e561] [cursor=pointer]
+                          - button "3" [ref=e562] [cursor=pointer]
+                          - button "7" [ref=e563] [cursor=pointer]
+                          - button "Next " [ref=e564] [cursor=pointer]:
+                            - generic [ref=e565]: Next
+                            - generic [ref=e566]: 
+  - generic [ref=e568]:
+    - generic [ref=e569]:
+      - heading "How can we help?" [level=4] [ref=e570]
+      - img [ref=e571] [cursor=pointer]
+    - paragraph [ref=e573]: We are just a few minutes away from responding to your complaint.
+    - button "Send Complaint" [ref=e575] [cursor=pointer]
+```

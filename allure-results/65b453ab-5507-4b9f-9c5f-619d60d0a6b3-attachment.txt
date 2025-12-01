@@ -1,0 +1,4 @@
+✅ Authorization field is enabled. Filling in the code...
+✅ Selected random Check-in date: Saturday, November 22nd,
+✅ Selected random Check-out date: Wednesday, November 26th,
+✔️ Clicked checkbox at index: 2

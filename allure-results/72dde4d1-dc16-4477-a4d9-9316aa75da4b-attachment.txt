@@ -1,0 +1,2 @@
+Appointment is scheduled → proceeding to cancel
+Appointment canceled successfully

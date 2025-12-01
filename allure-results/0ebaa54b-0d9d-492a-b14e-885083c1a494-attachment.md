@@ -1,0 +1,437 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - region "Notifications Alt+T"
+    - generic [ref=e4]:
+      - region "Notifications Alt+T"
+      - main [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - generic [ref=e8]:
+              - img "Indigo EMR" [ref=e10]
+              - generic [ref=e11]:
+                - generic [ref=e13] [cursor=pointer]: L
+                - text: 
+              - navigation [ref=e14]:
+                - link " Dashboard" [ref=e15] [cursor=pointer]:
+                  - /url: /in-patient/dashboard
+                  - generic [ref=e16]: 
+                  - generic [ref=e17]: Dashboard
+                - link " Patients" [ref=e18] [cursor=pointer]:
+                  - /url: /in-patient/patients
+                  - generic [ref=e19]: 
+                  - generic [ref=e20]: Patients
+                - link " Calendar" [ref=e21] [cursor=pointer]:
+                  - /url: /in-patient/calendar
+                  - generic [ref=e22]: 
+                  - generic [ref=e23]: Calendar
+            - list [ref=e25]:
+              - listitem [ref=e26] [cursor=pointer]:
+                - generic [ref=e27]:
+                  - generic [ref=e28]:
+                    - generic [ref=e29]: 
+                    - generic [ref=e30]: 
+                  - generic [ref=e31]: Notification
+              - listitem [ref=e32] [cursor=pointer]:
+                - link " Subscription & payment" [ref=e33]:
+                  - /url: /settings/subscription
+                  - generic [ref=e34]:
+                    - generic [ref=e35]: 
+                    - generic [ref=e36]: Subscription & payment
+              - listitem [ref=e37] [cursor=pointer]:
+                - link " Help Center Answers Here" [ref=e38]:
+                  - /url: /support
+                  - generic [ref=e39]:
+                    - generic [ref=e40]: 
+                    - generic [ref=e41]:
+                      - text: Help Center
+                      - paragraph [ref=e42]: Answers Here
+              - button "Indigo User Avatar Adeolu1 Ogungbesan " [ref=e45] [cursor=pointer]:
+                - img "Indigo User Avatar" [ref=e46]
+                - generic [ref=e47]:
+                  - generic [ref=e48]: Adeolu1 Ogungbesan
+                  - generic [ref=e49]: 
+          - generic [ref=e52]:
+            - heading "Patient Details" [level=3] [ref=e54]
+            - generic [ref=e55]:
+              - generic [ref=e56] [cursor=pointer]:
+                - generic [ref=e57]: 
+                - paragraph [ref=e58]: Go Back
+              - button "Book Surgery" [ref=e60] [cursor=pointer]
+            - generic [ref=e61]:
+              - generic [ref=e64]:
+                - generic [ref=e67]:
+                  - img [ref=e70]
+                  - generic [ref=e73]:
+                    - generic [ref=e74]:
+                      - heading "MISS. P JULS | Luth00517" [level=2] [ref=e75]
+                      - paragraph [ref=e76]: "31 Yrs, Female • Plan: consult"
+                    - paragraph [ref=e78]: Sponsors - ANCHOR BASIC
+                    - generic [ref=e79]:
+                      - generic [ref=e80]:
+                        - generic [ref=e81]: "Wallet Balance:"
+                        - generic [ref=e82]: ₦0
+                      - generic [ref=e83]:
+                        - generic [ref=e84]: "Credit Balance:"
+                        - generic [ref=e85]: ₦0
+                - generic [ref=e87]:
+                  - generic [ref=e88]:
+                    - generic [ref=e89]:
+                      - generic [ref=e90]:
+                        - generic [ref=e91] [cursor=pointer]:
+                          - text: Allergies
+                          - img [ref=e92]
+                        - button "N/A" [ref=e94] [cursor=pointer]:
+                          - generic [ref=e95]: N/A
+                      - generic [ref=e96]:
+                        - generic [ref=e97] [cursor=pointer]:
+                          - text: Medical History
+                          - img [ref=e98]
+                        - button "N/A" [ref=e100] [cursor=pointer]:
+                          - generic [ref=e101]: N/A
+                      - generic [ref=e102]:
+                        - generic [ref=e103] [cursor=pointer]: Previous Diagnosis
+                        - button "N/A" [ref=e104] [cursor=pointer]:
+                          - generic [ref=e105]: N/A
+                    - generic [ref=e106]:
+                      - generic [ref=e108] [cursor=pointer]: 1 Allergies
+                      - button "0 Pending Bills" [ref=e109] [cursor=pointer]:
+                        - generic [ref=e110]: 0 Pending Bills
+                      - button "More Options " [ref=e113] [cursor=pointer]:
+                        - text: More Options
+                        - generic [ref=e114]: 
+                  - button "Show More" [ref=e115] [cursor=pointer]:
+                    - text: Show More
+                    - img
+              - generic [ref=e117]:
+                - list [ref=e119]:
+                  - listitem [ref=e120]:
+                    - link "Profile Details" [ref=e121] [cursor=pointer]:
+                      - /url: /in-patient/patients/653a06450f835a436df80858?tab=profile-details
+                      - generic [ref=e122]: 
+                      - text: Profile Details
+                  - listitem [ref=e123]:
+                    - link "Appointments" [ref=e124] [cursor=pointer]:
+                      - /url: /in-patient/patients/653a06450f835a436df80858?tab=appointments
+                      - generic [ref=e125]: 
+                      - text: Appointments
+                  - listitem [ref=e126]:
+                    - link "Admission" [ref=e127] [cursor=pointer]:
+                      - /url: /in-patient/patients/653a06450f835a436df80858?tab=admission
+                      - generic [ref=e128]: 
+                      - text: Admission
+                  - listitem [ref=e129]:
+                    - link "Surgery" [ref=e130] [cursor=pointer]:
+                      - /url: /in-patient/patients/653a06450f835a436df80858?tab=surgery
+                      - generic [ref=e131]: 
+                      - text: Surgery
+                - generic [ref=e135]:
+                  - generic [ref=e136]:
+                    - generic [ref=e137]:
+                      - heading "Page 1" [level=3] [ref=e138]
+                      - generic [ref=e139]: Total Pages 1
+                    - generic [ref=e140]:
+                      - button "" [disabled] [ref=e141] [cursor=pointer]:
+                        - generic [ref=e142]: 
+                      - button "" [disabled] [ref=e143] [cursor=pointer]:
+                        - generic [ref=e144]: 
+                  - generic [ref=e145]:
+                    - button "Regular Checkup ADMITTED  Cancel admission Extend Admission Await Checkout Patient Referral View Bills ADMITTED 2025-11-21 08:21 AM DAYS USED -7 DISCHARGED ON NA MEDICATIONS Not Provided IV FLUIDS None ALLERGIES None LOCATION Not Provided WARD 0-10 kids ROOM r 1 BED b 2 SPECIALTY ophthalmology Operator Adeolu1 Ogungbesan Discharge Date NA Not Provided" [ref=e146] [cursor=pointer]:
+                      - generic [ref=e147]:
+                        - heading "Regular Checkup" [level=3] [ref=e148]
+                        - generic [ref=e149]: ADMITTED
+                        - generic [ref=e150]:
+                          - generic [ref=e151]: 
+                          - list:
+                            - listitem [ref=e152]: Cancel admission
+                            - listitem [ref=e153]: Extend Admission
+                            - listitem [ref=e154]: Await Checkout
+                            - listitem [ref=e155]: Patient Referral
+                            - listitem [ref=e156]: View Bills
+                      - generic [ref=e158]:
+                        - generic [ref=e159]:
+                          - heading "ADMITTED" [level=4] [ref=e160]
+                          - paragraph [ref=e161]: 2025-11-21 08:21 AM
+                        - generic [ref=e162]:
+                          - heading "DAYS USED" [level=4] [ref=e163]
+                          - paragraph [ref=e164]: "-7"
+                        - generic [ref=e165]:
+                          - heading "DISCHARGED ON" [level=4] [ref=e166]
+                          - paragraph [ref=e167]: NA
+                        - generic [ref=e168]:
+                          - heading "MEDICATIONS" [level=4] [ref=e169]
+                          - paragraph [ref=e170]: Not Provided
+                        - generic [ref=e171]:
+                          - heading "IV FLUIDS" [level=4] [ref=e172]
+                          - paragraph [ref=e173]: None
+                        - generic [ref=e174]:
+                          - heading "ALLERGIES" [level=4] [ref=e175]
+                          - paragraph [ref=e176]: None
+                        - generic [ref=e177]:
+                          - heading "LOCATION" [level=4] [ref=e178]
+                          - paragraph [ref=e179]: Not Provided
+                        - generic [ref=e180]:
+                          - heading "WARD" [level=4] [ref=e181]
+                          - paragraph [ref=e182]: 0-10 kids
+                        - generic [ref=e183]:
+                          - heading "ROOM" [level=4] [ref=e184]
+                          - paragraph [ref=e185]: r 1
+                        - generic [ref=e186]:
+                          - heading "BED" [level=4] [ref=e187]
+                          - paragraph [ref=e188]: b 2
+                        - generic [ref=e189]:
+                          - heading "SPECIALTY" [level=4] [ref=e190]
+                          - paragraph [ref=e191]: ophthalmology
+                        - generic [ref=e192]:
+                          - heading "Operator" [level=4] [ref=e193]
+                          - paragraph [ref=e194]: Adeolu1 Ogungbesan
+                        - generic [ref=e195]:
+                          - heading "Discharge Date" [level=4] [ref=e196]
+                          - paragraph [ref=e197]: NA
+                      - paragraph [ref=e199]: Not Provided
+                    - button "Regular Checkup CHECKED OUT ADMITTED 2025-11-21 02:12 AM DAYS USED -4 DISCHARGED ON 21-13-2025 02:13 AM MEDICATIONS Not Provided IV FLUIDS None ALLERGIES None LOCATION Not Provided WARD 0-10 kids ROOM r 1 BED b 2 SPECIALTY ophthalmology Operator Adeolu1 Ogungbesan Discharge Date 21-13-2025 02:13 AM Not Provided" [ref=e200] [cursor=pointer]:
+                      - generic [ref=e201]:
+                        - heading "Regular Checkup" [level=3] [ref=e202]
+                        - generic [ref=e203]: CHECKED OUT
+                      - generic [ref=e205]:
+                        - generic [ref=e206]:
+                          - heading "ADMITTED" [level=4] [ref=e207]
+                          - paragraph [ref=e208]: 2025-11-21 02:12 AM
+                        - generic [ref=e209]:
+                          - heading "DAYS USED" [level=4] [ref=e210]
+                          - paragraph [ref=e211]: "-4"
+                        - generic [ref=e212]:
+                          - heading "DISCHARGED ON" [level=4] [ref=e213]
+                          - paragraph [ref=e214]: 21-13-2025 02:13 AM
+                        - generic [ref=e215]:
+                          - heading "MEDICATIONS" [level=4] [ref=e216]
+                          - paragraph [ref=e217]: Not Provided
+                        - generic [ref=e218]:
+                          - heading "IV FLUIDS" [level=4] [ref=e219]
+                          - paragraph [ref=e220]: None
+                        - generic [ref=e221]:
+                          - heading "ALLERGIES" [level=4] [ref=e222]
+                          - paragraph [ref=e223]: None
+                        - generic [ref=e224]:
+                          - heading "LOCATION" [level=4] [ref=e225]
+                          - paragraph [ref=e226]: Not Provided
+                        - generic [ref=e227]:
+                          - heading "WARD" [level=4] [ref=e228]
+                          - paragraph [ref=e229]: 0-10 kids
+                        - generic [ref=e230]:
+                          - heading "ROOM" [level=4] [ref=e231]
+                          - paragraph [ref=e232]: r 1
+                        - generic [ref=e233]:
+                          - heading "BED" [level=4] [ref=e234]
+                          - paragraph [ref=e235]: b 2
+                        - generic [ref=e236]:
+                          - heading "SPECIALTY" [level=4] [ref=e237]
+                          - paragraph [ref=e238]: ophthalmology
+                        - generic [ref=e239]:
+                          - heading "Operator" [level=4] [ref=e240]
+                          - paragraph [ref=e241]: Adeolu1 Ogungbesan
+                        - generic [ref=e242]:
+                          - heading "Discharge Date" [level=4] [ref=e243]
+                          - paragraph [ref=e244]: 21-13-2025 02:13 AM
+                      - paragraph [ref=e246]: Not Provided
+                    - button "Regular Checkup CHECKED OUT ADMITTED 2025-11-21 01:58 AM DAYS USED -4 DISCHARGED ON 21-02-2025 02:02 AM MEDICATIONS Not Provided IV FLUIDS None ALLERGIES None LOCATION Not Provided WARD 0-10 kids ROOM r 1 BED b 2 SPECIALTY ophthalmology Operator Adeolu1 Ogungbesan Discharge Date 21-02-2025 02:02 AM Not Provided" [ref=e247] [cursor=pointer]:
+                      - generic [ref=e248]:
+                        - heading "Regular Checkup" [level=3] [ref=e249]
+                        - generic [ref=e250]: CHECKED OUT
+                      - generic [ref=e252]:
+                        - generic [ref=e253]:
+                          - heading "ADMITTED" [level=4] [ref=e254]
+                          - paragraph [ref=e255]: 2025-11-21 01:58 AM
+                        - generic [ref=e256]:
+                          - heading "DAYS USED" [level=4] [ref=e257]
+                          - paragraph [ref=e258]: "-4"
+                        - generic [ref=e259]:
+                          - heading "DISCHARGED ON" [level=4] [ref=e260]
+                          - paragraph [ref=e261]: 21-02-2025 02:02 AM
+                        - generic [ref=e262]:
+                          - heading "MEDICATIONS" [level=4] [ref=e263]
+                          - paragraph [ref=e264]: Not Provided
+                        - generic [ref=e265]:
+                          - heading "IV FLUIDS" [level=4] [ref=e266]
+                          - paragraph [ref=e267]: None
+                        - generic [ref=e268]:
+                          - heading "ALLERGIES" [level=4] [ref=e269]
+                          - paragraph [ref=e270]: None
+                        - generic [ref=e271]:
+                          - heading "LOCATION" [level=4] [ref=e272]
+                          - paragraph [ref=e273]: Not Provided
+                        - generic [ref=e274]:
+                          - heading "WARD" [level=4] [ref=e275]
+                          - paragraph [ref=e276]: 0-10 kids
+                        - generic [ref=e277]:
+                          - heading "ROOM" [level=4] [ref=e278]
+                          - paragraph [ref=e279]: r 1
+                        - generic [ref=e280]:
+                          - heading "BED" [level=4] [ref=e281]
+                          - paragraph [ref=e282]: b 2
+                        - generic [ref=e283]:
+                          - heading "SPECIALTY" [level=4] [ref=e284]
+                          - paragraph [ref=e285]: ophthalmology
+                        - generic [ref=e286]:
+                          - heading "Operator" [level=4] [ref=e287]
+                          - paragraph [ref=e288]: Adeolu1 Ogungbesan
+                        - generic [ref=e289]:
+                          - heading "Discharge Date" [level=4] [ref=e290]
+                          - paragraph [ref=e291]: 21-02-2025 02:02 AM
+                      - paragraph [ref=e293]: Not Provided
+  - dialog [ref=e294]:
+    - document:
+      - generic [ref=e296]:
+        - generic [ref=e299]:
+          - heading "Hospital Discharge Form" [level=3] [ref=e301]
+          - img [ref=e303] [cursor=pointer]
+        - generic [ref=e308]:
+          - generic [ref=e310]:
+            - img "Hospital logo" [ref=e311]
+            - paragraph [ref=e312]: Luth
+          - heading "Patient's Information" [level=5] [ref=e313]
+          - generic [ref=e314]:
+            - generic [ref=e315]:
+              - generic [ref=e316]:
+                - generic [ref=e317]:
+                  - generic [ref=e318]: "Name:"
+                  - generic [ref=e319]: P JULS
+                - generic [ref=e320]:
+                  - generic [ref=e321]: "Date admitted/ time:"
+                  - generic [ref=e322]: 29/11/2025 01:00 AM
+              - generic [ref=e323]:
+                - generic [ref=e324]:
+                  - generic [ref=e325]: "Gender:"
+                  - generic [ref=e326]: Female
+                - generic [ref=e327]:
+                  - generic [ref=e328]: "Admitting consultant:"
+                  - generic [ref=e329]: Charles Xavier
+              - generic [ref=e330]:
+                - generic [ref=e331]:
+                  - generic [ref=e332]: "MRN:"
+                  - generic [ref=e333]: Luth00517
+                - generic [ref=e334]:
+                  - generic [ref=e335]: "Reason for admission:"
+                  - generic [ref=e336]: Regular Checkup
+              - generic [ref=e337]:
+                - generic [ref=e338]:
+                  - generic [ref=e339]: "Age:"
+                  - generic [ref=e340]: "31"
+                - generic [ref=e341]:
+                  - generic [ref=e342]: "Diagnosis at admission:"
+                  - generic [ref=e343]: Not Provided
+            - generic [ref=e345]:
+              - img "Sponsor Logo" [ref=e346]
+              - paragraph [ref=e347]: ANCHOR
+              - paragraph [ref=e348]: Goldcrest plaza, Lekki - Epe Expressway, Lagos, Nigeria
+              - paragraph [ref=e349]: "2348031230306"
+          - heading "Complete this form for all hospital discharges." [level=5] [ref=e350]
+          - generic [ref=e351]:
+            - paragraph [ref=e353]: Admission details
+            - generic [ref=e354]:
+              - generic [ref=e356]:
+                - generic [ref=e358]: Attending Physician
+                - generic [ref=e359]:
+                  - log [ref=e361]
+                  - generic [ref=e362]:
+                    - generic [ref=e363]:
+                      - generic [ref=e364]: Damilare Adekola
+                      - combobox [ref=e366]
+                    - img [ref=e369]
+              - generic [ref=e372]:
+                - generic [ref=e374]: Attending Nurse
+                - generic [ref=e375]:
+                  - log [ref=e377]
+                  - generic [ref=e378]:
+                    - generic [ref=e379]:
+                      - generic [ref=e380]: Charles Xavier
+                      - combobox [ref=e382]
+                    - img [ref=e385]
+              - generic [ref=e388]:
+                - generic [ref=e389]:
+                  - text: Treatment Summary
+                  - generic [ref=e390]: "*"
+                - textbox "Type here" [ref=e391]: Patient treated successfully and ready for discharge.
+          - generic [ref=e392]:
+            - paragraph [ref=e394]: Discharge details
+            - generic [ref=e395]:
+              - generic [ref=e398]:
+                - generic [ref=e400]: Symptoms
+                - textbox "Search symptoms..." [ref=e401]
+              - generic [ref=e404]:
+                - generic [ref=e406]: Diagnosis at discharge
+                - textbox "Search diagnosis at discharge..." [ref=e407]
+              - generic [ref=e409]:
+                - generic [ref=e410]: Reason for discharge *
+                - generic [ref=e411]:
+                  - generic [ref=e412]:
+                    - checkbox [ref=e413]
+                    - generic [ref=e415]: Patient Deceased
+                  - generic [ref=e416]:
+                    - checkbox [ref=e417]
+                    - generic [ref=e419]: Termination with approval
+                  - generic [ref=e420]:
+                    - checkbox [ref=e421]
+                    - generic [ref=e423]: Termination without approval
+                  - generic [ref=e424]:
+                    - checkbox [checked] [ref=e425]
+                    - generic [ref=e427]: Refer To Specialist Hospital
+                  - generic [ref=e428]:
+                    - checkbox [ref=e429]
+                    - generic [ref=e431]: Transfer To Ward
+                  - generic [ref=e432]:
+                    - checkbox [ref=e433]
+                    - generic [ref=e435]: Transfer To Department
+              - generic [ref=e437]:
+                - generic [ref=e438]:
+                  - text: Discharge Plan
+                  - generic [ref=e439]: "*"
+                - textbox "Type here" [ref=e440]: Patient to follow up in 2 weeks.
+              - button "Follow up date November 21st, 2025 " [active] [ref=e442] [cursor=pointer]:
+                - generic [ref=e443]:
+                  - generic [ref=e444]:
+                    - paragraph [ref=e445]: Follow up date
+                    - text: November 21st, 2025
+                  - generic [ref=e446]: 
+              - generic [ref=e448]:
+                - generic [ref=e449]: Discharge services
+                - generic [ref=e452]:
+                  - checkbox [ref=e453]
+                  - generic [ref=e455]: TAxi
+                - generic [ref=e458]:
+                  - checkbox [ref=e459]
+                  - generic [ref=e461]: Home nurse
+                - generic [ref=e464]:
+                  - checkbox [ref=e465]
+                  - generic [ref=e467]: Medicine Delivery
+              - generic [ref=e469]:
+                - generic [ref=e470]:
+                  - text: Clinical comment
+                  - generic [ref=e471]: "*"
+                - textbox "Type here" [ref=e472]
+              - button " Add take-out medications" [ref=e474] [cursor=pointer]:
+                - generic [ref=e475]: 
+                - generic [ref=e476]: Add take-out medications
+              - generic [ref=e478]:
+                - checkbox [ref=e479]
+                - generic [ref=e481]: Make bed available
+              - generic [ref=e483]:
+                - paragraph [ref=e484]: Pending Bills
+                - paragraph [ref=e485]: ₦0
+                - paragraph [ref=e486]: Should patient be billed for TODAY’S bedspace?
+                - generic [ref=e487]:
+                  - generic [ref=e489] [cursor=pointer]:
+                    - text: "Yes"
+                    - radio "Yes"
+                  - generic [ref=e492] [cursor=pointer]:
+                    - text: "No"
+                    - radio "No" [checked]
+              - generic [ref=e494]:
+                - button "Print" [ref=e495] [cursor=pointer]
+                - button " Send to email" [disabled] [ref=e496]:
+                  - generic [ref=e497]: 
+                  - generic [ref=e498]: Send to email
+                - button "Submit" [disabled] [ref=e499]
+```

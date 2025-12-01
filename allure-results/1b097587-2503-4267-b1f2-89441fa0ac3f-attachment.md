@@ -1,0 +1,239 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - region "Notifications Alt+T"
+  - generic [ref=e4]:
+    - region "Notifications Alt+T"
+    - main [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e8]:
+            - img "Indigo EMR" [ref=e10]
+            - generic [ref=e11]:
+              - generic [ref=e13] [cursor=pointer]: L
+              - text: 
+            - navigation [ref=e14]:
+              - link " Dashboard" [ref=e15] [cursor=pointer]:
+                - /url: /frontdesk/dashboard
+                - generic [ref=e16]: 
+                - generic [ref=e17]: Dashboard
+              - link " Patients" [ref=e18] [cursor=pointer]:
+                - /url: /frontdesk/patients
+                - generic [ref=e19]: 
+                - generic [ref=e20]: Patients
+              - link " Appointments" [ref=e21] [cursor=pointer]:
+                - /url: /frontdesk/appointments
+                - generic [ref=e22]: 
+                - generic [ref=e23]: Appointments
+              - link " Calendar" [ref=e24] [cursor=pointer]:
+                - /url: /frontdesk/calendar
+                - generic [ref=e25]: 
+                - generic [ref=e26]: Calendar
+          - list [ref=e28]:
+            - listitem [ref=e29] [cursor=pointer]:
+              - generic [ref=e30]:
+                - generic [ref=e31]:
+                  - generic [ref=e32]: 
+                  - generic [ref=e33]: 
+                - generic [ref=e34]: Notification
+            - listitem [ref=e35] [cursor=pointer]:
+              - link " Subscription & payment" [ref=e36]:
+                - /url: /settings/subscription
+                - generic [ref=e37]:
+                  - generic [ref=e38]: 
+                  - generic [ref=e39]: Subscription & payment
+            - listitem [ref=e40] [cursor=pointer]:
+              - link " Help Center Answers Here" [ref=e41]:
+                - /url: /support
+                - generic [ref=e42]:
+                  - generic [ref=e43]: 
+                  - generic [ref=e44]:
+                    - text: Help Center
+                    - paragraph [ref=e45]: Answers Here
+            - button "Indigo User Avatar Adeolu1 Ogungbesan " [ref=e48] [cursor=pointer]:
+              - img "Indigo User Avatar" [ref=e49]
+              - generic [ref=e50]:
+                - generic [ref=e51]: Adeolu1 Ogungbesan
+                - generic [ref=e52]: 
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - heading "Patient Details" [level=3] [ref=e57]
+            - generic [ref=e58]:
+              - button "Book Future Appointment" [ref=e59] [cursor=pointer]
+              - button "Check Out" [ref=e61] [cursor=pointer]
+          - generic [ref=e63] [cursor=pointer]:
+            - generic [ref=e64]: 
+            - paragraph [ref=e65]: Go Back
+          - generic [ref=e66]:
+            - generic [ref=e69]:
+              - generic [ref=e72]:
+                - img [ref=e75]
+                - generic [ref=e78]:
+                  - generic [ref=e79]:
+                    - heading "PROF. Eunice Smith | Luth01338" [level=2] [ref=e80]
+                    - paragraph [ref=e81]: "68 Yrs, Female • Plan: Average"
+                  - paragraph [ref=e83]: Sponsors - Private Patient
+                  - generic [ref=e84]:
+                    - generic [ref=e85]:
+                      - generic [ref=e86]: "Wallet Balance:"
+                      - generic [ref=e87]: ₦0
+                    - generic [ref=e88]:
+                      - generic [ref=e89]: "Credit Balance:"
+                      - generic [ref=e90]: ₦0
+              - generic [ref=e92]:
+                - generic [ref=e93]:
+                  - generic [ref=e94]:
+                    - generic [ref=e95]:
+                      - generic [ref=e96] [cursor=pointer]:
+                        - text: Allergies
+                        - img [ref=e97]
+                      - button "N/A" [ref=e99] [cursor=pointer]:
+                        - generic [ref=e100]: N/A
+                    - generic [ref=e101]:
+                      - generic [ref=e102] [cursor=pointer]:
+                        - text: Medical History
+                        - img [ref=e103]
+                      - button "N/A" [ref=e105] [cursor=pointer]:
+                        - generic [ref=e106]: N/A
+                    - generic [ref=e107]:
+                      - generic [ref=e108] [cursor=pointer]: Previous Diagnosis
+                      - button "N/A" [ref=e109] [cursor=pointer]:
+                        - generic [ref=e110]: N/A
+                  - generic [ref=e111]:
+                    - button "0 Pending Bills" [ref=e112] [cursor=pointer]:
+                      - generic [ref=e113]: 0 Pending Bills
+                    - button "More Options " [ref=e116] [cursor=pointer]:
+                      - text: More Options
+                      - generic [ref=e117]: 
+                - button "Show More" [ref=e118] [cursor=pointer]:
+                  - text: Show More
+                  - img
+            - generic [ref=e120]:
+              - list [ref=e122]:
+                - listitem [ref=e123]:
+                  - link "Profile Details" [ref=e124] [cursor=pointer]:
+                    - /url: /frontdesk/patients/68ecdaab1416c119266ee5f8?tab=profile-details
+                    - generic [ref=e125]: 
+                    - text: Profile Details
+                - listitem [ref=e126]:
+                  - link "Appointments" [ref=e127] [cursor=pointer]:
+                    - /url: /frontdesk/patients/68ecdaab1416c119266ee5f8?tab=appointments
+                    - generic [ref=e128]: 
+                    - text: Appointments
+              - generic [ref=e132]:
+                - heading "Appointments" [level=4] [ref=e134]
+                - generic [ref=e136]:
+                  - generic [ref=e137]:
+                    - heading "Future Appointment" [level=5] [ref=e138]
+                    - heading "No Upcoming Appointment Yet" [level=4] [ref=e142]
+                  - generic [ref=e143]:
+                    - heading "Present" [level=5] [ref=e144]
+                    - heading "No Appointment Yet" [level=4] [ref=e148]
+                  - generic [ref=e149]:
+                    - generic [ref=e150]:
+                      - generic [ref=e151]:
+                        - generic [ref=e152]:
+                          - heading "Page 1" [level=3] [ref=e153]
+                          - generic [ref=e154]: Total Pages 1
+                        - generic [ref=e155]:
+                          - button "" [disabled] [ref=e156] [cursor=pointer]:
+                            - generic [ref=e157]: 
+                          - button "" [disabled] [ref=e158] [cursor=pointer]:
+                            - generic [ref=e159]: 
+                      - generic [ref=e160]:
+                        - generic [ref=e161]:
+                          - paragraph [ref=e162]: From
+                          - button "DD-MM-YYYY " [ref=e163] [cursor=pointer]:
+                            - generic [ref=e164]:
+                              - generic [ref=e165]:
+                                - paragraph
+                                - text: DD-MM-YYYY
+                              - generic [ref=e166]: 
+                        - generic [ref=e167]:
+                          - paragraph [ref=e168]: To
+                          - button "DD-MM-YYYY " [ref=e169] [cursor=pointer]:
+                            - generic [ref=e170]:
+                              - generic [ref=e171]:
+                                - paragraph
+                                - text: DD-MM-YYYY
+                              - generic [ref=e172]: 
+                    - generic [ref=e173]:
+                      - heading "Past" [level=5] [ref=e174]
+                      - generic [ref=e175]:
+                        - generic [ref=e178] [cursor=pointer]:
+                          - generic [ref=e180]:
+                            - generic [ref=e181]: 
+                            - generic [ref=e182]: vitals
+                          - generic [ref=e183]:
+                            - generic [ref=e184]:
+                              - generic [ref=e186]: ES
+                              - heading "Eunice Smith" [level=3] [ref=e187]
+                            - generic [ref=e188]: scheduled
+                          - generic [ref=e189]:
+                            - generic [ref=e190]:
+                              - heading "DATE" [level=4] [ref=e191]
+                              - paragraph [ref=e192]: 13/10/2025
+                            - generic [ref=e193]:
+                              - heading "TIME" [level=4] [ref=e194]
+                              - paragraph [ref=e195]: 12:54 PM - 1:01 PM
+                            - generic [ref=e196]:
+                              - heading "REASON" [level=4] [ref=e197]
+                              - paragraph [ref=e198]: Appt Test Mo...
+                            - generic [ref=e199]:
+                              - heading "CONSULTANT" [level=4] [ref=e200]
+                              - paragraph [ref=e201]: Adeolu1 Ogungbesan
+                            - generic [ref=e202]:
+                              - heading "SPECIALTY" [level=4] [ref=e203]
+                              - paragraph [ref=e204]: General Practice
+                        - generic [ref=e207] [cursor=pointer]:
+                          - generic [ref=e209]:
+                            - generic [ref=e210]: 
+                            - generic [ref=e211]: vitals
+                          - generic [ref=e212]:
+                            - generic [ref=e213]:
+                              - generic [ref=e215]: ES
+                              - heading "Eunice Smith" [level=3] [ref=e216]
+                            - generic [ref=e217]: systemDone
+                          - generic [ref=e218]:
+                            - generic [ref=e219]:
+                              - heading "DATE" [level=4] [ref=e220]
+                              - paragraph [ref=e221]: 13/10/2025
+                            - generic [ref=e222]:
+                              - heading "TIME" [level=4] [ref=e223]
+                              - paragraph [ref=e224]: 2:53 PM - 3:00 PM
+                            - generic [ref=e225]:
+                              - heading "REASON" [level=4] [ref=e226]
+                              - paragraph [ref=e227]: Appt Test Mo...
+                            - generic [ref=e228]:
+                              - heading "CONSULTANT" [level=4] [ref=e229]
+                              - paragraph [ref=e230]: Adeolu1 Ogungbesan
+                            - generic [ref=e231]:
+                              - heading "SPECIALTY" [level=4] [ref=e232]
+                              - paragraph [ref=e233]: General Practice
+                        - generic [ref=e236] [cursor=pointer]:
+                          - generic [ref=e238]:
+                            - generic [ref=e239]: 
+                            - generic [ref=e240]: vitals
+                          - generic [ref=e241]:
+                            - generic [ref=e242]:
+                              - generic [ref=e244]: ES
+                              - heading "Eunice Smith" [level=3] [ref=e245]
+                            - generic [ref=e246]: systemDone
+                          - generic [ref=e247]:
+                            - generic [ref=e248]:
+                              - heading "DATE" [level=4] [ref=e249]
+                              - paragraph [ref=e250]: 13/10/2025
+                            - generic [ref=e251]:
+                              - heading "TIME" [level=4] [ref=e252]
+                              - paragraph [ref=e253]: 3:07 PM - 3:14 PM
+                            - generic [ref=e254]:
+                              - heading "REASON" [level=4] [ref=e255]
+                              - paragraph [ref=e256]: Appt Test Mo...
+                            - generic [ref=e257]:
+                              - heading "CONSULTANT" [level=4] [ref=e258]
+                              - paragraph [ref=e259]: Adeolu1 Ogungbesan
+                            - generic [ref=e260]:
+                              - heading "SPECIALTY" [level=4] [ref=e261]
+                              - paragraph [ref=e262]: General Practice
+```

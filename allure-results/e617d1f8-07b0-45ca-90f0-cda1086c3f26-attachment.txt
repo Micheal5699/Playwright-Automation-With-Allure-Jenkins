@@ -1,0 +1,2 @@
+✅ Cancel Appointment modal is visible
+✅ Clicked Cancel button on the modal

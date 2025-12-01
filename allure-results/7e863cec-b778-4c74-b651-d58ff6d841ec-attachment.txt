@@ -1,0 +1,7 @@
+✅ Authorization field is enabled. Filling in the code...
+✅ Selected random Check-in date: Monday, November 24th,
+✅ Selected random Check-out date: Wednesday, November 26th,
+✔️ Clicked checkbox at index: 1
+‼️  Enter Discharge Plan to enable the Submit button.
+🟦 FINAL UI LABEL TO CLICK: Tuesday, November 25th,
+✔️ Clicked custom checkbox at index: 2

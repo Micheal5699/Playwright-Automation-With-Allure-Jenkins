@@ -1,0 +1,5 @@
+Initial Emergency Patient Count: NaN
+✅ Authorization field is enabled. Filling in the code...
+✅ Selected random Check-in date: Monday, November 24th,
+✅ Selected random Check-out date: Saturday, November 29th,
+Updated Emergency Patient Count: NaN

@@ -1,0 +1,4 @@
+✅ Authorization field is enabled. Filling in the code...
+✅ Selected random Check-in date: Saturday, November 22nd,
+✅ Selected random Check-out date: Sunday, November 23rd,
+⚠️ Submit button is disabled, please enter treatment summary before proceeding.

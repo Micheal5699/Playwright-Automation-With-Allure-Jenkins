@@ -1,0 +1,244 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - region "Notifications Alt+T"
+  - generic [ref=e4]:
+    - region "Notifications Alt+T"
+    - main [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e8]:
+            - img "Indigo EMR" [ref=e10]
+            - generic [ref=e11]:
+              - generic [ref=e13] [cursor=pointer]: L
+              - text: 
+            - navigation [ref=e14]:
+              - link " Dashboard" [ref=e15] [cursor=pointer]:
+                - /url: /in-patient/dashboard
+                - generic [ref=e16]: 
+                - generic [ref=e17]: Dashboard
+              - link " Patients" [ref=e18] [cursor=pointer]:
+                - /url: /in-patient/patients
+                - generic [ref=e19]: 
+                - generic [ref=e20]: Patients
+              - link " Calendar" [ref=e21] [cursor=pointer]:
+                - /url: /in-patient/calendar
+                - generic [ref=e22]: 
+                - generic [ref=e23]: Calendar
+          - list [ref=e25]:
+            - listitem [ref=e26] [cursor=pointer]:
+              - generic [ref=e27]:
+                - generic [ref=e28]:
+                  - generic [ref=e29]: 
+                  - generic [ref=e30]: 
+                - generic [ref=e31]: Notification
+            - listitem [ref=e32] [cursor=pointer]:
+              - link " Subscription & payment" [ref=e33]:
+                - /url: /settings/subscription
+                - generic [ref=e34]:
+                  - generic [ref=e35]: 
+                  - generic [ref=e36]: Subscription & payment
+            - listitem [ref=e37] [cursor=pointer]:
+              - link " Help Center Answers Here" [ref=e38]:
+                - /url: /support
+                - generic [ref=e39]:
+                  - generic [ref=e40]: 
+                  - generic [ref=e41]:
+                    - text: Help Center
+                    - paragraph [ref=e42]: Answers Here
+            - button "Indigo User Avatar Adeolu1 Ogungbesan " [ref=e45] [cursor=pointer]:
+              - img "Indigo User Avatar" [ref=e46]
+              - generic [ref=e47]:
+                - generic [ref=e48]: Adeolu1 Ogungbesan
+                - generic [ref=e49]: 
+        - generic [ref=e52]:
+          - heading "Patient Details" [level=3] [ref=e54]
+          - generic [ref=e55]:
+            - generic [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: 
+              - paragraph [ref=e58]: Go Back
+            - button "Book Surgery" [ref=e60] [cursor=pointer]
+          - generic [ref=e61]:
+            - generic [ref=e64]:
+              - generic [ref=e67]:
+                - img [ref=e70]
+                - generic [ref=e73]:
+                  - generic [ref=e74]:
+                    - heading "MISS. oviemena daniel a | Luth00458" [level=2] [ref=e75]
+                    - paragraph [ref=e76]: "34 Yrs, Female • Plan: patient"
+                  - paragraph [ref=e78]: Sponsors - ANCHOR BASIC
+                  - generic [ref=e79]:
+                    - generic [ref=e81]: "Wallet Balance:"
+                    - generic [ref=e83]: "Credit Balance:"
+              - generic [ref=e85]:
+                - generic [ref=e86]:
+                  - generic [ref=e87]:
+                    - generic [ref=e88]:
+                      - generic [ref=e89] [cursor=pointer]:
+                        - text: Allergies
+                        - img [ref=e90]
+                      - button "N/A" [ref=e92] [cursor=pointer]:
+                        - generic [ref=e93]: N/A
+                    - generic [ref=e94]:
+                      - generic [ref=e95] [cursor=pointer]:
+                        - text: Medical History
+                        - img [ref=e96]
+                      - button "Diabetes PUV" [ref=e98] [cursor=pointer]:
+                        - generic [ref=e99]: Diabetes
+                        - generic [ref=e100]: PUV
+                      - button "+ 4" [ref=e101] [cursor=pointer]
+                    - generic [ref=e102]:
+                      - generic [ref=e103] [cursor=pointer]: Previous Diagnosis
+                      - button "N/A" [ref=e104] [cursor=pointer]:
+                        - generic [ref=e105]: N/A
+                  - generic [ref=e106]:
+                    - generic [ref=e108] [cursor=pointer]: 1 Allergies
+                    - button "0 Pending Bills" [ref=e109] [cursor=pointer]:
+                      - generic [ref=e110]: 0 Pending Bills
+                    - button "More Options " [ref=e113] [cursor=pointer]:
+                      - text: More Options
+                      - generic [ref=e114]: 
+                - button "Show More" [ref=e115] [cursor=pointer]:
+                  - text: Show More
+                  - img
+            - generic [ref=e117]:
+              - list [ref=e119]:
+                - listitem [ref=e120]:
+                  - link "Profile Details" [ref=e121] [cursor=pointer]:
+                    - /url: /in-patient/patients/650a2a517d0302f5eba8cb92?tab=profile-details
+                    - generic [ref=e122]: 
+                    - text: Profile Details
+                - listitem [ref=e123]:
+                  - link "Appointments" [ref=e124] [cursor=pointer]:
+                    - /url: /in-patient/patients/650a2a517d0302f5eba8cb92?tab=appointments
+                    - generic [ref=e125]: 
+                    - text: Appointments
+                - listitem [ref=e126]:
+                  - link "Admission" [ref=e127] [cursor=pointer]:
+                    - /url: /in-patient/patients/650a2a517d0302f5eba8cb92?tab=admission
+                    - generic [ref=e128]: 
+                    - text: Admission
+                - listitem [ref=e129]:
+                  - link "Surgery" [ref=e130] [cursor=pointer]:
+                    - /url: /in-patient/patients/650a2a517d0302f5eba8cb92?tab=surgery
+                    - generic [ref=e131]: 
+                    - text: Surgery
+              - generic [ref=e135]:
+                - generic [ref=e136]:
+                  - generic [ref=e137]:
+                    - heading "Page 1" [level=3] [ref=e138]
+                    - generic [ref=e139]: Total Pages 1
+                  - generic [ref=e140]:
+                    - button "" [disabled] [ref=e141] [cursor=pointer]:
+                      - generic [ref=e142]: 
+                    - button "" [disabled] [ref=e143] [cursor=pointer]:
+                      - generic [ref=e144]: 
+                - generic [ref=e145]:
+                  - button "Regular Checkup ADMITTED  Cancel admission Extend Admission Await Checkout Patient Referral View Bills ADMITTED 2025-11-21 01:09 AM DAYS USED -1 DISCHARGED ON NA MEDICATIONS Not Provided IV FLUIDS None ALLERGIES None LOCATION Not Provided WARD 0-10 kids ROOM r 1 BED b 2 SPECIALTY ophthalmology Operator Adeolu1 Ogungbesan Discharge Date NA Not Provided" [ref=e146] [cursor=pointer]:
+                    - generic [ref=e147]:
+                      - heading "Regular Checkup" [level=3] [ref=e148]
+                      - generic [ref=e149]: ADMITTED
+                      - generic [ref=e150]:
+                        - generic [ref=e151]: 
+                        - list:
+                          - listitem [ref=e152]: Cancel admission
+                          - listitem [ref=e153]: Extend Admission
+                          - listitem [ref=e154]: Await Checkout
+                          - listitem [ref=e155]: Patient Referral
+                          - listitem [ref=e156]: View Bills
+                    - generic [ref=e158]:
+                      - generic [ref=e159]:
+                        - heading "ADMITTED" [level=4] [ref=e160]
+                        - paragraph [ref=e161]: 2025-11-21 01:09 AM
+                      - generic [ref=e162]:
+                        - heading "DAYS USED" [level=4] [ref=e163]
+                        - paragraph [ref=e164]: "-1"
+                      - generic [ref=e165]:
+                        - heading "DISCHARGED ON" [level=4] [ref=e166]
+                        - paragraph [ref=e167]: NA
+                      - generic [ref=e168]:
+                        - heading "MEDICATIONS" [level=4] [ref=e169]
+                        - paragraph [ref=e170]: Not Provided
+                      - generic [ref=e171]:
+                        - heading "IV FLUIDS" [level=4] [ref=e172]
+                        - paragraph [ref=e173]: None
+                      - generic [ref=e174]:
+                        - heading "ALLERGIES" [level=4] [ref=e175]
+                        - paragraph [ref=e176]: None
+                      - generic [ref=e177]:
+                        - heading "LOCATION" [level=4] [ref=e178]
+                        - paragraph [ref=e179]: Not Provided
+                      - generic [ref=e180]:
+                        - heading "WARD" [level=4] [ref=e181]
+                        - paragraph [ref=e182]: 0-10 kids
+                      - generic [ref=e183]:
+                        - heading "ROOM" [level=4] [ref=e184]
+                        - paragraph [ref=e185]: r 1
+                      - generic [ref=e186]:
+                        - heading "BED" [level=4] [ref=e187]
+                        - paragraph [ref=e188]: b 2
+                      - generic [ref=e189]:
+                        - heading "SPECIALTY" [level=4] [ref=e190]
+                        - paragraph [ref=e191]: ophthalmology
+                      - generic [ref=e192]:
+                        - heading "Operator" [level=4] [ref=e193]
+                        - paragraph [ref=e194]: Adeolu1 Ogungbesan
+                      - generic [ref=e195]:
+                        - heading "Discharge Date" [level=4] [ref=e196]
+                        - paragraph [ref=e197]: NA
+                    - paragraph [ref=e199]: Not Provided
+                  - button "SURGERY Checkout  Cancel admission Extend Admission Await Checkout Patient Referral View Bills ADMITTED 2023-09-21 09:42 PM DAYS USED 792 DISCHARGED ON 04-39-2023 10:39 AM MEDICATIONS Not Provided IV FLUIDS None ALLERGIES None LOCATION Not Provided WARD managers ROOM e29 BED 03 SPECIALTY generalPractice Operator Phebe Akozor Discharge Date 04-39-2023 10:39 AM Not Provided" [ref=e200] [cursor=pointer]:
+                    - generic [ref=e201]:
+                      - heading "SURGERY" [level=3] [ref=e202]
+                      - generic [ref=e204]: Checkout
+                      - generic [ref=e205]:
+                        - generic [ref=e206]: 
+                        - list:
+                          - listitem [ref=e207]: Cancel admission
+                          - listitem [ref=e208]: Extend Admission
+                          - listitem [ref=e209]: Await Checkout
+                          - listitem [ref=e210]: Patient Referral
+                          - listitem [ref=e211]: View Bills
+                    - generic [ref=e213]:
+                      - generic [ref=e214]:
+                        - heading "ADMITTED" [level=4] [ref=e215]
+                        - paragraph [ref=e216]: 2023-09-21 09:42 PM
+                      - generic [ref=e217]:
+                        - heading "DAYS USED" [level=4] [ref=e218]
+                        - paragraph [ref=e219]: "792"
+                      - generic [ref=e220]:
+                        - heading "DISCHARGED ON" [level=4] [ref=e221]
+                        - paragraph [ref=e222]: 04-39-2023 10:39 AM
+                      - generic [ref=e223]:
+                        - heading "MEDICATIONS" [level=4] [ref=e224]
+                        - paragraph [ref=e225]: Not Provided
+                      - generic [ref=e226]:
+                        - heading "IV FLUIDS" [level=4] [ref=e227]
+                        - paragraph [ref=e228]: None
+                      - generic [ref=e229]:
+                        - heading "ALLERGIES" [level=4] [ref=e230]
+                        - paragraph [ref=e231]: None
+                      - generic [ref=e232]:
+                        - heading "LOCATION" [level=4] [ref=e233]
+                        - paragraph [ref=e234]: Not Provided
+                      - generic [ref=e235]:
+                        - heading "WARD" [level=4] [ref=e236]
+                        - paragraph [ref=e237]: managers
+                      - generic [ref=e238]:
+                        - heading "ROOM" [level=4] [ref=e239]
+                        - paragraph [ref=e240]: e29
+                      - generic [ref=e241]:
+                        - heading "BED" [level=4] [ref=e242]
+                        - paragraph [ref=e243]: "03"
+                      - generic [ref=e244]:
+                        - heading "SPECIALTY" [level=4] [ref=e245]
+                        - paragraph [ref=e246]: generalPractice
+                      - generic [ref=e247]:
+                        - heading "Operator" [level=4] [ref=e248]
+                        - paragraph [ref=e249]: Phebe Akozor
+                      - generic [ref=e250]:
+                        - heading "Discharge Date" [level=4] [ref=e251]
+                        - paragraph [ref=e252]: 04-39-2023 10:39 AM
+                    - paragraph [ref=e254]: Not Provided
+```

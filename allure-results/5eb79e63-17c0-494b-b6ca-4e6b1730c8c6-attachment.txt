@@ -1,0 +1,2 @@
+🟥 RAW CHECK-OUT TEXT: Check-out-date 
+🟦 TRIMMED: Check-out-date

@@ -1,0 +1,3 @@
+Appointment is scheduled → proceeding to cancel
+Appointment canceled successfully
+✅ Success message verified: Appointment terminated successfully

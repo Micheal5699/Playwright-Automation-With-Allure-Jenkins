@@ -1,0 +1,6 @@
+⚠️ Authorization field is disabled. Skipping this step...
+✅ Selected random Check-in date: Friday, November 28th,
+✅ Selected random Check-out date: Monday, December 1st,
+✔️ Clicked checkbox at index: 5
+🟦 FINAL UI LABEL TO CLICK: Friday, November 28th,
+✔️ Clicked custom checkbox at index: 2

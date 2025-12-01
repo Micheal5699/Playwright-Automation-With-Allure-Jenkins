@@ -1,0 +1,5 @@
+Initial Emergency Patient Count: NaN
+⚠️ Authorization field is disabled. Skipping this step...
+✅ Selected random Check-in date: Friday, November 14th,
+✅ Selected random Check-out date: Saturday, November 15th,
+Updated Emergency Patient Count: NaN

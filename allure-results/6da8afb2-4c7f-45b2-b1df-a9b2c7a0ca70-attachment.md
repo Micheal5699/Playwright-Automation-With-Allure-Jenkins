@@ -1,0 +1,335 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - region "Notifications Alt+T"
+    - generic [ref=e4]:
+      - region "Notifications Alt+T"
+      - main [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - generic [ref=e8]:
+              - img "Indigo EMR" [ref=e10]
+              - generic [ref=e11]:
+                - generic [ref=e13] [cursor=pointer]: L
+                - text: 
+              - navigation [ref=e14]:
+                - link " Dashboard" [ref=e15] [cursor=pointer]:
+                  - /url: /in-patient/dashboard
+                  - generic [ref=e16]: 
+                  - generic [ref=e17]: Dashboard
+                - link " Patients" [ref=e18] [cursor=pointer]:
+                  - /url: /in-patient/patients
+                  - generic [ref=e19]: 
+                  - generic [ref=e20]: Patients
+                - link " Calendar" [ref=e21] [cursor=pointer]:
+                  - /url: /in-patient/calendar
+                  - generic [ref=e22]: 
+                  - generic [ref=e23]: Calendar
+            - list [ref=e25]:
+              - listitem [ref=e26] [cursor=pointer]:
+                - generic [ref=e27]:
+                  - generic [ref=e28]:
+                    - generic [ref=e29]: 
+                    - generic [ref=e30]: 
+                  - generic [ref=e31]: Notification
+              - listitem [ref=e32] [cursor=pointer]:
+                - link " Subscription & payment" [ref=e33]:
+                  - /url: /settings/subscription
+                  - generic [ref=e34]:
+                    - generic [ref=e35]: 
+                    - generic [ref=e36]: Subscription & payment
+              - listitem [ref=e37] [cursor=pointer]:
+                - link " Help Center Answers Here" [ref=e38]:
+                  - /url: /support
+                  - generic [ref=e39]:
+                    - generic [ref=e40]: 
+                    - generic [ref=e41]:
+                      - text: Help Center
+                      - paragraph [ref=e42]: Answers Here
+              - button "Indigo User Avatar Adeolu1 Ogungbesan " [ref=e45] [cursor=pointer]:
+                - img "Indigo User Avatar" [ref=e46]
+                - generic [ref=e47]:
+                  - generic [ref=e48]: Adeolu1 Ogungbesan
+                  - generic [ref=e49]: 
+          - generic [ref=e52]:
+            - heading "Patient Details" [level=3] [ref=e54]
+            - generic [ref=e55]:
+              - generic [ref=e56] [cursor=pointer]:
+                - generic [ref=e57]: 
+                - paragraph [ref=e58]: Go Back
+              - button "Book Surgery" [ref=e60] [cursor=pointer]
+            - generic [ref=e61]:
+              - generic [ref=e64]:
+                - generic [ref=e67]:
+                  - img [ref=e70]
+                  - generic [ref=e73]:
+                    - generic [ref=e74]:
+                      - heading "MRS. Elizabeth Oni | Luth01143" [level=2] [ref=e75]
+                      - paragraph [ref=e76]: "33 Yrs, Female • Plan: Gold Member"
+                    - paragraph [ref=e78]: Sponsors - Private Patient
+                    - generic [ref=e79]:
+                      - generic [ref=e81]: "Wallet Balance:"
+                      - generic [ref=e83]: "Credit Balance:"
+                - generic [ref=e85]:
+                  - generic [ref=e86]:
+                    - generic [ref=e87]:
+                      - generic [ref=e88]:
+                        - generic [ref=e89] [cursor=pointer]:
+                          - text: Allergies
+                          - img [ref=e90]
+                        - button "N/A" [ref=e92] [cursor=pointer]:
+                          - generic [ref=e93]: N/A
+                      - generic [ref=e94]:
+                        - generic [ref=e95] [cursor=pointer]:
+                          - text: Medical History
+                          - img [ref=e96]
+                        - button "N/A" [ref=e98] [cursor=pointer]:
+                          - generic [ref=e99]: N/A
+                      - generic [ref=e100]:
+                        - generic [ref=e101] [cursor=pointer]: Previous Diagnosis
+                        - button "N/A" [ref=e102] [cursor=pointer]:
+                          - generic [ref=e103]: N/A
+                    - generic [ref=e104]:
+                      - button "Loading Bills..." [ref=e105] [cursor=pointer]:
+                        - paragraph [ref=e106]: Loading Bills...
+                      - button "More Options " [ref=e109] [cursor=pointer]:
+                        - text: More Options
+                        - generic [ref=e110]: 
+                  - button "Show More" [ref=e111] [cursor=pointer]:
+                    - text: Show More
+                    - img
+              - generic [ref=e113]:
+                - list [ref=e115]:
+                  - listitem [ref=e116]:
+                    - link "Profile Details" [ref=e117] [cursor=pointer]:
+                      - /url: /in-patient/patients/67dd8d04eb047841b49d0882?tab=profile-details
+                      - generic [ref=e118]: 
+                      - text: Profile Details
+                  - listitem [ref=e119]:
+                    - link "Appointments" [ref=e120] [cursor=pointer]:
+                      - /url: /in-patient/patients/67dd8d04eb047841b49d0882?tab=appointments
+                      - generic [ref=e121]: 
+                      - text: Appointments
+                  - listitem [ref=e122]:
+                    - link "Admission" [ref=e123] [cursor=pointer]:
+                      - /url: /in-patient/patients/67dd8d04eb047841b49d0882?tab=admission
+                      - generic [ref=e124]: 
+                      - text: Admission
+                  - listitem [ref=e125]:
+                    - link "Surgery" [ref=e126] [cursor=pointer]:
+                      - /url: /in-patient/patients/67dd8d04eb047841b49d0882?tab=surgery
+                      - generic [ref=e127]: 
+                      - text: Surgery
+                - generic [ref=e131]:
+                  - generic [ref=e132]:
+                    - generic [ref=e133]:
+                      - heading "Page 1" [level=3] [ref=e134]
+                      - generic [ref=e135]: Total Pages 1
+                    - generic [ref=e136]:
+                      - button "" [disabled] [ref=e137] [cursor=pointer]:
+                        - generic [ref=e138]: 
+                      - button "" [disabled] [ref=e139] [cursor=pointer]:
+                        - generic [ref=e140]: 
+                  - generic [ref=e141]:
+                    - button "to be teated for TB 94749 ADMITTED  Cancel admission Extend Admission Await Checkout Patient Referral View Bills ADMITTED 2025-07-04 09:55 AM DAYS USED 145 DISCHARGED ON NA MEDICATIONS Not Provided IV FLUIDS None ALLERGIES None LOCATION Not Provided WARD ISREAL ROOM IRAN BED RUSSIA SPECIALTY ophthalmology Operator Adeolu1 Ogungbesan Discharge Date NA Not Provided" [ref=e142] [cursor=pointer]:
+                      - generic [ref=e143]:
+                        - heading "to be teated for TB 94749" [level=3] [ref=e144]
+                        - generic [ref=e145]: ADMITTED
+                        - generic [ref=e146]:
+                          - generic [ref=e147]: 
+                          - list [ref=e148]:
+                            - listitem [ref=e149]: Cancel admission
+                            - listitem [ref=e150]: Extend Admission
+                            - listitem [ref=e151]: Await Checkout
+                            - listitem [ref=e152]: Patient Referral
+                            - listitem [ref=e153]: View Bills
+                      - generic [ref=e155]:
+                        - generic [ref=e156]:
+                          - heading "ADMITTED" [level=4] [ref=e157]
+                          - paragraph [ref=e158]: 2025-07-04 09:55 AM
+                        - generic [ref=e159]:
+                          - heading "DAYS USED" [level=4] [ref=e160]
+                          - paragraph [ref=e161]: "145"
+                        - generic [ref=e162]:
+                          - heading "DISCHARGED ON" [level=4] [ref=e163]
+                          - paragraph [ref=e164]: NA
+                        - generic [ref=e165]:
+                          - heading "MEDICATIONS" [level=4] [ref=e166]
+                          - paragraph [ref=e167]: Not Provided
+                        - generic [ref=e168]:
+                          - heading "IV FLUIDS" [level=4] [ref=e169]
+                          - paragraph [ref=e170]: None
+                        - generic [ref=e171]:
+                          - heading "ALLERGIES" [level=4] [ref=e172]
+                          - paragraph [ref=e173]: None
+                        - generic [ref=e174]:
+                          - heading "LOCATION" [level=4] [ref=e175]
+                          - paragraph [ref=e176]: Not Provided
+                        - generic [ref=e177]:
+                          - heading "WARD" [level=4] [ref=e178]
+                          - paragraph [ref=e179]: ISREAL
+                        - generic [ref=e180]:
+                          - heading "ROOM" [level=4] [ref=e181]
+                          - paragraph [ref=e182]: IRAN
+                        - generic [ref=e183]:
+                          - heading "BED" [level=4] [ref=e184]
+                          - paragraph [ref=e185]: RUSSIA
+                        - generic [ref=e186]:
+                          - heading "SPECIALTY" [level=4] [ref=e187]
+                          - paragraph [ref=e188]: ophthalmology
+                        - generic [ref=e189]:
+                          - heading "Operator" [level=4] [ref=e190]
+                          - paragraph [ref=e191]: Adeolu1 Ogungbesan
+                        - generic [ref=e192]:
+                          - heading "Discharge Date" [level=4] [ref=e193]
+                          - paragraph [ref=e194]: NA
+                      - paragraph [ref=e196]: Not Provided
+                    - button "HANGOVER ADMITTED  Cancel admission Extend Admission Await Checkout Patient Referral View Bills ADMITTED 2025-07-03 02:10 PM DAYS USED 147 DISCHARGED ON NA MEDICATIONS Not Provided IV FLUIDS ALLERGIES None LOCATION Not Provided WARD partners ROOM e31 BED 1456 SPECIALTY ophthalmology Operator Nurse Bariduanen Discharge Date NA Cicatricial ectropion of right lower eyelid" [ref=e197] [cursor=pointer]:
+                      - generic [ref=e198]:
+                        - heading "HANGOVER" [level=3] [ref=e199]
+                        - generic [ref=e200]: ADMITTED
+                        - generic [ref=e201]:
+                          - generic [ref=e202]: 
+                          - list:
+                            - listitem [ref=e203]: Cancel admission
+                            - listitem [ref=e204]: Extend Admission
+                            - listitem [ref=e205]: Await Checkout
+                            - listitem [ref=e206]: Patient Referral
+                            - listitem [ref=e207]: View Bills
+                      - generic [ref=e209]:
+                        - generic [ref=e210]:
+                          - heading "ADMITTED" [level=4] [ref=e211]
+                          - paragraph [ref=e212]: 2025-07-03 02:10 PM
+                        - generic [ref=e213]:
+                          - heading "DAYS USED" [level=4] [ref=e214]
+                          - paragraph [ref=e215]: "147"
+                        - generic [ref=e216]:
+                          - heading "DISCHARGED ON" [level=4] [ref=e217]
+                          - paragraph [ref=e218]: NA
+                        - generic [ref=e219]:
+                          - heading "MEDICATIONS" [level=4] [ref=e220]
+                          - paragraph [ref=e221]: Not Provided
+                        - generic [ref=e222]:
+                          - heading "IV FLUIDS" [level=4] [ref=e223]
+                          - paragraph
+                        - generic [ref=e224]:
+                          - heading "ALLERGIES" [level=4] [ref=e225]
+                          - paragraph [ref=e226]: None
+                        - generic [ref=e227]:
+                          - heading "LOCATION" [level=4] [ref=e228]
+                          - paragraph [ref=e229]: Not Provided
+                        - generic [ref=e230]:
+                          - heading "WARD" [level=4] [ref=e231]
+                          - paragraph [ref=e232]: partners
+                        - generic [ref=e233]:
+                          - heading "ROOM" [level=4] [ref=e234]
+                          - paragraph [ref=e235]: e31
+                        - generic [ref=e236]:
+                          - heading "BED" [level=4] [ref=e237]
+                          - paragraph [ref=e238]: "1456"
+                        - generic [ref=e239]:
+                          - heading "SPECIALTY" [level=4] [ref=e240]
+                          - paragraph [ref=e241]: ophthalmology
+                        - generic [ref=e242]:
+                          - heading "Operator" [level=4] [ref=e243]
+                          - paragraph [ref=e244]: Nurse Bariduanen
+                        - generic [ref=e245]:
+                          - heading "Discharge Date" [level=4] [ref=e246]
+                          - paragraph [ref=e247]: NA
+                      - paragraph [ref=e249]: Cicatricial ectropion of right lower eyelid
+  - dialog [active] [ref=e250]:
+    - document:
+      - generic [ref=e252]:
+        - generic [ref=e255]:
+          - heading "Admit Patient" [level=3] [ref=e257]
+          - img [ref=e259] [cursor=pointer]
+        - generic [ref=e263]:
+          - generic [ref=e266]:
+            - switch [disabled] [ref=e267]
+            - checkbox [disabled]
+            - generic [ref=e268]: Emergency
+          - generic [ref=e269]:
+            - paragraph [ref=e270]: Special Instructions
+            - paragraph [ref=e271]: None
+          - generic [ref=e272]:
+            - generic [ref=e275]:
+              - generic [ref=e276]:
+                - text: MRN
+                - generic [ref=e277]: "*"
+              - textbox "Enter MRN" [disabled] [ref=e278]: Luth01143
+            - generic [ref=e280]:
+              - generic [ref=e281]: Patient Name
+              - textbox "Select Option" [disabled] [ref=e282]: Elizabeth Oni
+            - generic [ref=e284]:
+              - generic [ref=e286]: HMO/Corporate
+              - generic:
+                - log
+            - generic [ref=e288]:
+              - generic [ref=e289]: Authorization Code
+              - textbox "Select Option" [disabled] [ref=e290]
+            - generic [ref=e292]:
+              - generic [ref=e293]:
+                - text: Reason For Visit
+                - generic [ref=e294]: "*"
+              - textbox "Enter text" [disabled] [ref=e295]: to be teated for TB 94749
+            - button "Check-in-date * July 5th, 2025 " [disabled] [ref=e297]:
+              - generic [ref=e298]:
+                - generic [ref=e299]:
+                  - paragraph [ref=e300]: Check-in-date *
+                  - text: July 5th, 2025
+                - generic [ref=e301]: 
+            - button "Check-out-date June 29th, 2026 " [ref=e303] [cursor=pointer]:
+              - generic [ref=e304]:
+                - generic [ref=e305]:
+                  - paragraph [ref=e306]: Check-out-date
+                  - text: June 29th, 2026
+                - generic [ref=e307]: 
+            - generic [ref=e308]:
+              - generic [ref=e309]:
+                - generic [ref=e310]:
+                  - generic [ref=e311]: Ward
+                  - generic [ref=e312]: "*"
+                - generic:
+                  - log
+                  - generic:
+                    - generic:
+                      - generic: ISREAL
+              - status [ref=e314]:
+                - generic [ref=e315]: Loading...
+            - generic [ref=e316]:
+              - generic [ref=e317]:
+                - generic [ref=e318]:
+                  - generic [ref=e319]: Room
+                  - generic [ref=e320]: "*"
+                - generic:
+                  - log
+                  - generic:
+                    - generic:
+                      - generic: IRAN
+              - status [ref=e322]:
+                - generic [ref=e323]: Loading...
+            - generic [ref=e324]:
+              - generic [ref=e325]:
+                - generic [ref=e326]:
+                  - generic [ref=e327]: Bedspace no
+                  - generic [ref=e328]: "*"
+                - generic:
+                  - log
+                  - generic:
+                    - generic:
+                      - generic: RUSSIA
+              - status [ref=e330]:
+                - generic [ref=e331]: Loading...
+            - generic [ref=e333]:
+              - generic [ref=e334]:
+                - generic [ref=e335]: Consultant
+                - generic [ref=e336]: "*"
+              - generic:
+                - log
+                - generic:
+                  - generic:
+                    - generic: dami
+          - button "Admit Patient" [ref=e338] [cursor=pointer]
+```

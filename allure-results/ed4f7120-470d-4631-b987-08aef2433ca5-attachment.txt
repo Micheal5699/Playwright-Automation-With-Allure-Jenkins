@@ -1,0 +1,7 @@
+✅ Authorization field is enabled. Filling in the code...
+✅ Selected random Check-in date: Wednesday, November 26th,
+✅ Selected random Check-out date: Saturday, November 29th,
+⚠️ Submit button is disabled, please enter treatment summary before proceeding.
+✔️ Clicked checkbox at index: 0
+🟦 FINAL UI LABEL TO CLICK: Friday, November 28th,
+✔️ Clicked custom checkbox at index: 0

@@ -1,0 +1,5 @@
+✅ Authorization field is enabled. Filling in the code...
+✅ Selected random Check-in date: Monday, December 1st,
+✅ Selected random Check-out date: Wednesday, December 3rd,
+✔️ Clicked checkbox at index: 2
+🟦 Final Follow-up Date: Friday, November 28

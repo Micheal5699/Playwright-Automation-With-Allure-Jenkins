@@ -1,0 +1,3 @@
+⚠️ Authorization field is disabled. Skipping this step...
+✅ Selected random Check-in date: Sunday, November 16th,
+✅ Selected random Check-out date: Friday, November 21st,

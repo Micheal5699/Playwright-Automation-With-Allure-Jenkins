@@ -1,0 +1,902 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - region "Notifications Alt+T"
+    - generic [ref=e4]:
+      - region "Notifications Alt+T"
+      - main [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - generic [ref=e8]:
+              - img "Indigo EMR" [ref=e10]
+              - generic [ref=e11]:
+                - generic [ref=e13] [cursor=pointer]: L
+                - text: 
+              - navigation [ref=e14]:
+                - link " Dashboard" [ref=e15] [cursor=pointer]:
+                  - /url: /in-patient/dashboard
+                  - generic [ref=e16]: 
+                  - generic [ref=e17]: Dashboard
+                - link " Patients" [ref=e18] [cursor=pointer]:
+                  - /url: /in-patient/patients
+                  - generic [ref=e19]: 
+                  - generic [ref=e20]: Patients
+                - link " Calendar" [ref=e21] [cursor=pointer]:
+                  - /url: /in-patient/calendar
+                  - generic [ref=e22]: 
+                  - generic [ref=e23]: Calendar
+            - list [ref=e25]:
+              - listitem [ref=e26] [cursor=pointer]:
+                - generic [ref=e27]:
+                  - generic [ref=e28]:
+                    - generic [ref=e29]: 
+                    - generic [ref=e30]: 
+                  - generic [ref=e31]: Notification
+              - listitem [ref=e32] [cursor=pointer]:
+                - link " Subscription & payment" [ref=e33]:
+                  - /url: /settings/subscription
+                  - generic [ref=e34]:
+                    - generic [ref=e35]: 
+                    - generic [ref=e36]: Subscription & payment
+              - listitem [ref=e37] [cursor=pointer]:
+                - link " Help Center Answers Here" [ref=e38]:
+                  - /url: /support
+                  - generic [ref=e39]:
+                    - generic [ref=e40]: 
+                    - generic [ref=e41]:
+                      - text: Help Center
+                      - paragraph [ref=e42]: Answers Here
+              - button "Indigo User Avatar Adeolu1 Ogungbesan " [ref=e45] [cursor=pointer]:
+                - img "Indigo User Avatar" [ref=e46]
+                - generic [ref=e47]:
+                  - generic [ref=e48]: Adeolu1 Ogungbesan
+                  - generic [ref=e49]: 
+          - generic [ref=e52]:
+            - heading "Patient Details" [level=3] [ref=e54]
+            - generic [ref=e55]:
+              - generic [ref=e56] [cursor=pointer]:
+                - generic [ref=e57]: 
+                - paragraph [ref=e58]: Go Back
+              - button "Book Surgery" [ref=e60] [cursor=pointer]
+            - generic [ref=e61]:
+              - generic [ref=e64]:
+                - generic [ref=e67]:
+                  - img [ref=e70]
+                  - generic [ref=e73]:
+                    - generic [ref=e74]:
+                      - heading "PROF. Eunice Smith | Luth01338" [level=2] [ref=e75]
+                      - paragraph [ref=e76]: "68 Yrs, Female • Plan: Average"
+                    - paragraph [ref=e78]: Sponsors - Private Patient
+                    - generic [ref=e79]:
+                      - generic [ref=e80]:
+                        - generic [ref=e81]: "Wallet Balance:"
+                        - generic [ref=e82]: ₦0
+                      - generic [ref=e83]:
+                        - generic [ref=e84]: "Credit Balance:"
+                        - generic [ref=e85]: ₦0
+                - generic [ref=e87]:
+                  - generic [ref=e88]:
+                    - generic [ref=e89]:
+                      - generic [ref=e90]:
+                        - generic [ref=e91] [cursor=pointer]:
+                          - text: Allergies
+                          - img [ref=e92]
+                        - button "N/A" [ref=e94] [cursor=pointer]:
+                          - generic [ref=e95]: N/A
+                      - generic [ref=e96]:
+                        - generic [ref=e97] [cursor=pointer]:
+                          - text: Medical History
+                          - img [ref=e98]
+                        - button "N/A" [ref=e100] [cursor=pointer]:
+                          - generic [ref=e101]: N/A
+                      - generic [ref=e102]:
+                        - generic [ref=e103] [cursor=pointer]: Previous Diagnosis
+                        - button "N/A" [ref=e104] [cursor=pointer]:
+                          - generic [ref=e105]: N/A
+                    - generic [ref=e106]:
+                      - button "0 Pending Bills" [ref=e107] [cursor=pointer]:
+                        - generic [ref=e108]: 0 Pending Bills
+                      - button "More Options " [ref=e111] [cursor=pointer]:
+                        - text: More Options
+                        - generic [ref=e112]: 
+                  - button "Show More" [ref=e113] [cursor=pointer]:
+                    - text: Show More
+                    - img
+              - generic [ref=e115]:
+                - list [ref=e117]:
+                  - listitem [ref=e118]:
+                    - link "Profile Details" [ref=e119] [cursor=pointer]:
+                      - /url: /in-patient/patients/68ecdaab1416c119266ee5f8?tab=profile-details
+                      - generic [ref=e120]: 
+                      - text: Profile Details
+                  - listitem [ref=e121]:
+                    - link "Appointments" [ref=e122] [cursor=pointer]:
+                      - /url: /in-patient/patients/68ecdaab1416c119266ee5f8?tab=appointments
+                      - generic [ref=e123]: 
+                      - text: Appointments
+                  - listitem [ref=e124]:
+                    - link "Admission" [ref=e125] [cursor=pointer]:
+                      - /url: /in-patient/patients/68ecdaab1416c119266ee5f8?tab=admission
+                      - generic [ref=e126]: 
+                      - text: Admission
+                  - listitem [ref=e127]:
+                    - link "Surgery" [ref=e128] [cursor=pointer]:
+                      - /url: /in-patient/patients/68ecdaab1416c119266ee5f8?tab=surgery
+                      - generic [ref=e129]: 
+                      - text: Surgery
+                - generic [ref=e133]:
+                  - generic [ref=e134]:
+                    - generic [ref=e135] [cursor=pointer]:
+                      - generic [ref=e136]: 
+                      - paragraph [ref=e137]: Go Back to Appointments
+                    - generic [ref=e138]:
+                      - generic [ref=e142]:
+                        - generic [ref=e143]: 99h
+                        - text: ":"
+                        - generic [ref=e144]: 47m
+                        - text: ":"
+                        - generic [ref=e145]: 47s
+                      - button "End Session" [ref=e146] [cursor=pointer]
+                  - generic [ref=e147]:
+                    - generic [ref=e149]:
+                      - button " Visit Summary" [ref=e150] [cursor=pointer]:
+                        - generic [ref=e151]: 
+                        - paragraph [ref=e152]: Visit Summary
+                      - button " Vital Signs" [ref=e153] [cursor=pointer]:
+                        - generic [ref=e154]: 
+                        - paragraph [ref=e155]: Vital Signs
+                      - button " Case Note" [ref=e156] [cursor=pointer]:
+                        - generic [ref=e157]: 
+                        - paragraph [ref=e158]: Case Note
+                      - button " Prescription" [ref=e159] [cursor=pointer]:
+                        - generic [ref=e160]: 
+                        - paragraph [ref=e161]: Prescription
+                      - button " Drug Charts" [ref=e162] [cursor=pointer]:
+                        - generic [ref=e163]: 
+                        - paragraph [ref=e164]: Drug Charts
+                      - button " Progress Note" [ref=e165] [cursor=pointer]:
+                        - generic [ref=e166]: 
+                        - paragraph [ref=e167]: Progress Note
+                      - button " Investigation" [ref=e168] [cursor=pointer]:
+                        - generic [ref=e169]: 
+                        - paragraph [ref=e170]: Investigation
+                      - button " File Upload" [ref=e171] [cursor=pointer]:
+                        - generic [ref=e172]: 
+                        - paragraph [ref=e173]: File Upload
+                      - button " Referral" [ref=e174] [cursor=pointer]:
+                        - generic [ref=e175]: 
+                        - paragraph [ref=e176]: Referral
+                      - button " Procedures" [ref=e177] [cursor=pointer]:
+                        - generic [ref=e178]: 
+                        - paragraph [ref=e179]: Procedures
+                      - button "Daily Bills" [ref=e180] [cursor=pointer]:
+                        - paragraph [ref=e181]: Daily Bills
+                      - button " Custom Records" [ref=e182] [cursor=pointer]:
+                        - generic [ref=e183]: 
+                        - paragraph [ref=e184]: Custom Records
+                    - generic [ref=e186]:
+                      - generic [ref=e188]:
+                        - heading "Prescriptions" [level=4] [ref=e189]
+                        - generic [ref=e190]:
+                          - button "Filters" [ref=e191] [cursor=pointer]:
+                            - img
+                            - generic [ref=e192]: Filters
+                          - button " Add Prescription" [ref=e193] [cursor=pointer]:
+                            - generic [ref=e194]: 
+                            - text: Add Prescription
+                      - generic [ref=e195]:
+                        - generic [ref=e197]:
+                          - generic [ref=e199]:
+                            - generic [ref=e200]:
+                              - generic [ref=e201]: "Date Prescribed:"
+                              - generic [ref=e202]: 2025-10-17 9:33:51 AM
+                            - generic [ref=e203]:
+                              - generic [ref=e204]: "Branch:"
+                              - generic [ref=e205]: Luth Harvard University, Cambridge, MA, USA
+                            - generic [ref=e206]:
+                              - generic [ref=e207]: "Prescribed by:"
+                              - generic [ref=e208]: Adeolu1 Ogungbesan
+                            - generic [ref=e209]:
+                              - generic [ref=e210]: "Specialty:"
+                              - generic [ref=e211]: General Practice
+                            - button "" [ref=e213] [cursor=pointer]:
+                              - generic [ref=e214]: 
+                          - generic [ref=e216]:
+                            - generic [ref=e218]: zone tab 500mg
+                            - generic [ref=e220]: "Dosage 1: Take 5 Capsules of zone tab 500mg by Mouth/oral , once a day (OD) for 2 days"
+                          - generic [ref=e221]:
+                            - button "Edit" [ref=e222] [cursor=pointer]:
+                              - img [ref=e223]
+                              - generic [ref=e226]: Edit
+                            - button "Print" [ref=e227] [cursor=pointer]:
+                              - img [ref=e228]
+                              - generic [ref=e232]: Print
+                        - generic [ref=e234]:
+                          - generic [ref=e236]:
+                            - generic [ref=e237]:
+                              - generic [ref=e238]: "Date Prescribed:"
+                              - generic [ref=e239]: 2025-10-17 9:30:26 AM
+                            - generic [ref=e240]:
+                              - generic [ref=e241]: "Branch:"
+                              - generic [ref=e242]: Luth Harvard University, Cambridge, MA, USA
+                            - generic [ref=e243]:
+                              - generic [ref=e244]: "Prescribed by:"
+                              - generic [ref=e245]: Adeolu1 Ogungbesan
+                            - generic [ref=e246]:
+                              - generic [ref=e247]: "Specialty:"
+                              - generic [ref=e248]: General Practice
+                            - button "" [ref=e250] [cursor=pointer]:
+                              - generic [ref=e251]: 
+                          - generic [ref=e253]:
+                            - generic [ref=e255]: zone tab 500mg
+                            - generic [ref=e257]: "Dosage 1: Take 4 Capsules of zone tab 500mg by Mouth/oral , once a day (OD) for 2 days"
+                          - generic [ref=e258]:
+                            - button "Edit" [ref=e259] [cursor=pointer]:
+                              - img [ref=e260]
+                              - generic [ref=e263]: Edit
+                            - button "Print" [ref=e264] [cursor=pointer]:
+                              - img [ref=e265]
+                              - generic [ref=e269]: Print
+                        - generic [ref=e271]:
+                          - generic [ref=e273]:
+                            - generic [ref=e274]:
+                              - generic [ref=e275]: "Date Prescribed:"
+                              - generic [ref=e276]: 2025-10-16 1:19:16 PM
+                            - generic [ref=e277]:
+                              - generic [ref=e278]: "Branch:"
+                              - generic [ref=e279]: Luth Harvard University, Cambridge, MA, USA
+                            - generic [ref=e280]:
+                              - generic [ref=e281]: "Prescribed by:"
+                              - generic [ref=e282]: Adeolu1 Ogungbesan
+                            - generic [ref=e283]:
+                              - generic [ref=e284]: "Specialty:"
+                              - generic [ref=e285]: General Practice
+                            - button "" [ref=e287] [cursor=pointer]:
+                              - generic [ref=e288]: 
+                          - generic [ref=e290]:
+                            - generic [ref=e292]: ABIDEC DROP286
+                            - generic [ref=e294]: "Dosage 1: Take 5 Cup of ABIDEC DROP286 by Intermuscular/Injection , once a day (OD) for 2 days"
+                          - generic [ref=e295]:
+                            - button "Edit" [ref=e296] [cursor=pointer]:
+                              - img [ref=e297]
+                              - generic [ref=e300]: Edit
+                            - button "Print" [ref=e301] [cursor=pointer]:
+                              - img [ref=e302]
+                              - generic [ref=e306]: Print
+                        - generic [ref=e308]:
+                          - generic [ref=e310]:
+                            - generic [ref=e311]:
+                              - generic [ref=e312]: "Date Prescribed:"
+                              - generic [ref=e313]: 2025-10-16 1:17:30 PM
+                            - generic [ref=e314]:
+                              - generic [ref=e315]: "Branch:"
+                              - generic [ref=e316]: Luth Harvard University, Cambridge, MA, USA
+                            - generic [ref=e317]:
+                              - generic [ref=e318]: "Prescribed by:"
+                              - generic [ref=e319]: Adeolu1 Ogungbesan
+                            - generic [ref=e320]:
+                              - generic [ref=e321]: "Specialty:"
+                              - generic [ref=e322]: General Practice
+                            - button "" [ref=e324] [cursor=pointer]:
+                              - generic [ref=e325]: 
+                          - generic [ref=e327]:
+                            - generic [ref=e329]: zone tab 500mg
+                            - generic [ref=e331]: "Dosage 1: Take 2 Drops of zone tab 500mg by Intravenous/Injection , twice a day (BID) for 4 days"
+                          - generic [ref=e332]:
+                            - button "Edit" [ref=e333] [cursor=pointer]:
+                              - img [ref=e334]
+                              - generic [ref=e337]: Edit
+                            - button "Print" [ref=e338] [cursor=pointer]:
+                              - img [ref=e339]
+                              - generic [ref=e343]: Print
+                        - generic [ref=e345]:
+                          - generic [ref=e347]:
+                            - generic [ref=e348]:
+                              - generic [ref=e349]: "Date Prescribed:"
+                              - generic [ref=e350]: 2025-10-16 9:57:45 AM
+                            - generic [ref=e351]:
+                              - generic [ref=e352]: "Branch:"
+                              - generic [ref=e353]: Luth Harvard University, Cambridge, MA, USA
+                            - generic [ref=e354]:
+                              - generic [ref=e355]: "Prescribed by:"
+                              - generic [ref=e356]: Adeolu1 Ogungbesan
+                            - generic [ref=e357]:
+                              - generic [ref=e358]: "Specialty:"
+                              - generic [ref=e359]: General Practice
+                            - button "" [ref=e361] [cursor=pointer]:
+                              - generic [ref=e362]: 
+                          - generic [ref=e364]:
+                            - generic [ref=e366]: zone tab 500mg
+                            - generic [ref=e368]: "Dosage 1: Take 2 Cup of zone tab 500mg by Mouth/oral , once a day (OD) for 2 days Test"
+                          - generic [ref=e369]:
+                            - button "Edit" [ref=e370] [cursor=pointer]:
+                              - img [ref=e371]
+                              - generic [ref=e374]: Edit
+                            - button "Print" [ref=e375] [cursor=pointer]:
+                              - img [ref=e376]
+                              - generic [ref=e380]: Print
+                        - generic [ref=e382]:
+                          - generic [ref=e384]:
+                            - generic [ref=e385]:
+                              - generic [ref=e386]: "Date Prescribed:"
+                              - generic [ref=e387]: 2025-10-16 9:37:16 AM
+                            - generic [ref=e388]:
+                              - generic [ref=e389]: "Branch:"
+                              - generic [ref=e390]: Luth Harvard University, Cambridge, MA, USA
+                            - generic [ref=e391]:
+                              - generic [ref=e392]: "Prescribed by:"
+                              - generic [ref=e393]: Adeolu1 Ogungbesan
+                            - generic [ref=e394]:
+                              - generic [ref=e395]: "Specialty:"
+                              - generic [ref=e396]: General Practice
+                            - button "" [ref=e398] [cursor=pointer]:
+                              - generic [ref=e399]: 
+                          - generic [ref=e401]:
+                            - generic [ref=e403]: zone tab 500mg
+                            - generic [ref=e405]: "Dosage 1: Take 1 Capsules of zone tab 500mg by Mouth/oral , once a day (OD) for 2 days test"
+                          - generic [ref=e406]:
+                            - button "Edit" [ref=e407] [cursor=pointer]:
+                              - img [ref=e408]
+                              - generic [ref=e411]: Edit
+                            - button "Print" [ref=e412] [cursor=pointer]:
+                              - img [ref=e413]
+                              - generic [ref=e417]: Print
+                        - generic [ref=e419]:
+                          - generic [ref=e421]:
+                            - generic [ref=e422]:
+                              - generic [ref=e423]: "Date Prescribed:"
+                              - generic [ref=e424]: 2025-10-16 12:40:17 AM
+                            - generic [ref=e425]:
+                              - generic [ref=e426]: "Branch:"
+                              - generic [ref=e427]: Luth Harvard University, Cambridge, MA, USA
+                            - generic [ref=e428]:
+                              - generic [ref=e429]: "Prescribed by:"
+                              - generic [ref=e430]: Adeolu1 Ogungbesan
+                            - generic [ref=e431]:
+                              - generic [ref=e432]: "Specialty:"
+                              - generic [ref=e433]: General Practice
+                            - button "" [ref=e435] [cursor=pointer]:
+                              - generic [ref=e436]: 
+                          - generic [ref=e438]:
+                            - generic [ref=e440]: zone tab 500mg
+                            - generic [ref=e442]: "Dosage 1: Take 1 Capsules of zone tab 500mg by Intermuscular/Injection , once a day (OD) for 3 days test"
+                          - generic [ref=e443]:
+                            - button "Edit" [ref=e444] [cursor=pointer]:
+                              - img [ref=e445]
+                              - generic [ref=e448]: Edit
+                            - button "Print" [ref=e449] [cursor=pointer]:
+                              - img [ref=e450]
+                              - generic [ref=e454]: Print
+                        - generic [ref=e456]:
+                          - generic [ref=e458]:
+                            - generic [ref=e459]:
+                              - generic [ref=e460]: "Date Prescribed:"
+                              - generic [ref=e461]: 2025-10-14 10:44:24 AM
+                            - generic [ref=e462]:
+                              - generic [ref=e463]: "Branch:"
+                              - generic [ref=e464]: Luth Harvard University, Cambridge, MA, USA
+                            - generic [ref=e465]:
+                              - generic [ref=e466]: "Prescribed by:"
+                              - generic [ref=e467]: Adeolu Ibukun
+                            - generic [ref=e468]:
+                              - generic [ref=e469]: "Specialty:"
+                              - generic [ref=e470]: General Practice
+                            - button "" [ref=e472] [cursor=pointer]:
+                              - generic [ref=e473]: 
+                          - generic [ref=e475]:
+                            - generic [ref=e476]:
+                              - generic [ref=e477]: zone tab 500mg
+                              - generic [ref=e478]: (Right Eye)
+                            - generic [ref=e480]: "Dosage 1: Take 4 Capsules of zone tab 500mg by Mouth/oral , once a day (OD) for 2 days Test"
+                          - generic [ref=e481]:
+                            - button "Edit" [disabled] [ref=e482]:
+                              - img [ref=e483]
+                              - generic [ref=e486]: Edit
+                            - button "Print" [ref=e487] [cursor=pointer]:
+                              - img [ref=e488]
+                              - generic [ref=e492]: Print
+                        - generic [ref=e494]:
+                          - generic [ref=e496]:
+                            - generic [ref=e497]:
+                              - generic [ref=e498]: "Date Prescribed:"
+                              - generic [ref=e499]: 2025-10-13 3:13:30 PM
+                            - generic [ref=e500]:
+                              - generic [ref=e501]: "Branch:"
+                              - generic [ref=e502]: Luth Harvard University, Cambridge, MA, USA
+                            - generic [ref=e503]:
+                              - generic [ref=e504]: "Prescribed by:"
+                              - generic [ref=e505]: Adeolu1 Ogungbesan
+                            - generic [ref=e506]:
+                              - generic [ref=e507]: "Specialty:"
+                              - generic [ref=e508]: General Practice
+                            - button "" [ref=e510] [cursor=pointer]:
+                              - generic [ref=e511]: 
+                          - generic [ref=e512]:
+                            - table [ref=e516]:
+                              - rowgroup [ref=e517]:
+                                - row "Right Eye Left Eye" [ref=e518]:
+                                  - cell [ref=e519]
+                                  - cell "Right Eye" [ref=e520]
+                                  - cell "Left Eye" [ref=e521]
+                              - rowgroup [ref=e522]:
+                                - row "Sphere +0.50Ds +0.50Ds" [ref=e523]:
+                                  - cell "Sphere" [ref=e524]:
+                                    - paragraph [ref=e525]: Sphere
+                                  - cell "+0.50Ds" [ref=e526]:
+                                    - paragraph [ref=e527]: +0.50Ds
+                                  - cell "+0.50Ds" [ref=e528]:
+                                    - paragraph [ref=e529]: +0.50Ds
+                                - row "Cylinder Not Provided Not Provided" [ref=e530]:
+                                  - cell "Cylinder" [ref=e531]:
+                                    - paragraph [ref=e532]: Cylinder
+                                  - cell "Not Provided" [ref=e533]:
+                                    - paragraph [ref=e534]: Not Provided
+                                  - cell "Not Provided" [ref=e535]:
+                                    - paragraph [ref=e536]: Not Provided
+                                - row "Axis 1 1" [ref=e537]:
+                                  - cell "Axis" [ref=e538]:
+                                    - paragraph [ref=e539]: Axis
+                                  - cell "1" [ref=e540]:
+                                    - paragraph [ref=e541]: "1"
+                                  - cell "1" [ref=e542]:
+                                    - paragraph [ref=e543]: "1"
+                                - row "Add Not Provided Not Provided" [ref=e544]:
+                                  - cell "Add" [ref=e545]:
+                                    - paragraph [ref=e546]: Add
+                                  - cell "Not Provided" [ref=e547]:
+                                    - paragraph [ref=e548]: Not Provided
+                                  - cell "Not Provided" [ref=e549]:
+                                    - paragraph [ref=e550]: Not Provided
+                                - row "Prism 4.00 4.00" [ref=e551]:
+                                  - cell "Prism" [ref=e552]:
+                                    - paragraph [ref=e553]: Prism
+                                  - cell "4.00" [ref=e554]:
+                                    - paragraph [ref=e555]: "4.00"
+                                  - cell "4.00" [ref=e556]:
+                                    - paragraph [ref=e557]: "4.00"
+                                - row "Va Not Provided Not Provided" [ref=e558]:
+                                  - cell "Va" [ref=e559]:
+                                    - paragraph [ref=e560]: Va
+                                  - cell "Not Provided" [ref=e561]:
+                                    - paragraph [ref=e562]: Not Provided
+                                  - cell "Not Provided" [ref=e563]:
+                                    - paragraph [ref=e564]: Not Provided
+                                - row "Ipd Not Provided Not Provided" [ref=e565]:
+                                  - cell "Ipd" [ref=e566]:
+                                    - paragraph [ref=e567]: Ipd
+                                  - cell "Not Provided" [ref=e568]:
+                                    - paragraph [ref=e569]: Not Provided
+                                  - cell "Not Provided" [ref=e570]:
+                                    - paragraph [ref=e571]: Not Provided
+                                - row "Lens Type paraq Not Provided" [ref=e572]:
+                                  - cell "Lens Type" [ref=e573]:
+                                    - paragraph [ref=e574]: Lens Type
+                                  - cell "paraq" [ref=e575]:
+                                    - paragraph [ref=e576]: paraq
+                                  - cell "Not Provided" [ref=e577]:
+                                    - paragraph [ref=e578]: Not Provided
+                                - row "Lens Coatings CELLUVISC UDV Not Provided" [ref=e579]:
+                                  - cell "Lens Coatings" [ref=e580]:
+                                    - paragraph [ref=e581]: Lens Coatings
+                                  - cell "CELLUVISC UDV" [ref=e582]:
+                                    - paragraph [ref=e583]: CELLUVISC UDV
+                                  - cell "Not Provided" [ref=e584]:
+                                    - paragraph [ref=e585]: Not Provided
+                            - generic [ref=e586]:
+                              - generic [ref=e587]:
+                                - heading "Material" [level=2] [ref=e588]
+                                - paragraph [ref=e589]: plastic
+                              - generic [ref=e590]:
+                                - heading "Height" [level=2] [ref=e591]
+                                - paragraph [ref=e592]: "30"
+                              - generic [ref=e593]:
+                                - heading "Height Value" [level=2] [ref=e594]
+                                - paragraph [ref=e595]: fitting
+                              - generic [ref=e596]:
+                                - heading "Recommendation" [level=2] [ref=e597]
+                                - paragraph [ref=e598]: No prescription necessary
+                              - generic [ref=e599]:
+                                - heading "Next Appointment Date" [level=2] [ref=e600]
+                                - paragraph [ref=e601]: 2025-10-16
+                              - generic [ref=e602]:
+                                - heading "Frame Details" [level=2] [ref=e603]
+                                - paragraph [ref=e604]: POST OP DARK GLASSES (1)
+                            - generic [ref=e605]:
+                              - heading "Comment" [level=2] [ref=e606]
+                              - paragraph [ref=e607]: Not Provided
+                          - button " Edit" [disabled] [ref=e609]:
+                            - generic [ref=e610]: 
+                            - generic [ref=e611]: Edit
+                        - generic [ref=e613]:
+                          - generic [ref=e615]:
+                            - generic [ref=e616]:
+                              - generic [ref=e617]: "Date Prescribed:"
+                              - generic [ref=e618]: 2025-10-13 3:6:10 PM
+                            - generic [ref=e619]:
+                              - generic [ref=e620]: "Branch:"
+                              - generic [ref=e621]: Luth Harvard University, Cambridge, MA, USA
+                            - generic [ref=e622]:
+                              - generic [ref=e623]: "Prescribed by:"
+                              - generic [ref=e624]: Adeolu1 Ogungbesan
+                            - generic [ref=e625]:
+                              - generic [ref=e626]: "Specialty:"
+                              - generic [ref=e627]: General Practice
+                            - button "" [ref=e629] [cursor=pointer]:
+                              - generic [ref=e630]: 
+                          - generic [ref=e631]:
+                            - table [ref=e635]:
+                              - rowgroup [ref=e636]:
+                                - row "Right Eye Left Eye" [ref=e637]:
+                                  - cell [ref=e638]
+                                  - cell "Right Eye" [ref=e639]
+                                  - cell "Left Eye" [ref=e640]
+                              - rowgroup [ref=e641]:
+                                - row "Sphere +0.50Ds +0.50Ds" [ref=e642]:
+                                  - cell "Sphere" [ref=e643]:
+                                    - paragraph [ref=e644]: Sphere
+                                  - cell "+0.50Ds" [ref=e645]:
+                                    - paragraph [ref=e646]: +0.50Ds
+                                  - cell "+0.50Ds" [ref=e647]:
+                                    - paragraph [ref=e648]: +0.50Ds
+                                - row "Cylinder Not Provided Not Provided" [ref=e649]:
+                                  - cell "Cylinder" [ref=e650]:
+                                    - paragraph [ref=e651]: Cylinder
+                                  - cell "Not Provided" [ref=e652]:
+                                    - paragraph [ref=e653]: Not Provided
+                                  - cell "Not Provided" [ref=e654]:
+                                    - paragraph [ref=e655]: Not Provided
+                                - row "Axis 1 1" [ref=e656]:
+                                  - cell "Axis" [ref=e657]:
+                                    - paragraph [ref=e658]: Axis
+                                  - cell "1" [ref=e659]:
+                                    - paragraph [ref=e660]: "1"
+                                  - cell "1" [ref=e661]:
+                                    - paragraph [ref=e662]: "1"
+                                - row "Add Not Provided Not Provided" [ref=e663]:
+                                  - cell "Add" [ref=e664]:
+                                    - paragraph [ref=e665]: Add
+                                  - cell "Not Provided" [ref=e666]:
+                                    - paragraph [ref=e667]: Not Provided
+                                  - cell "Not Provided" [ref=e668]:
+                                    - paragraph [ref=e669]: Not Provided
+                                - row "Prism 4.00 4.00" [ref=e670]:
+                                  - cell "Prism" [ref=e671]:
+                                    - paragraph [ref=e672]: Prism
+                                  - cell "4.00" [ref=e673]:
+                                    - paragraph [ref=e674]: "4.00"
+                                  - cell "4.00" [ref=e675]:
+                                    - paragraph [ref=e676]: "4.00"
+                                - row "Va Not Provided Not Provided" [ref=e677]:
+                                  - cell "Va" [ref=e678]:
+                                    - paragraph [ref=e679]: Va
+                                  - cell "Not Provided" [ref=e680]:
+                                    - paragraph [ref=e681]: Not Provided
+                                  - cell "Not Provided" [ref=e682]:
+                                    - paragraph [ref=e683]: Not Provided
+                                - row "Ipd Not Provided Not Provided" [ref=e684]:
+                                  - cell "Ipd" [ref=e685]:
+                                    - paragraph [ref=e686]: Ipd
+                                  - cell "Not Provided" [ref=e687]:
+                                    - paragraph [ref=e688]: Not Provided
+                                  - cell "Not Provided" [ref=e689]:
+                                    - paragraph [ref=e690]: Not Provided
+                                - row "Lens Type paraq Not Provided" [ref=e691]:
+                                  - cell "Lens Type" [ref=e692]:
+                                    - paragraph [ref=e693]: Lens Type
+                                  - cell "paraq" [ref=e694]:
+                                    - paragraph [ref=e695]: paraq
+                                  - cell "Not Provided" [ref=e696]:
+                                    - paragraph [ref=e697]: Not Provided
+                                - row "Lens Coatings CELLUVISC UDV Not Provided" [ref=e698]:
+                                  - cell "Lens Coatings" [ref=e699]:
+                                    - paragraph [ref=e700]: Lens Coatings
+                                  - cell "CELLUVISC UDV" [ref=e701]:
+                                    - paragraph [ref=e702]: CELLUVISC UDV
+                                  - cell "Not Provided" [ref=e703]:
+                                    - paragraph [ref=e704]: Not Provided
+                            - generic [ref=e705]:
+                              - generic [ref=e706]:
+                                - heading "Material" [level=2] [ref=e707]
+                                - paragraph [ref=e708]: plastic
+                              - generic [ref=e709]:
+                                - heading "Height" [level=2] [ref=e710]
+                                - paragraph [ref=e711]: "30"
+                              - generic [ref=e712]:
+                                - heading "Height Value" [level=2] [ref=e713]
+                                - paragraph [ref=e714]: fitting
+                              - generic [ref=e715]:
+                                - heading "Recommendation" [level=2] [ref=e716]
+                                - paragraph [ref=e717]: No prescription necessary
+                              - generic [ref=e718]:
+                                - heading "Next Appointment Date" [level=2] [ref=e719]
+                                - paragraph [ref=e720]: 2025-10-16
+                              - generic [ref=e721]:
+                                - heading "Frame Details" [level=2] [ref=e722]
+                                - paragraph [ref=e723]: POST OP DARK GLASSES (1)
+                            - generic [ref=e724]:
+                              - heading "Comment" [level=2] [ref=e725]
+                              - paragraph [ref=e726]: Not Provided
+                          - button " Edit" [disabled] [ref=e728]:
+                            - generic [ref=e729]: 
+                            - generic [ref=e730]: Edit
+                        - generic [ref=e732]:
+                          - generic [ref=e734]:
+                            - generic [ref=e735]:
+                              - generic [ref=e736]: "Date Prescribed:"
+                              - generic [ref=e737]: 2025-10-13 3:1:31 PM
+                            - generic [ref=e738]:
+                              - generic [ref=e739]: "Branch:"
+                              - generic [ref=e740]: Luth Harvard University, Cambridge, MA, USA
+                            - generic [ref=e741]:
+                              - generic [ref=e742]: "Prescribed by:"
+                              - generic [ref=e743]: Adeolu1 Ogungbesan
+                            - generic [ref=e744]:
+                              - generic [ref=e745]: "Specialty:"
+                              - generic [ref=e746]: General Practice
+                            - button "" [ref=e748] [cursor=pointer]:
+                              - generic [ref=e749]: 
+                          - generic [ref=e750]:
+                            - table [ref=e754]:
+                              - rowgroup [ref=e755]:
+                                - row "Right Eye Left Eye" [ref=e756]:
+                                  - cell [ref=e757]
+                                  - cell "Right Eye" [ref=e758]
+                                  - cell "Left Eye" [ref=e759]
+                              - rowgroup [ref=e760]:
+                                - row "Sphere +0.50Ds +0.50Ds" [ref=e761]:
+                                  - cell "Sphere" [ref=e762]:
+                                    - paragraph [ref=e763]: Sphere
+                                  - cell "+0.50Ds" [ref=e764]:
+                                    - paragraph [ref=e765]: +0.50Ds
+                                  - cell "+0.50Ds" [ref=e766]:
+                                    - paragraph [ref=e767]: +0.50Ds
+                                - row "Cylinder Not Provided Not Provided" [ref=e768]:
+                                  - cell "Cylinder" [ref=e769]:
+                                    - paragraph [ref=e770]: Cylinder
+                                  - cell "Not Provided" [ref=e771]:
+                                    - paragraph [ref=e772]: Not Provided
+                                  - cell "Not Provided" [ref=e773]:
+                                    - paragraph [ref=e774]: Not Provided
+                                - row "Axis 1 1" [ref=e775]:
+                                  - cell "Axis" [ref=e776]:
+                                    - paragraph [ref=e777]: Axis
+                                  - cell "1" [ref=e778]:
+                                    - paragraph [ref=e779]: "1"
+                                  - cell "1" [ref=e780]:
+                                    - paragraph [ref=e781]: "1"
+                                - row "Add Not Provided Not Provided" [ref=e782]:
+                                  - cell "Add" [ref=e783]:
+                                    - paragraph [ref=e784]: Add
+                                  - cell "Not Provided" [ref=e785]:
+                                    - paragraph [ref=e786]: Not Provided
+                                  - cell "Not Provided" [ref=e787]:
+                                    - paragraph [ref=e788]: Not Provided
+                                - row "Prism 4.00 4.00" [ref=e789]:
+                                  - cell "Prism" [ref=e790]:
+                                    - paragraph [ref=e791]: Prism
+                                  - cell "4.00" [ref=e792]:
+                                    - paragraph [ref=e793]: "4.00"
+                                  - cell "4.00" [ref=e794]:
+                                    - paragraph [ref=e795]: "4.00"
+                                - row "Va Not Provided Not Provided" [ref=e796]:
+                                  - cell "Va" [ref=e797]:
+                                    - paragraph [ref=e798]: Va
+                                  - cell "Not Provided" [ref=e799]:
+                                    - paragraph [ref=e800]: Not Provided
+                                  - cell "Not Provided" [ref=e801]:
+                                    - paragraph [ref=e802]: Not Provided
+                                - row "Ipd Not Provided Not Provided" [ref=e803]:
+                                  - cell "Ipd" [ref=e804]:
+                                    - paragraph [ref=e805]: Ipd
+                                  - cell "Not Provided" [ref=e806]:
+                                    - paragraph [ref=e807]: Not Provided
+                                  - cell "Not Provided" [ref=e808]:
+                                    - paragraph [ref=e809]: Not Provided
+                                - row "Lens Type paraq Not Provided" [ref=e810]:
+                                  - cell "Lens Type" [ref=e811]:
+                                    - paragraph [ref=e812]: Lens Type
+                                  - cell "paraq" [ref=e813]:
+                                    - paragraph [ref=e814]: paraq
+                                  - cell "Not Provided" [ref=e815]:
+                                    - paragraph [ref=e816]: Not Provided
+                                - row "Lens Coatings CELLUVISC UDV Not Provided" [ref=e817]:
+                                  - cell "Lens Coatings" [ref=e818]:
+                                    - paragraph [ref=e819]: Lens Coatings
+                                  - cell "CELLUVISC UDV" [ref=e820]:
+                                    - paragraph [ref=e821]: CELLUVISC UDV
+                                  - cell "Not Provided" [ref=e822]:
+                                    - paragraph [ref=e823]: Not Provided
+                            - generic [ref=e824]:
+                              - generic [ref=e825]:
+                                - heading "Material" [level=2] [ref=e826]
+                                - paragraph [ref=e827]: plastic
+                              - generic [ref=e828]:
+                                - heading "Height" [level=2] [ref=e829]
+                                - paragraph [ref=e830]: "30"
+                              - generic [ref=e831]:
+                                - heading "Height Value" [level=2] [ref=e832]
+                                - paragraph [ref=e833]: fitting
+                              - generic [ref=e834]:
+                                - heading "Recommendation" [level=2] [ref=e835]
+                                - paragraph [ref=e836]: No prescription necessary
+                              - generic [ref=e837]:
+                                - heading "Next Appointment Date" [level=2] [ref=e838]
+                                - paragraph [ref=e839]: 2025-10-16
+                              - generic [ref=e840]:
+                                - heading "Frame Details" [level=2] [ref=e841]
+                                - paragraph [ref=e842]: POST OP DARK GLASSES (1)
+                            - generic [ref=e843]:
+                              - heading "Comment" [level=2] [ref=e844]
+                              - paragraph [ref=e845]: Not Provided
+                          - button " Edit" [disabled] [ref=e847]:
+                            - generic [ref=e848]: 
+                            - generic [ref=e849]: Edit
+                        - generic [ref=e851]:
+                          - generic [ref=e853]:
+                            - generic [ref=e854]:
+                              - generic [ref=e855]: "Date Prescribed:"
+                              - generic [ref=e856]: 2025-10-13 3:1:24 PM
+                            - generic [ref=e857]:
+                              - generic [ref=e858]: "Branch:"
+                              - generic [ref=e859]: Luth Harvard University, Cambridge, MA, USA
+                            - generic [ref=e860]:
+                              - generic [ref=e861]: "Prescribed by:"
+                              - generic [ref=e862]: Adeolu1 Ogungbesan
+                            - generic [ref=e863]:
+                              - generic [ref=e864]: "Specialty:"
+                              - generic [ref=e865]: General Practice
+                            - button "" [ref=e867] [cursor=pointer]:
+                              - generic [ref=e868]: 
+                          - generic [ref=e870]:
+                            - generic [ref=e872]: lonart 1000g
+                            - generic [ref=e874]: "Dosage 1: Take 6 Capsules of lonart 1000g by Mouth/oral , three times a day (TID) for 5 days"
+                          - generic [ref=e875]:
+                            - button "Edit" [ref=e876] [cursor=pointer]:
+                              - img [ref=e877]
+                              - generic [ref=e880]: Edit
+                            - button "Print" [ref=e881] [cursor=pointer]:
+                              - img [ref=e882]
+                              - generic [ref=e886]: Print
+                        - generic [ref=e888]:
+                          - generic [ref=e890]:
+                            - generic [ref=e891]:
+                              - generic [ref=e892]: "Date Prescribed:"
+                              - generic [ref=e893]: 2025-10-13 2:46:56 PM
+                            - generic [ref=e894]:
+                              - generic [ref=e895]: "Branch:"
+                              - generic [ref=e896]: Luth Harvard University, Cambridge, MA, USA
+                            - generic [ref=e897]:
+                              - generic [ref=e898]: "Prescribed by:"
+                              - generic [ref=e899]: Adeolu1 Ogungbesan
+                            - generic [ref=e900]:
+                              - generic [ref=e901]: "Specialty:"
+                              - generic [ref=e902]: General Practice
+                            - button "" [ref=e904] [cursor=pointer]:
+                              - generic [ref=e905]: 
+                          - generic [ref=e907]:
+                            - generic [ref=e909]: lonart 1000g
+                            - generic [ref=e911]: "Dosage 1: Take 6 Capsules of lonart 1000g by Mouth/oral , three times a day (TID) for 5 days"
+                          - generic [ref=e912]:
+                            - button "Edit" [ref=e913] [cursor=pointer]:
+                              - img [ref=e914]
+                              - generic [ref=e917]: Edit
+                            - button "Print" [ref=e918] [cursor=pointer]:
+                              - img [ref=e919]
+                              - generic [ref=e923]: Print
+  - generic [ref=e925]:
+    - generic [ref=e926]:
+      - heading "How can we help?" [level=4] [ref=e927]
+      - img [ref=e928] [cursor=pointer]
+    - paragraph [ref=e930]: We are just a few minutes away from responding to your complaint.
+    - button "Send Complaint" [ref=e932] [cursor=pointer]
+  - dialog [ref=e933]:
+    - document:
+      - generic [ref=e935]:
+        - generic [ref=e938]:
+          - heading "Add Prescription" [level=3] [ref=e940]
+          - img [ref=e942] [cursor=pointer]
+        - generic [ref=e945]:
+          - generic [ref=e947]:
+            - generic [ref=e948]:
+              - generic [ref=e949]: Prescription Type
+              - generic [ref=e950]: "*"
+            - generic [ref=e951]:
+              - log [ref=e953]: option Drug, selected.
+              - generic [ref=e954]:
+                - generic [ref=e955]:
+                  - generic [ref=e956]:
+                    - generic [ref=e957]: Drug
+                    - button "Remove Drug" [ref=e958] [cursor=pointer]:
+                      - img [ref=e959]
+                  - combobox [active] [ref=e962]
+                - generic [ref=e963]:
+                  - img [ref=e965]
+                  - img [ref=e968]
+          - generic [ref=e970]:
+            - generic [ref=e974]:
+              - generic [ref=e976]:
+                - generic [ref=e978]: Select Drug
+                - generic [ref=e979]:
+                  - log [ref=e981]
+                  - generic [ref=e982]:
+                    - generic [ref=e983]:
+                      - generic [ref=e984]: Start typing to search...
+                      - combobox [ref=e986]
+                    - img [ref=e989]
+              - generic [ref=e992]:
+                - paragraph [ref=e994]: Dosage
+                - generic [ref=e995]:
+                  - generic [ref=e997]:
+                    - generic [ref=e998]: Dose
+                    - textbox "0" [ref=e1000]
+                  - generic [ref=e1002]:
+                    - generic [ref=e1004]: Unit
+                    - generic [ref=e1005]:
+                      - log [ref=e1007]
+                      - generic [ref=e1008]:
+                        - generic [ref=e1009]:
+                          - generic [ref=e1010]: Select Option
+                          - combobox [ref=e1012]
+                        - img [ref=e1015]
+                  - generic [ref=e1018]:
+                    - generic [ref=e1020]: Route
+                    - generic [ref=e1021]:
+                      - log [ref=e1023]
+                      - generic [ref=e1024]:
+                        - generic [ref=e1025]:
+                          - generic [ref=e1026]: Select Option
+                          - combobox [ref=e1028]
+                        - img [ref=e1031]
+                  - generic [ref=e1034]:
+                    - generic [ref=e1036]: Frequency
+                    - generic [ref=e1037]:
+                      - log [ref=e1039]
+                      - generic [ref=e1040]:
+                        - generic [ref=e1041]:
+                          - generic [ref=e1042]: Select Option
+                          - combobox [ref=e1044]
+                        - img [ref=e1047]
+                  - generic [ref=e1050]:
+                    - generic [ref=e1052]: Duration(In Days)
+                    - generic [ref=e1053]:
+                      - log [ref=e1055]
+                      - generic [ref=e1056]:
+                        - generic [ref=e1057]:
+                          - generic [ref=e1058]: Select Option
+                          - combobox [ref=e1060]
+                        - img [ref=e1063]
+                  - generic [ref=e1066]:
+                    - generic [ref=e1068]: Extra Dosage Instructions
+                    - textbox "Enter here" [ref=e1069]
+                  - button "+ Add Breakdown" [disabled] [ref=e1071]:
+                    - generic [ref=e1072]: + Add Breakdown
+                  - generic [ref=e1074]:
+                    - generic [ref=e1075]: Dosage Summary
+                    - textbox "Summary shows up here" [disabled] [ref=e1076]
+              - generic [ref=e1081] [cursor=pointer]: Create appointment drug chart
+              - generic [ref=e1083]:
+                - generic [ref=e1084]:
+                  - generic [ref=e1085]: Doctor
+                  - generic [ref=e1086]: "*"
+                - generic [ref=e1087]:
+                  - log [ref=e1089]
+                  - generic [ref=e1090]:
+                    - generic [ref=e1091]:
+                      - generic [ref=e1092]: Adeolu1 Ogungbesan
+                      - combobox [ref=e1094]
+                    - img [ref=e1097]
+              - generic [ref=e1099]:
+                - button " Add Item" [disabled] [ref=e1100]:
+                  - generic [ref=e1101]: 
+                  - generic [ref=e1102]: Add Item
+                - button " Clear Input" [ref=e1103] [cursor=pointer]:
+                  - generic [ref=e1104]: 
+                  - generic [ref=e1105]: Clear Input
+            - generic [ref=e1106]:
+              - button "Submit" [disabled] [ref=e1107]
+              - button "Print" [ref=e1109] [cursor=pointer]:
+                - img
+                - generic [ref=e1110]: Print
+```

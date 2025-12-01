@@ -1,0 +1,14 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "https://dev.indigoemr.com",
+      "localStorage": [
+        {
+          "name": "persist:root",
+          "value": "{\"auth\":\"{}\",\"user\":\"{}\",\"branches\":\"{}\",\"company\":\"{}\",\"roles\":\"{}\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}"
+        }
+      ]
+    }
+  ]
+}

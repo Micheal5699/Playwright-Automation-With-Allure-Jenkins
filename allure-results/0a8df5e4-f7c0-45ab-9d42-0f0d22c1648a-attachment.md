@@ -1,0 +1,503 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic:
+    - generic:
+      - region "Notifications Alt+T"
+      - generic:
+        - region "Notifications Alt+T"
+        - main:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - generic:
+                    - generic: L
+                  - text: 
+                - navigation:
+                  - link:
+                    - /url: /in-patient/dashboard
+                    - generic: 
+                    - generic: Dashboard
+                  - link:
+                    - /url: /in-patient/patients
+                    - generic: 
+                    - generic: Patients
+                  - link:
+                    - /url: /in-patient/calendar
+                    - generic: 
+                    - generic: Calendar
+              - generic:
+                - list:
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - generic: 
+                        - generic: 
+                      - generic: Notification
+                  - listitem:
+                    - link:
+                      - /url: /settings/subscription
+                      - generic:
+                        - generic: 
+                        - generic: Subscription & payment
+                  - listitem:
+                    - link:
+                      - /url: /support
+                      - generic:
+                        - generic: 
+                        - generic:
+                          - text: Help Center
+                          - paragraph: Answers Here
+                  - generic:
+                    - button:
+                      - img
+                      - generic:
+                        - generic: Adeolu1 Ogungbesan
+                        - generic: 
+            - generic:
+              - generic:
+                - generic:
+                  - heading [level=3]: Patient Details
+                - generic:
+                  - generic:
+                    - generic: 
+                    - paragraph: Go Back
+                  - generic:
+                    - button: Book Surgery
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                              - generic:
+                                - generic:
+                                  - heading [level=2]: MRS. Elizabeth Oni | Luth01143
+                                  - paragraph: "33 Yrs, Female • Plan: Gold Member"
+                                - generic:
+                                  - paragraph: Sponsors - Private Patient
+                                - generic:
+                                  - generic:
+                                    - generic: "Wallet Balance:"
+                                    - generic: ₦0
+                                  - generic:
+                                    - generic: "Credit Balance:"
+                                    - generic: ₦0
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - text: Allergies
+                                    - img
+                                  - button:
+                                    - generic: N/A
+                                - generic:
+                                  - generic:
+                                    - text: Medical History
+                                    - img
+                                  - button:
+                                    - generic: N/A
+                                - generic:
+                                  - generic: Previous Diagnosis
+                                  - button:
+                                    - generic: N/A
+                              - generic:
+                                - button:
+                                  - generic: 0 Pending Bills
+                                - generic:
+                                  - generic:
+                                    - button:
+                                      - text: More Options
+                                      - generic: 
+                            - button:
+                              - text: Show More
+                              - img
+                  - generic:
+                    - generic:
+                      - generic:
+                        - list:
+                          - listitem:
+                            - link:
+                              - /url: /in-patient/patients/67dd8d04eb047841b49d0882?tab=profile-details
+                              - generic: 
+                              - text: Profile Details
+                          - listitem:
+                            - link:
+                              - /url: /in-patient/patients/67dd8d04eb047841b49d0882?tab=appointments
+                              - generic: 
+                              - text: Appointments
+                          - listitem:
+                            - link:
+                              - /url: /in-patient/patients/67dd8d04eb047841b49d0882?tab=admission
+                              - generic: 
+                              - text: Admission
+                          - listitem:
+                            - link:
+                              - /url: /in-patient/patients/67dd8d04eb047841b49d0882?tab=surgery
+                              - generic: 
+                              - text: Surgery
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - heading [level=3]: Page 1
+                                  - generic: Total Pages 1
+                                - generic:
+                                  - button [disabled]:
+                                    - generic: 
+                                  - button [disabled]:
+                                    - generic: 
+                              - generic:
+                                - button:
+                                  - generic:
+                                    - heading [level=3]: to be teated for TB 94749
+                                    - generic: ADMITTED
+                                    - generic:
+                                      - generic: 
+                                      - listitem: Cancel admission
+                                      - listitem: Extend Admission
+                                      - listitem: Await Checkout
+                                      - listitem: Patient Referral
+                                      - listitem: View Bills
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - heading [level=4]: ADMITTED
+                                        - paragraph: 2025-07-04 09:55 AM
+                                      - generic:
+                                        - heading [level=4]: DAYS USED
+                                        - paragraph: "145"
+                                      - generic:
+                                        - heading [level=4]: DISCHARGED ON
+                                        - paragraph: NA
+                                      - generic:
+                                        - heading [level=4]: MEDICATIONS
+                                        - paragraph: Not Provided
+                                      - generic:
+                                        - heading [level=4]: IV FLUIDS
+                                        - paragraph: None
+                                      - generic:
+                                        - heading [level=4]: ALLERGIES
+                                        - paragraph: None
+                                      - generic:
+                                        - heading [level=4]: LOCATION
+                                        - paragraph: Not Provided
+                                      - generic:
+                                        - heading [level=4]: WARD
+                                        - paragraph: ISREAL
+                                      - generic:
+                                        - heading [level=4]: ROOM
+                                        - paragraph: IRAN
+                                      - generic:
+                                        - heading [level=4]: BED
+                                        - paragraph: RUSSIA
+                                      - generic:
+                                        - heading [level=4]: SPECIALTY
+                                        - paragraph: ophthalmology
+                                      - generic:
+                                        - heading [level=4]: Operator
+                                        - paragraph: Adeolu1 Ogungbesan
+                                      - generic:
+                                        - heading [level=4]: Discharge Date
+                                        - paragraph: NA
+                                  - generic:
+                                    - paragraph: Not Provided
+                                - button:
+                                  - generic:
+                                    - heading [level=3]: HANGOVER
+                                    - generic: ADMITTED
+                                    - generic:
+                                      - generic: 
+                                      - listitem: Cancel admission
+                                      - listitem: Extend Admission
+                                      - listitem: Await Checkout
+                                      - listitem: Patient Referral
+                                      - listitem: View Bills
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - heading [level=4]: ADMITTED
+                                        - paragraph: 2025-07-03 02:10 PM
+                                      - generic:
+                                        - heading [level=4]: DAYS USED
+                                        - paragraph: "147"
+                                      - generic:
+                                        - heading [level=4]: DISCHARGED ON
+                                        - paragraph: NA
+                                      - generic:
+                                        - heading [level=4]: MEDICATIONS
+                                        - paragraph: Not Provided
+                                      - generic:
+                                        - heading [level=4]: IV FLUIDS
+                                      - generic:
+                                        - heading [level=4]: ALLERGIES
+                                        - paragraph: None
+                                      - generic:
+                                        - heading [level=4]: LOCATION
+                                        - paragraph: Not Provided
+                                      - generic:
+                                        - heading [level=4]: WARD
+                                        - paragraph: partners
+                                      - generic:
+                                        - heading [level=4]: ROOM
+                                        - paragraph: e31
+                                      - generic:
+                                        - heading [level=4]: BED
+                                        - paragraph: "1456"
+                                      - generic:
+                                        - heading [level=4]: SPECIALTY
+                                        - paragraph: ophthalmology
+                                      - generic:
+                                        - heading [level=4]: Operator
+                                        - paragraph: Nurse Bariduanen
+                                      - generic:
+                                        - heading [level=4]: Discharge Date
+                                        - paragraph: NA
+                                  - generic:
+                                    - paragraph: Cicatricial ectropion of right lower eyelid
+  - generic:
+    - generic:
+      - dialog:
+        - document:
+          - generic [ref=e2]:
+            - generic [ref=e5]:
+              - heading [level=3] [ref=e7]: Admit Patient
+              - img [ref=e9] [cursor=pointer]
+            - generic [ref=e13]:
+              - generic [ref=e16]:
+                - switch [disabled] [ref=e17]
+                - checkbox [disabled]
+                - generic [ref=e18]: Emergency
+              - generic [ref=e19]:
+                - paragraph [ref=e20]: Special Instructions
+                - paragraph [ref=e21]: None
+              - generic [ref=e22]:
+                - generic [ref=e25]:
+                  - generic [ref=e26]:
+                    - text: MRN
+                    - generic [ref=e27]: "*"
+                  - textbox [disabled] [ref=e28]:
+                    - /placeholder: Enter MRN
+                    - text: Luth01143
+                - generic [ref=e30]:
+                  - generic [ref=e31]: Patient Name
+                  - textbox [disabled] [ref=e32]:
+                    - /placeholder: Select Option
+                    - text: Elizabeth Oni
+                - generic [ref=e34]:
+                  - generic [ref=e36]: HMO/Corporate
+                  - generic:
+                    - log
+                - generic [ref=e38]:
+                  - generic [ref=e39]: Authorization Code
+                  - textbox [disabled] [ref=e40]:
+                    - /placeholder: Select Option
+                - generic [ref=e42]:
+                  - generic [ref=e43]:
+                    - text: Reason For Visit
+                    - generic [ref=e44]: "*"
+                  - textbox [disabled] [ref=e45]:
+                    - /placeholder: Enter text
+                    - text: to be teated for TB 94749
+                - button [disabled] [ref=e47]:
+                  - generic [ref=e48]:
+                    - generic [ref=e49]:
+                      - paragraph [ref=e50]: Check-in-date *
+                      - text: July 5th, 2025
+                    - generic [ref=e51]: 
+                - generic [ref=e52]:
+                  - button [expanded] [ref=e53] [cursor=pointer]:
+                    - generic [ref=e54]:
+                      - generic [ref=e55]:
+                        - paragraph [ref=e56]: Check-out-date
+                        - text: June 29th, 2026
+                      - generic [ref=e57]: 
+                  - dialog [ref=e59]:
+                    - generic [ref=e61]:
+                      - navigation [ref=e62]:
+                        - button "Go to the Previous Month" [ref=e63] [cursor=pointer]:
+                          - img [ref=e64]
+                        - button "Go to the Next Month" [active] [ref=e66] [cursor=pointer]:
+                          - img [ref=e67]
+                      - generic [ref=e69]:
+                        - generic [ref=e71]:
+                          - generic [ref=e72]:
+                            - combobox "Choose the Month" [ref=e73]:
+                              - option "January"
+                              - option "February"
+                              - option "March"
+                              - option "April"
+                              - option "May"
+                              - option "June"
+                              - option "July" [selected]
+                              - option "August"
+                              - option "September"
+                              - option "October"
+                              - option "November"
+                              - option "December"
+                            - generic [ref=e74]:
+                              - text: July
+                              - img [ref=e75]
+                          - generic [ref=e77]:
+                            - combobox "Choose the Year" [ref=e78]:
+                              - option "2020"
+                              - option "2021"
+                              - option "2022"
+                              - option "2023"
+                              - option "2024"
+                              - option "2025"
+                              - option "2026" [selected]
+                              - option "2027"
+                              - option "2028"
+                              - option "2029"
+                              - option "2030"
+                              - option "2031"
+                              - option "2032"
+                              - option "2033"
+                              - option "2034"
+                            - generic [ref=e79]:
+                              - text: "2026"
+                              - img [ref=e80]
+                          - status [ref=e82]: July 2026
+                        - grid "July 2026" [ref=e83]:
+                          - rowgroup [ref=e84]:
+                            - row [ref=e85]:
+                              - columnheader [ref=e86]: Su
+                              - columnheader [ref=e87]: Mo
+                              - columnheader [ref=e88]: Tu
+                              - columnheader [ref=e89]: We
+                              - columnheader [ref=e90]: Th
+                              - columnheader [ref=e91]: Fr
+                              - columnheader [ref=e92]: Sa
+                          - rowgroup [ref=e93]:
+                            - row "Sunday, June 28th, 2026 Monday, June 29th, 2026, selected Tuesday, June 30th, 2026 Wednesday, July 1st, 2026 Thursday, July 2nd, 2026 Friday, July 3rd, 2026 Saturday, July 4th, 2026" [ref=e94]:
+                              - gridcell "Sunday, June 28th, 2026" [ref=e95]:
+                                - button "Sunday, June 28th, 2026" [ref=e96] [cursor=pointer]: "28"
+                              - gridcell "Monday, June 29th, 2026, selected" [selected] [ref=e97]:
+                                - button "Monday, June 29th, 2026, selected" [ref=e98] [cursor=pointer]: "29"
+                              - gridcell "Tuesday, June 30th, 2026" [ref=e99]:
+                                - button "Tuesday, June 30th, 2026" [ref=e100] [cursor=pointer]: "30"
+                              - gridcell "Wednesday, July 1st, 2026" [ref=e101]:
+                                - button "Wednesday, July 1st, 2026" [ref=e102] [cursor=pointer]: "1"
+                              - gridcell "Thursday, July 2nd, 2026" [ref=e103]:
+                                - button "Thursday, July 2nd, 2026" [ref=e104] [cursor=pointer]: "2"
+                              - gridcell "Friday, July 3rd, 2026" [ref=e105]:
+                                - button "Friday, July 3rd, 2026" [ref=e106] [cursor=pointer]: "3"
+                              - gridcell "Saturday, July 4th, 2026" [ref=e107]:
+                                - button "Saturday, July 4th, 2026" [ref=e108] [cursor=pointer]: "4"
+                            - row "Sunday, July 5th, 2026 Monday, July 6th, 2026 Tuesday, July 7th, 2026 Wednesday, July 8th, 2026 Thursday, July 9th, 2026 Friday, July 10th, 2026 Saturday, July 11th, 2026" [ref=e109]:
+                              - gridcell "Sunday, July 5th, 2026" [ref=e110]:
+                                - button "Sunday, July 5th, 2026" [ref=e111] [cursor=pointer]: "5"
+                              - gridcell "Monday, July 6th, 2026" [ref=e112]:
+                                - button "Monday, July 6th, 2026" [ref=e113] [cursor=pointer]: "6"
+                              - gridcell "Tuesday, July 7th, 2026" [ref=e114]:
+                                - button "Tuesday, July 7th, 2026" [ref=e115] [cursor=pointer]: "7"
+                              - gridcell "Wednesday, July 8th, 2026" [ref=e116]:
+                                - button "Wednesday, July 8th, 2026" [ref=e117] [cursor=pointer]: "8"
+                              - gridcell "Thursday, July 9th, 2026" [ref=e118]:
+                                - button "Thursday, July 9th, 2026" [ref=e119] [cursor=pointer]: "9"
+                              - gridcell "Friday, July 10th, 2026" [ref=e120]:
+                                - button "Friday, July 10th, 2026" [ref=e121] [cursor=pointer]: "10"
+                              - gridcell "Saturday, July 11th, 2026" [ref=e122]:
+                                - button "Saturday, July 11th, 2026" [ref=e123] [cursor=pointer]: "11"
+                            - row "Sunday, July 12th, 2026 Monday, July 13th, 2026 Tuesday, July 14th, 2026 Wednesday, July 15th, 2026 Thursday, July 16th, 2026 Friday, July 17th, 2026 Saturday, July 18th, 2026" [ref=e124]:
+                              - gridcell "Sunday, July 12th, 2026" [ref=e125]:
+                                - button "Sunday, July 12th, 2026" [ref=e126] [cursor=pointer]: "12"
+                              - gridcell "Monday, July 13th, 2026" [ref=e127]:
+                                - button "Monday, July 13th, 2026" [ref=e128] [cursor=pointer]: "13"
+                              - gridcell "Tuesday, July 14th, 2026" [ref=e129]:
+                                - button "Tuesday, July 14th, 2026" [ref=e130] [cursor=pointer]: "14"
+                              - gridcell "Wednesday, July 15th, 2026" [ref=e131]:
+                                - button "Wednesday, July 15th, 2026" [ref=e132] [cursor=pointer]: "15"
+                              - gridcell "Thursday, July 16th, 2026" [ref=e133]:
+                                - button "Thursday, July 16th, 2026" [ref=e134] [cursor=pointer]: "16"
+                              - gridcell "Friday, July 17th, 2026" [ref=e135]:
+                                - button "Friday, July 17th, 2026" [ref=e136] [cursor=pointer]: "17"
+                              - gridcell "Saturday, July 18th, 2026" [ref=e137]:
+                                - button "Saturday, July 18th, 2026" [ref=e138] [cursor=pointer]: "18"
+                            - row "Sunday, July 19th, 2026 Monday, July 20th, 2026 Tuesday, July 21st, 2026 Wednesday, July 22nd, 2026 Thursday, July 23rd, 2026 Friday, July 24th, 2026 Saturday, July 25th, 2026" [ref=e139]:
+                              - gridcell "Sunday, July 19th, 2026" [ref=e140]:
+                                - button "Sunday, July 19th, 2026" [ref=e141] [cursor=pointer]: "19"
+                              - gridcell "Monday, July 20th, 2026" [ref=e142]:
+                                - button "Monday, July 20th, 2026" [ref=e143] [cursor=pointer]: "20"
+                              - gridcell "Tuesday, July 21st, 2026" [ref=e144]:
+                                - button "Tuesday, July 21st, 2026" [ref=e145] [cursor=pointer]: "21"
+                              - gridcell "Wednesday, July 22nd, 2026" [ref=e146]:
+                                - button "Wednesday, July 22nd, 2026" [ref=e147] [cursor=pointer]: "22"
+                              - gridcell "Thursday, July 23rd, 2026" [ref=e148]:
+                                - button "Thursday, July 23rd, 2026" [ref=e149] [cursor=pointer]: "23"
+                              - gridcell "Friday, July 24th, 2026" [ref=e150]:
+                                - button "Friday, July 24th, 2026" [ref=e151] [cursor=pointer]: "24"
+                              - gridcell "Saturday, July 25th, 2026" [ref=e152]:
+                                - button "Saturday, July 25th, 2026" [ref=e153] [cursor=pointer]: "25"
+                            - row "Sunday, July 26th, 2026 Monday, July 27th, 2026 Tuesday, July 28th, 2026 Wednesday, July 29th, 2026 Thursday, July 30th, 2026 Friday, July 31st, 2026 Saturday, August 1st, 2026" [ref=e154]:
+                              - gridcell "Sunday, July 26th, 2026" [ref=e155]:
+                                - button "Sunday, July 26th, 2026" [ref=e156] [cursor=pointer]: "26"
+                              - gridcell "Monday, July 27th, 2026" [ref=e157]:
+                                - button "Monday, July 27th, 2026" [ref=e158] [cursor=pointer]: "27"
+                              - gridcell "Tuesday, July 28th, 2026" [ref=e159]:
+                                - button "Tuesday, July 28th, 2026" [ref=e160] [cursor=pointer]: "28"
+                              - gridcell "Wednesday, July 29th, 2026" [ref=e161]:
+                                - button "Wednesday, July 29th, 2026" [ref=e162] [cursor=pointer]: "29"
+                              - gridcell "Thursday, July 30th, 2026" [ref=e163]:
+                                - button "Thursday, July 30th, 2026" [ref=e164] [cursor=pointer]: "30"
+                              - gridcell "Friday, July 31st, 2026" [ref=e165]:
+                                - button "Friday, July 31st, 2026" [ref=e166] [cursor=pointer]: "31"
+                              - gridcell "Saturday, August 1st, 2026" [ref=e167]:
+                                - button "Saturday, August 1st, 2026" [ref=e168] [cursor=pointer]: "1"
+                - generic [ref=e170]:
+                  - generic [ref=e171]:
+                    - generic [ref=e172]: Ward
+                    - generic [ref=e173]: "*"
+                  - generic:
+                    - log
+                    - generic:
+                      - generic:
+                        - generic: ISREAL
+                - generic [ref=e174]:
+                  - generic [ref=e175]:
+                    - generic [ref=e176]:
+                      - generic [ref=e177]: Room
+                      - generic [ref=e178]: "*"
+                    - generic:
+                      - log
+                      - generic:
+                        - generic:
+                          - generic: IRAN
+                  - status [ref=e180]:
+                    - generic [ref=e181]: Loading...
+                - generic [ref=e182]:
+                  - generic [ref=e183]:
+                    - generic [ref=e184]:
+                      - generic [ref=e185]: Bedspace no
+                      - generic [ref=e186]: "*"
+                    - generic:
+                      - log
+                      - generic:
+                        - generic:
+                          - generic: RUSSIA
+                  - status [ref=e188]:
+                    - generic [ref=e189]: Loading...
+                - generic [ref=e191]:
+                  - generic [ref=e192]:
+                    - generic [ref=e193]: Consultant
+                    - generic [ref=e194]: "*"
+                  - generic:
+                    - log
+                    - generic:
+                      - generic:
+                        - generic: dami
+              - button [ref=e196] [cursor=pointer]: Admit Patient
+```

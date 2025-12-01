@@ -1,0 +1,237 @@
+import  { expect, request } from "@playwright/test";
+import { LoginPage } from "../../pages/loginPage";
+import { test } from "../../fixture/fixture-loader";
+import { ModuleSelectorPage } from "../../pages/moduleSelectorPage";
+const {DischargeHMOPatientPage} = require("../../pages/inpatient/dischargeHMOPatient");
+const { getRandomHmoName } = require("../../utils/PrivateAndHMOutils");
+const devUrl = 'https://dev.indigoemr.com';
+
+
+test("TC1.001 Discharge an HMO Patient successfully", async ({ page }) => {
+        const loginPage = new LoginPage(page);
+        const selectLocation = new ModuleSelectorPage(page, "Front Desk");
+        const dischargeHMOPatientPage = new DischargeHMOPatientPage(page);
+        const randomHmo = getRandomHmoName();
+        // Step 1: Login and navigate
+        await page.goto(devUrl);
+        await loginPage.selectLocation();
+        await page.waitForURL("**/modules");
+        await selectLocation.selectInpatientModule();
+        await dischargeHMOPatientPage.clickAdmitPatientBtn();
+        await dischargeHMOPatientPage.patientNameField.fill(randomHmo);
+        await dischargeHMOPatientPage.patientSearchedFor.click()
+        await dischargeHMOPatientPage.enterAuthorizationCode("AUTH12345");
+        await dischargeHMOPatientPage.enterReasonForVisit("Regular Checkup");
+        const checkInDate = await dischargeHMOPatientPage.enterCheckInDate();
+        await dischargeHMOPatientPage.enterCheckOutDate(checkInDate);
+        await dischargeHMOPatientPage.selectSpecialty("Ophthalmology");
+        await dischargeHMOPatientPage.selectWard("0-10 kids");
+        await dischargeHMOPatientPage.selectRoom("r 1");
+        await dischargeHMOPatientPage.selectBedSpaceNo("b 2");
+        await dischargeHMOPatientPage.selectConsultant();
+        await dischargeHMOPatientPage.clickSubmitAdmitPatientBtn();
+        await dischargeHMOPatientPage.clickAdmissionCardBtn();
+        await dischargeHMOPatientPage.clickTopPatient();
+        await dischargeHMOPatientPage.clickAdmittedCardElipsisBtn();
+        await dischargeHMOPatientPage.clickAwaitCheckoutBtn();
+        await dischargeHMOPatientPage.selectAttendingPhysician();
+        await dischargeHMOPatientPage.selectAttendingNurse();
+        await dischargeHMOPatientPage.enterTreatmentSummary("Patient treated successfully and ready for discharge.");
+        await dischargeHMOPatientPage.enterSymptoms("Fever, Cough");
+        await dischargeHMOPatientPage.enterDiagnosisAtDischarge();
+        await dischargeHMOPatientPage.clickReasonForDischargeCheckbox();
+        await dischargeHMOPatientPage.enterDischargePlan("Patient to follow up in 2 weeks.");
+        await dischargeHMOPatientPage.enterFollowUpDate(1, 7);
+        await dischargeHMOPatientPage.clickDischargeServicesCheckbox();
+        await dischargeHMOPatientPage.enterClinicalComments("Patient showed significant improvement.");
+        await dischargeHMOPatientPage.clickMakeBedAvailableCheckbox();
+        await dischargeHMOPatientPage.clickSubmitDischargeBtn();
+        await expect(page.getByText("Successfully Recorded Patient Discharge Notes")).toBeVisible();
+        await dischargeHMOPatientPage.clickCheckOutBtn();
+        await dischargeHMOPatientPage.clickProceedBtn();
+        await expect(page.getByText("Patient Successfully checked out")).toBeVisible();
+})
+test("TC2.002 Verify that user cannot Discharge an HMO Patient when treatement Summary field is empty", async ({ page }) => {
+        const loginPage = new LoginPage(page);
+        const selectLocation = new ModuleSelectorPage(page, "Front Desk");
+        const dischargeHMOPatientPage = new DischargeHMOPatientPage(page);
+        const randomHmo = getRandomHmoName();
+        // Step 1: Login and navigate
+        await page.goto(devUrl);
+        await loginPage.selectLocation();
+        await page.waitForURL("**/modules");
+        await selectLocation.selectInpatientModule();
+        await dischargeHMOPatientPage.clickAdmitPatientBtn();
+        await dischargeHMOPatientPage.patientNameField.fill(randomHmo);
+        await dischargeHMOPatientPage.patientSearchedFor.click()
+        await dischargeHMOPatientPage.enterAuthorizationCode("AUTH12345");
+        await dischargeHMOPatientPage.enterReasonForVisit("Regular Checkup");
+        const checkInDate = await dischargeHMOPatientPage.enterCheckInDate();
+        await dischargeHMOPatientPage.enterCheckOutDate(checkInDate);
+        await dischargeHMOPatientPage.selectSpecialty("Ophthalmology");
+        await dischargeHMOPatientPage.selectWard("0-10 kids");
+        await dischargeHMOPatientPage.selectRoom("r 1");
+        await dischargeHMOPatientPage.selectBedSpaceNo("b 2");
+        await dischargeHMOPatientPage.selectConsultant();
+        await dischargeHMOPatientPage.clickSubmitAdmitPatientBtn();
+        await dischargeHMOPatientPage.clickAdmissionCardBtn();
+        await dischargeHMOPatientPage.clickTopPatient();
+        await dischargeHMOPatientPage.clickAdmittedCardElipsisBtn();
+        await dischargeHMOPatientPage.clickAwaitCheckoutBtn();
+        await dischargeHMOPatientPage.selectAttendingPhysician();
+        await dischargeHMOPatientPage.selectAttendingNurse();
+        await dischargeHMOPatientPage.verifySubmitDischargeBtnIsDisabled();
+        await page.waitForTimeout(4000);
+        await dischargeHMOPatientPage.enterTreatmentSummary("Patient treated successfully and ready for discharge.");
+        await dischargeHMOPatientPage.enterSymptoms("Fever, Cough");
+        await dischargeHMOPatientPage.enterDiagnosisAtDischarge();
+        await dischargeHMOPatientPage.clickReasonForDischargeCheckbox();
+        await dischargeHMOPatientPage.enterDischargePlan("Patient to follow up in 2 weeks.");
+        await dischargeHMOPatientPage.enterFollowUpDate(1, 7);
+        await dischargeHMOPatientPage.clickDischargeServicesCheckbox();
+        await dischargeHMOPatientPage.enterClinicalComments("Patient showed significant improvement.");
+        await dischargeHMOPatientPage.clickMakeBedAvailableCheckbox();
+        await dischargeHMOPatientPage.clickSubmitDischargeBtn();
+        await expect(page.getByText("Successfully Recorded Patient Discharge Notes")).toBeVisible();
+        await dischargeHMOPatientPage.clickCheckOutBtn();
+        await dischargeHMOPatientPage.clickProceedBtn();
+        await expect(page.getByText("Patient Successfully checked out")).toBeVisible();
+})
+test("TC3.003 Verify that user cannot Discharge an HMO Patient when the resonson for discharge checkbox is not click", async ({ page }) => {
+        const loginPage = new LoginPage(page);
+        const selectLocation = new ModuleSelectorPage(page, "Front Desk");
+        const dischargeHMOPatientPage = new DischargeHMOPatientPage(page);
+        const randomHmo = getRandomHmoName();
+        // Step 1: Login and navigate
+        await page.goto(devUrl);
+        await loginPage.selectLocation();
+        await page.waitForURL("**/modules");
+        await selectLocation.selectInpatientModule();
+        await dischargeHMOPatientPage.clickAdmitPatientBtn();
+        await dischargeHMOPatientPage.patientNameField.fill(randomHmo);
+        await dischargeHMOPatientPage.patientSearchedFor.click()
+        await dischargeHMOPatientPage.enterAuthorizationCode("AUTH12345");
+        await dischargeHMOPatientPage.enterReasonForVisit("Regular Checkup");
+        const checkInDate = await dischargeHMOPatientPage.enterCheckInDate();
+        await dischargeHMOPatientPage.enterCheckOutDate(checkInDate);
+        await dischargeHMOPatientPage.selectSpecialty("Ophthalmology");
+        await dischargeHMOPatientPage.selectWard("0-10 kids");
+        await dischargeHMOPatientPage.selectRoom("r 1");
+        await dischargeHMOPatientPage.selectBedSpaceNo("b 2");
+        await dischargeHMOPatientPage.selectConsultant();
+        await dischargeHMOPatientPage.clickSubmitAdmitPatientBtn();
+        await dischargeHMOPatientPage.clickAdmissionCardBtn();
+        await dischargeHMOPatientPage.clickTopPatient();
+        await dischargeHMOPatientPage.clickAdmittedCardElipsisBtn();
+        await dischargeHMOPatientPage.clickAwaitCheckoutBtn();
+        await dischargeHMOPatientPage.selectAttendingPhysician();
+        await dischargeHMOPatientPage.selectAttendingNurse();
+        await dischargeHMOPatientPage.enterTreatmentSummary("Patient treated successfully and ready for discharge.");
+        await dischargeHMOPatientPage.enterSymptoms("Fever, Cough");
+        await dischargeHMOPatientPage.enterDiagnosisAtDischarge();
+        await dischargeHMOPatientPage.verifySubmitDischargeBtnIsDisabledCB();
+        await page.waitForTimeout(4000);
+        await dischargeHMOPatientPage.clickReasonForDischargeCheckbox();
+        await dischargeHMOPatientPage.enterDischargePlan("Patient to follow up in 2 weeks.");
+        await dischargeHMOPatientPage.enterFollowUpDate(1, 7);
+        await dischargeHMOPatientPage.clickDischargeServicesCheckbox();
+        await dischargeHMOPatientPage.enterClinicalComments("Patient showed significant improvement.");
+        await dischargeHMOPatientPage.clickMakeBedAvailableCheckbox();
+        await dischargeHMOPatientPage.clickSubmitDischargeBtn();
+        await expect(page.getByText("Successfully Recorded Patient Discharge Notes")).toBeVisible();
+        await dischargeHMOPatientPage.clickCheckOutBtn();
+        await dischargeHMOPatientPage.clickProceedBtn();
+        await expect(page.getByText("Patient Successfully checked out")).toBeVisible();
+})
+test("TC4.004 Vrrify that user cannot Discharge an HMO Patient while the discharge plan field is empty", async ({ page }) => {
+        const loginPage = new LoginPage(page);
+        const selectLocation = new ModuleSelectorPage(page, "Front Desk");
+        const dischargeHMOPatientPage = new DischargeHMOPatientPage(page);
+        const randomHmo = getRandomHmoName();
+        // Step 1: Login and navigate
+        await page.goto(devUrl);
+        await loginPage.selectLocation();
+        await page.waitForURL("**/modules");
+        await selectLocation.selectInpatientModule();
+        await dischargeHMOPatientPage.clickAdmitPatientBtn();
+        await dischargeHMOPatientPage.patientNameField.fill(randomHmo);
+        await dischargeHMOPatientPage.patientSearchedFor.click()
+        await dischargeHMOPatientPage.enterAuthorizationCode("AUTH12345");
+        await dischargeHMOPatientPage.enterReasonForVisit("Regular Checkup");
+        const checkInDate = await dischargeHMOPatientPage.enterCheckInDate();
+        await dischargeHMOPatientPage.enterCheckOutDate(checkInDate);
+        await dischargeHMOPatientPage.selectSpecialty("Ophthalmology");
+        await dischargeHMOPatientPage.selectWard("0-10 kids");
+        await dischargeHMOPatientPage.selectRoom("r 1");
+        await dischargeHMOPatientPage.selectBedSpaceNo("b 2");
+        await dischargeHMOPatientPage.selectConsultant();
+        await dischargeHMOPatientPage.clickSubmitAdmitPatientBtn();
+        await dischargeHMOPatientPage.clickAdmissionCardBtn();
+        await dischargeHMOPatientPage.clickTopPatient();
+        await dischargeHMOPatientPage.clickAdmittedCardElipsisBtn();
+        await dischargeHMOPatientPage.clickAwaitCheckoutBtn();
+        await dischargeHMOPatientPage.selectAttendingPhysician();
+        await dischargeHMOPatientPage.selectAttendingNurse();
+        await dischargeHMOPatientPage.enterTreatmentSummary("Patient treated successfully and ready for discharge.");
+        await dischargeHMOPatientPage.enterSymptoms("Fever, Cough");
+        await dischargeHMOPatientPage.enterDiagnosisAtDischarge();
+        await dischargeHMOPatientPage.clickReasonForDischargeCheckbox();
+        await dischargeHMOPatientPage.verifySubmitDischargeBtnIsDisabledDP();
+        await page.waitForTimeout(4000);
+        await dischargeHMOPatientPage.enterDischargePlan("Patient to follow up in 2 weeks.");
+        await dischargeHMOPatientPage.enterFollowUpDate(1, 7);
+        await dischargeHMOPatientPage.clickDischargeServicesCheckbox();
+        await dischargeHMOPatientPage.enterClinicalComments("Patient showed significant improvement.");
+        await dischargeHMOPatientPage.clickMakeBedAvailableCheckbox();
+        await dischargeHMOPatientPage.clickSubmitDischargeBtn();
+        await expect(page.getByText("Successfully Recorded Patient Discharge Notes")).toBeVisible();
+        await dischargeHMOPatientPage.clickCheckOutBtn();
+        await dischargeHMOPatientPage.clickProceedBtn();
+        await expect(page.getByText("Patient Successfully checked out")).toBeVisible();
+})
+test("TC5.005 Verify that user cannot Discharge an HMO Patient Clinical comment field is empty", async ({ page }) => {
+        const loginPage = new LoginPage(page);
+        const selectLocation = new ModuleSelectorPage(page, "Front Desk");
+        const dischargeHMOPatientPage = new DischargeHMOPatientPage(page);
+        const randomHmo = getRandomHmoName();
+        // Step 1: Login and navigate
+        await page.goto(devUrl);
+        await loginPage.selectLocation();
+        await page.waitForURL("**/modules");
+        await selectLocation.selectInpatientModule();
+        await dischargeHMOPatientPage.clickAdmitPatientBtn();
+        await dischargeHMOPatientPage.patientNameField.fill(randomHmo);
+        await dischargeHMOPatientPage.patientSearchedFor.click()
+        await dischargeHMOPatientPage.enterAuthorizationCode("AUTH12345");
+        await dischargeHMOPatientPage.enterReasonForVisit("Regular Checkup");
+        const checkInDate = await dischargeHMOPatientPage.enterCheckInDate();
+        await dischargeHMOPatientPage.enterCheckOutDate(checkInDate);
+        await dischargeHMOPatientPage.selectSpecialty("Ophthalmology");
+        await dischargeHMOPatientPage.selectWard("0-10 kids");
+        await dischargeHMOPatientPage.selectRoom("r 1");
+        await dischargeHMOPatientPage.selectBedSpaceNo("b 2");
+        await dischargeHMOPatientPage.selectConsultant();
+        await dischargeHMOPatientPage.clickSubmitAdmitPatientBtn();
+        await dischargeHMOPatientPage.clickAdmissionCardBtn();
+        await dischargeHMOPatientPage.clickTopPatient();
+        await dischargeHMOPatientPage.clickAdmittedCardElipsisBtn();
+        await dischargeHMOPatientPage.clickAwaitCheckoutBtn();
+        await dischargeHMOPatientPage.selectAttendingPhysician();
+        await dischargeHMOPatientPage.selectAttendingNurse();
+        await dischargeHMOPatientPage.enterTreatmentSummary("Patient treated successfully and ready for discharge.");
+        await dischargeHMOPatientPage.enterSymptoms("Fever, Cough");
+        await dischargeHMOPatientPage.enterDiagnosisAtDischarge();
+        await dischargeHMOPatientPage.clickReasonForDischargeCheckbox();
+        await dischargeHMOPatientPage.enterDischargePlan("Patient to follow up in 2 weeks.");
+        await dischargeHMOPatientPage.enterFollowUpDate(1, 7);
+        await dischargeHMOPatientPage.clickDischargeServicesCheckbox();
+        await dischargeHMOPatientPage.verifySubmitDischargeBtnIsDisabledCC();
+        await page.waitForTimeout(4000);
+        await dischargeHMOPatientPage.enterClinicalComments("Patient showed significant improvement.");
+        await dischargeHMOPatientPage.clickMakeBedAvailableCheckbox();
+        await dischargeHMOPatientPage.clickSubmitDischargeBtn();
+        await expect(page.getByText("Successfully Recorded Patient Discharge Notes")).toBeVisible();
+        await dischargeHMOPatientPage.clickCheckOutBtn();
+        await dischargeHMOPatientPage.clickProceedBtn();
+        await expect(page.getByText("Patient Successfully checked out")).toBeVisible();
+})

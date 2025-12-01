@@ -1,0 +1,399 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - region "Notifications Alt+T"
+    - generic [ref=e4]:
+      - region "Notifications Alt+T"
+      - main [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - generic [ref=e8]:
+              - img "Indigo EMR" [ref=e10]
+              - generic [ref=e11]:
+                - generic [ref=e13] [cursor=pointer]: L
+                - text: 
+              - navigation [ref=e14]:
+                - link " Dashboard" [ref=e15] [cursor=pointer]:
+                  - /url: /in-patient/dashboard
+                  - generic [ref=e16]: 
+                  - generic [ref=e17]: Dashboard
+                - link " Patients" [ref=e18] [cursor=pointer]:
+                  - /url: /in-patient/patients
+                  - generic [ref=e19]: 
+                  - generic [ref=e20]: Patients
+                - link " Calendar" [ref=e21] [cursor=pointer]:
+                  - /url: /in-patient/calendar
+                  - generic [ref=e22]: 
+                  - generic [ref=e23]: Calendar
+            - list [ref=e25]:
+              - listitem [ref=e26] [cursor=pointer]:
+                - generic [ref=e27]:
+                  - generic [ref=e28]:
+                    - generic [ref=e29]: 
+                    - generic [ref=e30]: 
+                  - generic [ref=e31]: Notification
+              - listitem [ref=e32] [cursor=pointer]:
+                - link " Subscription & payment" [ref=e33]:
+                  - /url: /settings/subscription
+                  - generic [ref=e34]:
+                    - generic [ref=e35]: 
+                    - generic [ref=e36]: Subscription & payment
+              - listitem [ref=e37] [cursor=pointer]:
+                - link " Help Center Answers Here" [ref=e38]:
+                  - /url: /support
+                  - generic [ref=e39]:
+                    - generic [ref=e40]: 
+                    - generic [ref=e41]:
+                      - text: Help Center
+                      - paragraph [ref=e42]: Answers Here
+              - button "Indigo User Avatar Adeolu1 Ogungbesan " [ref=e45] [cursor=pointer]:
+                - img "Indigo User Avatar" [ref=e46]
+                - generic [ref=e47]:
+                  - generic [ref=e48]: Adeolu1 Ogungbesan
+                  - generic [ref=e49]: 
+          - generic [ref=e52]:
+            - heading "Patient Details" [level=3] [ref=e54]
+            - generic [ref=e55]:
+              - generic [ref=e56] [cursor=pointer]:
+                - generic [ref=e57]: 
+                - paragraph [ref=e58]: Go Back
+              - button "Book Surgery" [ref=e60] [cursor=pointer]
+            - generic [ref=e61]:
+              - generic [ref=e64]:
+                - generic [ref=e67]:
+                  - img [ref=e70]
+                  - generic [ref=e73]:
+                    - generic [ref=e74]:
+                      - heading "PROF. Eunice Smith | Luth01338" [level=2] [ref=e75]
+                      - paragraph [ref=e76]: "68 Yrs, Female • Plan: Average"
+                    - paragraph [ref=e78]: Sponsors - Private Patient
+                    - generic [ref=e79]:
+                      - generic [ref=e80]:
+                        - generic [ref=e81]: "Wallet Balance:"
+                        - generic [ref=e82]: ₦0
+                      - generic [ref=e83]:
+                        - generic [ref=e84]: "Credit Balance:"
+                        - generic [ref=e85]: ₦0
+                - generic [ref=e87]:
+                  - generic [ref=e88]:
+                    - generic [ref=e89]:
+                      - generic [ref=e90]:
+                        - generic [ref=e91] [cursor=pointer]:
+                          - text: Allergies
+                          - img [ref=e92]
+                        - button "N/A" [ref=e94] [cursor=pointer]:
+                          - generic [ref=e95]: N/A
+                      - generic [ref=e96]:
+                        - generic [ref=e97] [cursor=pointer]:
+                          - text: Medical History
+                          - img [ref=e98]
+                        - button "N/A" [ref=e100] [cursor=pointer]:
+                          - generic [ref=e101]: N/A
+                      - generic [ref=e102]:
+                        - generic [ref=e103] [cursor=pointer]: Previous Diagnosis
+                        - button "N/A" [ref=e104] [cursor=pointer]:
+                          - generic [ref=e105]: N/A
+                    - generic [ref=e106]:
+                      - button "0 Pending Bills" [ref=e107] [cursor=pointer]:
+                        - generic [ref=e108]: 0 Pending Bills
+                      - button "More Options " [ref=e111] [cursor=pointer]:
+                        - text: More Options
+                        - generic [ref=e112]: 
+                  - button "Show More" [ref=e113] [cursor=pointer]:
+                    - text: Show More
+                    - img
+              - generic [ref=e115]:
+                - list [ref=e117]:
+                  - listitem [ref=e118]:
+                    - link "Profile Details" [ref=e119] [cursor=pointer]:
+                      - /url: /in-patient/patients/68ecdaab1416c119266ee5f8?tab=profile-details
+                      - generic [ref=e120]: 
+                      - text: Profile Details
+                  - listitem [ref=e121]:
+                    - link "Appointments" [ref=e122] [cursor=pointer]:
+                      - /url: /in-patient/patients/68ecdaab1416c119266ee5f8?tab=appointments
+                      - generic [ref=e123]: 
+                      - text: Appointments
+                  - listitem [ref=e124]:
+                    - link "Admission" [ref=e125] [cursor=pointer]:
+                      - /url: /in-patient/patients/68ecdaab1416c119266ee5f8?tab=admission
+                      - generic [ref=e126]: 
+                      - text: Admission
+                  - listitem [ref=e127]:
+                    - link "Surgery" [ref=e128] [cursor=pointer]:
+                      - /url: /in-patient/patients/68ecdaab1416c119266ee5f8?tab=surgery
+                      - generic [ref=e129]: 
+                      - text: Surgery
+                - generic [ref=e133]:
+                  - generic [ref=e134]:
+                    - generic [ref=e135] [cursor=pointer]:
+                      - generic [ref=e136]: 
+                      - paragraph [ref=e137]: Go Back to Appointments
+                    - generic [ref=e138]:
+                      - generic [ref=e142]:
+                        - generic [ref=e143]: 129h
+                        - text: ":"
+                        - generic [ref=e144]: 14m
+                        - text: ":"
+                        - generic [ref=e145]: 14s
+                      - button "End Session" [ref=e146] [cursor=pointer]
+                  - generic [ref=e147]:
+                    - generic [ref=e149]:
+                      - button " Visit Summary" [ref=e150] [cursor=pointer]:
+                        - generic [ref=e151]: 
+                        - paragraph [ref=e152]: Visit Summary
+                      - button " Vital Signs" [ref=e153] [cursor=pointer]:
+                        - generic [ref=e154]: 
+                        - paragraph [ref=e155]: Vital Signs
+                      - button " Case Note" [ref=e156] [cursor=pointer]:
+                        - generic [ref=e157]: 
+                        - paragraph [ref=e158]: Case Note
+                      - button " Prescription" [ref=e159] [cursor=pointer]:
+                        - generic [ref=e160]: 
+                        - paragraph [ref=e161]: Prescription
+                      - button " Drug Charts" [ref=e162] [cursor=pointer]:
+                        - generic [ref=e163]: 
+                        - paragraph [ref=e164]: Drug Charts
+                      - button " Progress Note" [ref=e165] [cursor=pointer]:
+                        - generic [ref=e166]: 
+                        - paragraph [ref=e167]: Progress Note
+                      - button " Investigation" [ref=e168] [cursor=pointer]:
+                        - generic [ref=e169]: 
+                        - paragraph [ref=e170]: Investigation
+                      - button " File Upload" [ref=e171] [cursor=pointer]:
+                        - generic [ref=e172]: 
+                        - paragraph [ref=e173]: File Upload
+                      - button " Referral" [ref=e174] [cursor=pointer]:
+                        - generic [ref=e175]: 
+                        - paragraph [ref=e176]: Referral
+                      - button " Procedures" [ref=e177] [cursor=pointer]:
+                        - generic [ref=e178]: 
+                        - paragraph [ref=e179]: Procedures
+                      - button "Daily Bills" [ref=e180] [cursor=pointer]:
+                        - paragraph [ref=e181]: Daily Bills
+                      - button " Custom Records" [ref=e182] [cursor=pointer]:
+                        - generic [ref=e183]: 
+                        - paragraph [ref=e184]: Custom Records
+                    - generic [ref=e186]:
+                      - generic [ref=e188]:
+                        - generic [ref=e189]:
+                          - paragraph [ref=e190]: Drug Chart
+                          - generic [ref=e191]:
+                            - button "List" [ref=e192] [cursor=pointer]
+                            - button "Chart" [ref=e193] [cursor=pointer]
+                        - button "October 19th, 2025 " [ref=e195] [cursor=pointer]:
+                          - generic [ref=e196]:
+                            - generic [ref=e197]:
+                              - paragraph
+                              - text: October 19th, 2025
+                            - generic [ref=e198]: 
+                      - generic [ref=e201]:
+                        - generic [ref=e203]:
+                          - generic [ref=e204]:
+                            - heading "zone tab 500mg" [level=2] [ref=e205]
+                            - generic [ref=e206]: Take 1 Capsules of zone tab 500mg by Mouth/oral , once a day (OD) for 2 days test
+                          - generic [ref=e207]: Dose 1
+                          - generic [ref=e208]:
+                            - button "Administered at 18-10-2025 at 09:47 PM Adeolu1 Ogungbesan" [ref=e209] [cursor=pointer]:
+                              - generic [ref=e210]:
+                                - checkbox [checked] [disabled] [ref=e211]
+                                - text: Administered at 18-10-2025 at 09:47 PM
+                              - generic [ref=e212]: Adeolu1 Ogungbesan
+                              - img [ref=e213]
+                            - button "Administered at 18-10-2025 at 11:46 PM Adeolu1 Ogungbesan" [ref=e215] [cursor=pointer]:
+                              - generic [ref=e216]:
+                                - checkbox [checked] [disabled] [ref=e217]
+                                - text: Administered at 18-10-2025 at 11:46 PM
+                              - generic [ref=e218]: Adeolu1 Ogungbesan
+                              - img [ref=e219]
+                            - button "Administered at 18-10-2025 at 11:46 PM Adeolu1 Ogungbesan" [ref=e221] [cursor=pointer]:
+                              - generic [ref=e222]:
+                                - checkbox [checked] [disabled] [ref=e223]
+                                - text: Administered at 18-10-2025 at 11:46 PM
+                              - generic [ref=e224]: Adeolu1 Ogungbesan
+                              - img [ref=e225]
+                            - button "Administered at 18-10-2025 at 11:53 PM Adeolu1 Ogungbesan" [ref=e227] [cursor=pointer]:
+                              - generic [ref=e228]:
+                                - checkbox [checked] [disabled] [ref=e229]
+                                - text: Administered at 18-10-2025 at 11:53 PM
+                              - generic [ref=e230]: Adeolu1 Ogungbesan
+                              - img [ref=e231]
+                            - button "Administered at 18-10-2025 at 11:54 PM Adeolu1 Ogungbesan" [ref=e233] [cursor=pointer]:
+                              - generic [ref=e234]:
+                                - checkbox [checked] [disabled] [ref=e235]
+                                - text: Administered at 18-10-2025 at 11:54 PM
+                              - generic [ref=e236]: Adeolu1 Ogungbesan
+                              - img [ref=e237]
+                            - generic [ref=e239] [cursor=pointer]:
+                              - checkbox "Administer Next Dose" [ref=e240]
+                              - generic [ref=e241]: Administer Next Dose
+                        - generic [ref=e243]:
+                          - generic [ref=e244]:
+                            - heading "zone tab 500mg" [level=2] [ref=e245]
+                            - generic [ref=e246]: Take 2 Cup of zone tab 500mg by Mouth/oral , once a day (OD) for 2 days Test
+                          - generic [ref=e247]: Dose 1
+                          - generic [ref=e248]:
+                            - button "Administered at 18-10-2025 at 09:57 PM Adeolu1 Ogungbesan" [ref=e249] [cursor=pointer]:
+                              - generic [ref=e250]:
+                                - checkbox [checked] [disabled] [ref=e251]
+                                - text: Administered at 18-10-2025 at 09:57 PM
+                              - generic [ref=e252]: Adeolu1 Ogungbesan
+                              - img [ref=e253]
+                            - generic [ref=e255] [cursor=pointer]:
+                              - checkbox "Administer Next Dose" [ref=e256]
+                              - generic [ref=e257]: Administer Next Dose
+                        - generic [ref=e259]:
+                          - generic [ref=e260]:
+                            - heading "zone tab 500mg" [level=2] [ref=e261]
+                            - generic [ref=e262]: Take 2 Drops of zone tab 500mg by Intravenous/Injection , twice a day (BID) for 4 days
+                          - generic [ref=e263]: Dose 1
+                          - generic [ref=e264]:
+                            - button "Administered at 18-10-2025 at 10:39 PM Adeolu1 Ogungbesan" [ref=e265] [cursor=pointer]:
+                              - generic [ref=e266]:
+                                - checkbox [checked] [disabled] [ref=e267]
+                                - text: Administered at 18-10-2025 at 10:39 PM
+                              - generic [ref=e268]: Adeolu1 Ogungbesan
+                              - img [ref=e269]
+                            - generic [ref=e271] [cursor=pointer]:
+                              - checkbox "Administer Next Dose" [ref=e272]
+                              - generic [ref=e273]: Administer Next Dose
+                        - generic [ref=e275]:
+                          - generic [ref=e276]:
+                            - heading "ABIDEC DROP286" [level=2] [ref=e277]
+                            - generic [ref=e278]: Take 5 Cup of ABIDEC DROP286 by Intermuscular/Injection , once a day (OD) for 2 days
+                          - generic [ref=e279]: Dose 1
+                          - generic [ref=e280]:
+                            - button "Administered at 18-10-2025 at 11:10 PM Adeolu1 Ogungbesan" [ref=e281] [cursor=pointer]:
+                              - generic [ref=e282]:
+                                - checkbox [checked] [disabled] [ref=e283]
+                                - text: Administered at 18-10-2025 at 11:10 PM
+                              - generic [ref=e284]: Adeolu1 Ogungbesan
+                              - img [ref=e285]
+                            - generic [ref=e287] [cursor=pointer]:
+                              - checkbox "Administer Next Dose" [ref=e288]
+                              - generic [ref=e289]: Administer Next Dose
+                        - generic [ref=e291]:
+                          - generic [ref=e292]:
+                            - heading "zone tab 500mg" [level=2] [ref=e293]
+                            - generic [ref=e294]: Take 4 Capsules of zone tab 500mg by Mouth/oral , once a day (OD) for 2 days
+                          - generic [ref=e295]: Dose 1
+                          - generic [ref=e296]:
+                            - button "Administered at 18-10-2025 at 11:18 PM Adeolu1 Ogungbesan" [ref=e297] [cursor=pointer]:
+                              - generic [ref=e298]:
+                                - checkbox [checked] [disabled] [ref=e299]
+                                - text: Administered at 18-10-2025 at 11:18 PM
+                              - generic [ref=e300]: Adeolu1 Ogungbesan
+                              - img [ref=e301]
+                            - generic [ref=e303] [cursor=pointer]:
+                              - checkbox "Administer Next Dose" [ref=e304]
+                              - generic [ref=e305]: Administer Next Dose
+                        - generic [ref=e307]:
+                          - generic [ref=e308]:
+                            - heading "zone tab 500mg" [level=2] [ref=e309]
+                            - generic [ref=e310]: Take 5 Capsules of zone tab 500mg by Mouth/oral , once a day (OD) for 2 days
+                          - generic [ref=e311]: Dose 1
+                          - generic [ref=e312]:
+                            - button "Administered at 18-10-2025 at 11:19 PM Adeolu1 Ogungbesan" [ref=e313] [cursor=pointer]:
+                              - generic [ref=e314]:
+                                - checkbox [checked] [disabled] [ref=e315]
+                                - text: Administered at 18-10-2025 at 11:19 PM
+                              - generic [ref=e316]: Adeolu1 Ogungbesan
+                              - img [ref=e317]
+                            - generic [ref=e319] [cursor=pointer]:
+                              - checkbox "Administer Next Dose" [ref=e320]
+                              - generic [ref=e321]: Administer Next Dose
+                        - generic [ref=e323]:
+                          - generic [ref=e324]:
+                            - heading "zone tab 500mg" [level=2] [ref=e325]
+                            - generic [ref=e326]: Take 3 Capsules of zone tab 500mg by Mouth/oral , 2 hourly for 1 day
+                          - generic [ref=e327]: Dose 1
+                          - generic [ref=e329] [cursor=pointer]:
+                            - checkbox "Administer Dose" [ref=e330]
+                            - generic [ref=e331]: Administer Dose
+                        - generic [ref=e333]:
+                          - generic [ref=e334]:
+                            - heading "zone tab 500mg" [level=2] [ref=e335]
+                            - generic [ref=e336]: Take 3 Capsules of zone tab 500mg by Mouth/oral , 2 hourly for 1 day
+                          - generic [ref=e337]: Dose 1
+                          - generic [ref=e339] [cursor=pointer]:
+                            - checkbox "Administer Dose" [ref=e340]
+                            - generic [ref=e341]: Administer Dose
+                        - generic [ref=e343]:
+                          - generic [ref=e344]:
+                            - heading "zone tab 500mg" [level=2] [ref=e345]
+                            - generic [ref=e346]: Take 3 Capsules of zone tab 500mg by Mouth/oral , 2 hourly for 1 day
+                          - generic [ref=e347]: Dose 1
+                          - generic [ref=e349] [cursor=pointer]:
+                            - checkbox "Administer Dose" [ref=e350]
+                            - generic [ref=e351]: Administer Dose
+                        - generic [ref=e353]:
+                          - generic [ref=e354]:
+                            - heading "zone tab 500mg" [level=2] [ref=e355]
+                            - generic [ref=e356]: Take 3 Capsules of zone tab 500mg by Mouth/oral , 2 hourly for 1 day
+                          - generic [ref=e357]: Dose 1
+                          - generic [ref=e359] [cursor=pointer]:
+                            - checkbox "Administer Dose" [ref=e360]
+                            - generic [ref=e361]: Administer Dose
+                        - generic [ref=e363]:
+                          - generic [ref=e364]:
+                            - heading "zone tab 500mg" [level=2] [ref=e365]
+                            - generic [ref=e366]: Take 3 Capsules of zone tab 500mg by Mouth/oral , 2 hourly for 1 day
+                          - generic [ref=e367]: Dose 1
+                          - generic [ref=e369] [cursor=pointer]:
+                            - checkbox "Administer Dose" [ref=e370]
+                            - generic [ref=e371]: Administer Dose
+                        - generic [ref=e373]:
+                          - generic [ref=e374]:
+                            - heading "zone tab 500mg" [level=2] [ref=e375]
+                            - generic [ref=e376]: Take 3 Capsules of zone tab 500mg by Mouth/oral , 2 hourly for 1 day
+                          - generic [ref=e377]: Dose 1
+                          - generic [ref=e379] [cursor=pointer]:
+                            - checkbox "Administer Dose" [ref=e380]
+                            - generic [ref=e381]: Administer Dose
+                        - generic [ref=e383]:
+                          - generic [ref=e384]:
+                            - heading "zone tab 500mg" [level=2] [ref=e385]
+                            - generic [ref=e386]: Take 3 FTU of zone tab 500mg by Subcutaneous , three times a day (TID) for 8 days
+                          - generic [ref=e387]: Dose 1
+                          - generic [ref=e389] [cursor=pointer]:
+                            - checkbox "Administer Dose" [ref=e390]
+                            - generic [ref=e391]: Administer Dose
+                        - generic [ref=e393]:
+                          - generic [ref=e394]:
+                            - heading "zone tab 500mg" [level=2] [ref=e395]
+                            - generic [ref=e396]: Take 8 Drops of zone tab 500mg by Subcutaneous , 10 hourly for 4 days
+                          - generic [ref=e397]: Dose 1
+                          - generic [ref=e399] [cursor=pointer]:
+                            - checkbox "Administer Dose" [ref=e400]
+                            - generic [ref=e401]: Administer Dose
+                        - generic [ref=e403]:
+                          - generic [ref=e404]:
+                            - heading "zone tab 500mg" [level=2] [ref=e405]
+                            - generic [ref=e406]: Take 9 Drops of zone tab 500mg by Intermuscular/Injection , three times a day (TID) for 2 days
+                          - generic [ref=e407]: Dose 1
+                          - generic [ref=e409] [cursor=pointer]:
+                            - checkbox "Administer Dose" [ref=e410]
+                            - generic [ref=e411]: Administer Dose
+                        - generic [ref=e413]:
+                          - generic [ref=e414]:
+                            - heading "zone tab 500mg" [level=2] [ref=e415]
+                            - generic [ref=e416]: Take 2 Gram of zone tab 500mg by Intermuscular/Injection , once a day (OD) for 11 days
+                          - generic [ref=e417]: Dose 1
+                          - generic [ref=e419] [cursor=pointer]:
+                            - checkbox "Administer Dose" [ref=e420]
+                            - generic [ref=e421]: Administer Dose
+  - dialog [active] [ref=e422]:
+    - document:
+      - generic [ref=e423]:
+        - generic [ref=e425] [cursor=pointer]: ×
+        - generic [ref=e427]:
+          - img [ref=e429]
+          - heading "Drug has been administered successfully" [level=3] [ref=e432]
+          - heading "12:00 AM" [level=3] [ref=e434]
+          - separator [ref=e435]
+          - heading "Time left for patient to take next dose" [level=3] [ref=e437]
+          - heading "1 hr 59 mins" [level=3] [ref=e439]
+        - button "Close" [ref=e441] [cursor=pointer]
+```

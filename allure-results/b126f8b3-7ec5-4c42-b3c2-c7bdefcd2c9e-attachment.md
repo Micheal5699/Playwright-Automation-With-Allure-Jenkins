@@ -1,0 +1,318 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - region "Notifications Alt+T"
+    - generic [ref=e4]:
+      - region "Notifications Alt+T":
+        - alert [ref=e6]:
+          - img [ref=e8]
+          - text: Verification successful
+          - progressbar [ref=e12]
+      - main [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - generic [ref=e16]:
+              - img "Indigo EMR" [ref=e18]
+              - generic [ref=e19]:
+                - generic [ref=e21] [cursor=pointer]: L
+                - text: 
+              - navigation [ref=e22]:
+                - link " Dashboard" [ref=e23] [cursor=pointer]:
+                  - /url: /out-patient/dashboard
+                  - generic [ref=e24]: 
+                  - generic [ref=e25]: Dashboard
+                - link " Patients" [ref=e26] [cursor=pointer]:
+                  - /url: /out-patient/patients
+                  - generic [ref=e27]: 
+                  - generic [ref=e28]: Patients
+                - link " Appointments" [ref=e29] [cursor=pointer]:
+                  - /url: /out-patient/appointments
+                  - generic [ref=e30]: 
+                  - generic [ref=e31]: Appointments
+                - link " Calendar" [ref=e32] [cursor=pointer]:
+                  - /url: /out-patient/calendar
+                  - generic [ref=e33]: 
+                  - generic [ref=e34]: Calendar
+            - list [ref=e36]:
+              - listitem [ref=e37] [cursor=pointer]:
+                - generic [ref=e38]:
+                  - generic [ref=e39]:
+                    - generic [ref=e40]: 
+                    - generic [ref=e41]: 
+                  - generic [ref=e42]: Notification
+              - listitem [ref=e43] [cursor=pointer]:
+                - link " Subscription & payment" [ref=e44]:
+                  - /url: /settings/subscription
+                  - generic [ref=e45]:
+                    - generic [ref=e46]: 
+                    - generic [ref=e47]: Subscription & payment
+              - listitem [ref=e48] [cursor=pointer]:
+                - link " Help Center Answers Here" [ref=e49]:
+                  - /url: /support
+                  - generic [ref=e50]:
+                    - generic [ref=e51]: 
+                    - generic [ref=e52]:
+                      - text: Help Center
+                      - paragraph [ref=e53]: Answers Here
+              - button "Indigo User Avatar Adeolu1 Ogungbesan " [ref=e56] [cursor=pointer]:
+                - img "Indigo User Avatar" [ref=e57]
+                - generic [ref=e58]:
+                  - generic [ref=e59]: Adeolu1 Ogungbesan
+                  - generic [ref=e60]: 
+          - generic [ref=e63]:
+            - heading "Patient Details" [level=3] [ref=e65]
+            - generic [ref=e67] [cursor=pointer]:
+              - generic [ref=e68]: 
+              - paragraph [ref=e69]: Go Back
+            - generic [ref=e70]:
+              - generic [ref=e73]:
+                - generic [ref=e76]:
+                  - img [ref=e79]
+                  - generic [ref=e82]:
+                    - generic [ref=e83]:
+                      - heading "MRS. Gbadbo Adejoke | Luth01354" [level=2] [ref=e84]
+                      - paragraph [ref=e85]: "30 Yrs, Female • Plan: Tise Olaniyan"
+                    - paragraph [ref=e87]: Sponsors - Private Patient
+                    - generic [ref=e88]:
+                      - generic [ref=e89]:
+                        - generic [ref=e90]: "Wallet Balance:"
+                        - generic [ref=e91]: ₦0
+                      - generic [ref=e92]:
+                        - generic [ref=e93]: "Credit Balance:"
+                        - generic [ref=e94]: ₦0
+                - generic [ref=e96]:
+                  - generic [ref=e97]:
+                    - generic [ref=e98]:
+                      - generic [ref=e99]:
+                        - generic [ref=e100] [cursor=pointer]:
+                          - text: Allergies
+                          - img [ref=e101]
+                        - button "N/A" [ref=e103] [cursor=pointer]:
+                          - generic [ref=e104]: N/A
+                      - generic [ref=e105]:
+                        - generic [ref=e106] [cursor=pointer]:
+                          - text: Medical History
+                          - img [ref=e107]
+                        - button "N/A" [ref=e109] [cursor=pointer]:
+                          - generic [ref=e110]: N/A
+                      - generic [ref=e111]:
+                        - generic [ref=e112] [cursor=pointer]: Previous Diagnosis
+                        - button "N/A" [ref=e113] [cursor=pointer]:
+                          - generic [ref=e114]: N/A
+                    - generic [ref=e115]:
+                      - button "0 Pending Bills" [ref=e116] [cursor=pointer]:
+                        - generic [ref=e117]: 0 Pending Bills
+                      - button "More Options " [ref=e120] [cursor=pointer]:
+                        - text: More Options
+                        - generic [ref=e121]: 
+                  - button "Show More" [ref=e122] [cursor=pointer]:
+                    - text: Show More
+                    - img
+              - generic [ref=e124]:
+                - list [ref=e126]:
+                  - listitem [ref=e127]:
+                    - link "Profile Details" [ref=e128] [cursor=pointer]:
+                      - /url: /out-patient/patients/6908b324a55d40b4bdd794e0?tab=profile-details
+                      - generic [ref=e129]: 
+                      - text: Profile Details
+                  - listitem [ref=e130]:
+                    - link "Appointments" [ref=e131] [cursor=pointer]:
+                      - /url: /out-patient/patients/6908b324a55d40b4bdd794e0?tab=appointments
+                      - generic [ref=e132]: 
+                      - text: Appointments
+                  - listitem [ref=e133]:
+                    - link "Surgery" [ref=e134] [cursor=pointer]:
+                      - /url: /out-patient/patients/6908b324a55d40b4bdd794e0?tab=surgery
+                      - generic [ref=e135]: 
+                      - text: Surgery
+                - generic [ref=e139]:
+                  - generic [ref=e140]:
+                    - generic [ref=e141] [cursor=pointer]:
+                      - generic [ref=e142]: 
+                      - paragraph [ref=e143]: Go Back to Appointments
+                    - generic [ref=e144]:
+                      - generic [ref=e148]:
+                        - generic [ref=e149]: 0h
+                        - text: ":"
+                        - generic [ref=e150]: 0m
+                        - text: ":"
+                        - generic [ref=e151]: 0s
+                      - button "Start Session" [ref=e152] [cursor=pointer]
+                  - generic [ref=e153]:
+                    - generic [ref=e155]:
+                      - button " Visit Summary" [ref=e156] [cursor=pointer]:
+                        - generic [ref=e157]: 
+                        - paragraph [ref=e158]: Visit Summary
+                      - button " Vital Signs" [ref=e159] [cursor=pointer]:
+                        - generic [ref=e160]: 
+                        - paragraph [ref=e161]: Vital Signs
+                      - button " Case Note" [ref=e162] [cursor=pointer]:
+                        - generic [ref=e163]: 
+                        - paragraph [ref=e164]: Case Note
+                      - button " Prescription" [ref=e165] [cursor=pointer]:
+                        - generic [ref=e166]: 
+                        - paragraph [ref=e167]: Prescription
+                      - button " Drug Charts" [ref=e168] [cursor=pointer]:
+                        - generic [ref=e169]: 
+                        - paragraph [ref=e170]: Drug Charts
+                      - button " Progress Note" [ref=e171] [cursor=pointer]:
+                        - generic [ref=e172]: 
+                        - paragraph [ref=e173]: Progress Note
+                      - button " Investigation" [ref=e174] [cursor=pointer]:
+                        - generic [ref=e175]: 
+                        - paragraph [ref=e176]: Investigation
+                      - button " File Upload" [ref=e177] [cursor=pointer]:
+                        - generic [ref=e178]: 
+                        - paragraph [ref=e179]: File Upload
+                      - button " Referral" [ref=e180] [cursor=pointer]:
+                        - generic [ref=e181]: 
+                        - paragraph [ref=e182]: Referral
+                      - button " Procedures" [ref=e183] [cursor=pointer]:
+                        - generic [ref=e184]: 
+                        - paragraph [ref=e185]: Procedures
+                      - button "Daily Bills" [ref=e186] [cursor=pointer]:
+                        - paragraph [ref=e187]: Daily Bills
+                      - button " Custom Records" [ref=e188] [cursor=pointer]:
+                        - generic [ref=e189]: 
+                        - paragraph [ref=e190]: Custom Records
+                    - generic [ref=e193]:
+                      - heading "Referral" [level=4] [ref=e195]
+                      - generic [ref=e196]:
+                        - button "Show All (6) " [ref=e197] [cursor=pointer]:
+                          - generic [ref=e198]: Show All (6)
+                          - generic [ref=e199]: 
+                        - button " Add Entry" [ref=e201] [cursor=pointer]:
+                          - generic [ref=e202]: 
+                          - text: Add Entry
+  - generic [ref=e216]:
+    - generic [ref=e217]:
+      - heading "How can we help?" [level=4] [ref=e218]
+      - img [ref=e219] [cursor=pointer]
+    - paragraph [ref=e221]: We are just a few minutes away from responding to your complaint.
+    - button "Send Complaint" [ref=e223] [cursor=pointer]
+  - dialog [ref=e224]:
+    - document:
+      - generic [ref=e229]:
+        - heading "Referral" [level=3] [ref=e231]
+        - img [ref=e233] [cursor=pointer]
+  - dialog [ref=e237]:
+    - document:
+      - generic [ref=e239]:
+        - generic [ref=e240]:
+          - heading "Referral Form" [level=4] [ref=e241]
+          - img [ref=e242] [cursor=pointer]
+        - img "Hospital logo" [ref=e245]
+        - generic [ref=e247]:
+          - generic [ref=e248]:
+            - paragraph [ref=e249]: "Hospital Name:"
+            - paragraph [ref=e250]: Lemon Group of Hospitals
+          - generic [ref=e251]:
+            - paragraph [ref=e252]: "Hospital Address:"
+            - paragraph [ref=e253]: Harvard University, Cambridge, MA, USA
+          - generic [ref=e254]:
+            - paragraph [ref=e255]: "Hospital Email:"
+            - paragraph [ref=e256]: luth@inboxkitten.com
+          - generic [ref=e257]:
+            - paragraph [ref=e258]: "Hospital Phone Number:"
+            - paragraph [ref=e259]: "23470"
+        - generic [ref=e260]:
+          - heading "Patient Details" [level=5] [ref=e261]
+          - generic [ref=e262]:
+            - generic [ref=e263]:
+              - generic [ref=e264]: Patient Name:Gbadbo Adejoke
+              - generic [ref=e265]: DOB:31/10/1995
+              - generic [ref=e266]: HMO:None
+              - generic [ref=e267]: Allergy:-
+            - generic [ref=e268]:
+              - generic [ref=e269]: Age:30
+              - generic [ref=e270]: Sex:Female
+              - generic [ref=e271]: Phone Number:2347016452613
+              - generic [ref=e272]: Blood Group:-
+        - generic [ref=e273]:
+          - heading "Clinical Information" [level=5] [ref=e274]
+          - generic [ref=e275]:
+            - generic [ref=e276]: Primary Diagnosis:Not Provided
+            - generic [ref=e277]: Complaint:-
+            - generic [ref=e278]: Investigations:-
+            - generic [ref=e279]: Medications:-
+            - generic [ref=e280]:
+              - generic [ref=e282]:
+                - generic [ref=e284]: Drug
+                - generic [ref=e285]:
+                  - log [ref=e287]
+                  - generic [ref=e288]:
+                    - generic [ref=e289]:
+                      - generic [ref=e290]: Amoxicillin
+                      - combobox [ref=e292]
+                    - img [ref=e295]
+              - generic [ref=e298]:
+                - generic [ref=e299]: Duration
+                - textbox "Type here" [ref=e300]: 5 days
+              - generic [ref=e302]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]:
+                    - generic [ref=e305]: Dosage
+                    - textbox "0" [ref=e306]: 500mg
+                  - generic [ref=e307]:
+                    - generic [ref=e308]: 
+                    - generic [ref=e309]: 
+                - paragraph [ref=e310]
+              - button " Add Medication" [ref=e312] [cursor=pointer]:
+                - generic [ref=e313]: 
+                - generic [ref=e314]: Add Medication
+              - generic [ref=e316]:
+                - generic [ref=e317]: Reason For Referral
+                - textbox "Type here" [ref=e318]: This is a test purpose
+              - generic [ref=e320]:
+                - generic [ref=e321]: Comment
+                - textbox "Type here" [ref=e322]: Take after meal please
+          - generic [ref=e323]:
+            - heading "Referring Physician Information" [level=5] [ref=e324]
+            - generic [ref=e325]:
+              - generic [ref=e327] [cursor=pointer]:
+                - text: Internal
+                - radio "Internal" [checked]
+              - generic [ref=e330] [cursor=pointer]:
+                - text: External
+                - radio "External"
+            - generic [ref=e332]:
+              - generic [ref=e334]:
+                - generic [ref=e336]: Hospital Branch
+                - generic [ref=e337]:
+                  - log [ref=e339]
+                  - generic [ref=e340]:
+                    - generic [ref=e341]:
+                      - generic [ref=e342]: Charity Vision
+                      - combobox [ref=e344]
+                    - img [ref=e347]
+              - generic [ref=e350]:
+                - generic [ref=e352]: Physician Name
+                - generic [ref=e353]:
+                  - log [ref=e355]
+                  - generic [ref=e356]:
+                    - generic [ref=e357]:
+                      - generic [ref=e358]: Bantu Simba
+                      - combobox [ref=e360]
+                    - img [ref=e363]
+              - generic [ref=e366]:
+                - generic [ref=e368]: Specialty
+                - generic [ref=e369]:
+                  - log [ref=e371]
+                  - generic [ref=e372]:
+                    - generic [ref=e373]:
+                      - generic [ref=e374]: General Practice
+                      - combobox [ref=e376]
+                    - img [ref=e379]
+            - generic [ref=e382]:
+              - generic [ref=e384]: 
+              - generic [ref=e385] [cursor=pointer]: Add Attachment
+          - generic [ref=e386]:
+            - button "Signed By:" [ref=e387] [cursor=pointer]
+            - generic [ref=e388]: Adeolu1 Ogungbesan
+        - button "Submit" [active] [ref=e392]:
+          - text: Submit
+          - generic [ref=e393]:
+            - img
+```

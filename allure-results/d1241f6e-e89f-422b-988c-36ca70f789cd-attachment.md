@@ -1,0 +1,765 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - region "Notifications Alt+T"
+    - generic [ref=e4]:
+      - region "Notifications Alt+T"
+      - main [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - generic [ref=e8]:
+              - img "Indigo EMR" [ref=e10]
+              - generic [ref=e11]:
+                - generic [ref=e13] [cursor=pointer]: L
+                - text: 
+              - navigation [ref=e14]:
+                - link " Dashboard" [ref=e15] [cursor=pointer]:
+                  - /url: /out-patient/dashboard
+                  - generic [ref=e16]: 
+                  - generic [ref=e17]: Dashboard
+                - link " Patients" [ref=e18] [cursor=pointer]:
+                  - /url: /out-patient/patients
+                  - generic [ref=e19]: 
+                  - generic [ref=e20]: Patients
+                - link " Appointments" [ref=e21] [cursor=pointer]:
+                  - /url: /out-patient/appointments
+                  - generic [ref=e22]: 
+                  - generic [ref=e23]: Appointments
+                - link " Calendar" [ref=e24] [cursor=pointer]:
+                  - /url: /out-patient/calendar
+                  - generic [ref=e25]: 
+                  - generic [ref=e26]: Calendar
+            - list [ref=e28]:
+              - listitem [ref=e29] [cursor=pointer]:
+                - generic [ref=e30]:
+                  - generic [ref=e31]:
+                    - generic [ref=e32]: 
+                    - generic [ref=e33]: 
+                  - generic [ref=e34]: Notification
+              - listitem [ref=e35] [cursor=pointer]:
+                - link " Subscription & payment" [ref=e36]:
+                  - /url: /settings/subscription
+                  - generic [ref=e37]:
+                    - generic [ref=e38]: 
+                    - generic [ref=e39]: Subscription & payment
+              - listitem [ref=e40] [cursor=pointer]:
+                - link " Help Center Answers Here" [ref=e41]:
+                  - /url: /support
+                  - generic [ref=e42]:
+                    - generic [ref=e43]: 
+                    - generic [ref=e44]:
+                      - text: Help Center
+                      - paragraph [ref=e45]: Answers Here
+              - button "Indigo User Avatar Adeolu1 Ogungbesan " [ref=e48] [cursor=pointer]:
+                - img "Indigo User Avatar" [ref=e49]
+                - generic [ref=e50]:
+                  - generic [ref=e51]: Adeolu1 Ogungbesan
+                  - generic [ref=e52]: 
+          - generic [ref=e55]:
+            - heading "Patient Details" [level=3] [ref=e57]
+            - generic [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: 
+              - paragraph [ref=e61]: Go Back
+            - generic [ref=e62]:
+              - generic [ref=e65]:
+                - generic [ref=e68]:
+                  - img [ref=e71]
+                  - generic [ref=e74]:
+                    - generic [ref=e75]:
+                      - heading "REV. Zack Cruickshank | Luth01352" [level=2] [ref=e76]
+                      - paragraph [ref=e77]: "48 Yrs, Female • Plan: ent 4"
+                    - paragraph [ref=e79]: Sponsors - Private Patient
+                    - generic [ref=e80]:
+                      - generic [ref=e81]:
+                        - generic [ref=e82]: "Wallet Balance:"
+                        - generic [ref=e83]: ₦0
+                      - generic [ref=e84]:
+                        - generic [ref=e85]: "Credit Balance:"
+                        - generic [ref=e86]: ₦0
+                - generic [ref=e88]:
+                  - generic [ref=e89]:
+                    - generic [ref=e90]:
+                      - generic [ref=e91]:
+                        - generic [ref=e92] [cursor=pointer]:
+                          - text: Allergies
+                          - img [ref=e93]
+                        - button "N/A" [ref=e95] [cursor=pointer]:
+                          - generic [ref=e96]: N/A
+                      - generic [ref=e97]:
+                        - generic [ref=e98] [cursor=pointer]:
+                          - text: Medical History
+                          - img [ref=e99]
+                        - button "N/A" [ref=e101] [cursor=pointer]:
+                          - generic [ref=e102]: N/A
+                      - generic [ref=e103]:
+                        - generic [ref=e104] [cursor=pointer]: Previous Diagnosis
+                        - button "N/A" [ref=e105] [cursor=pointer]:
+                          - generic [ref=e106]: N/A
+                    - generic [ref=e107]:
+                      - button "0 Pending Bills" [ref=e108] [cursor=pointer]:
+                        - generic [ref=e109]: 0 Pending Bills
+                      - button "More Options " [ref=e112] [cursor=pointer]:
+                        - text: More Options
+                        - generic [ref=e113]: 
+                  - button "Show More" [ref=e114] [cursor=pointer]:
+                    - text: Show More
+                    - img
+              - generic [ref=e116]:
+                - list [ref=e118]:
+                  - listitem [ref=e119]:
+                    - link "Profile Details" [ref=e120] [cursor=pointer]:
+                      - /url: /out-patient/patients/69062fbee5520963d6232704?tab=profile-details
+                      - generic [ref=e121]: 
+                      - text: Profile Details
+                  - listitem [ref=e122]:
+                    - link "Appointments" [ref=e123] [cursor=pointer]:
+                      - /url: /out-patient/patients/69062fbee5520963d6232704?tab=appointments
+                      - generic [ref=e124]: 
+                      - text: Appointments
+                  - listitem [ref=e125]:
+                    - link "Surgery" [ref=e126] [cursor=pointer]:
+                      - /url: /out-patient/patients/69062fbee5520963d6232704?tab=surgery
+                      - generic [ref=e127]: 
+                      - text: Surgery
+                - generic [ref=e131]:
+                  - generic [ref=e132]:
+                    - generic [ref=e133] [cursor=pointer]:
+                      - generic [ref=e134]: 
+                      - paragraph [ref=e135]: Go Back to Appointments
+                    - generic [ref=e136]:
+                      - generic [ref=e140]:
+                        - generic [ref=e141]: 0h
+                        - text: ":"
+                        - generic [ref=e142]: 0m
+                        - text: ":"
+                        - generic [ref=e143]: 0s
+                      - button "Start Session" [ref=e144] [cursor=pointer]
+                  - generic [ref=e145]:
+                    - generic [ref=e147]:
+                      - button " Visit Summary" [ref=e148] [cursor=pointer]:
+                        - generic [ref=e149]: 
+                        - paragraph [ref=e150]: Visit Summary
+                      - button " Vital Signs" [ref=e151] [cursor=pointer]:
+                        - generic [ref=e152]: 
+                        - paragraph [ref=e153]: Vital Signs
+                      - button " Case Note" [ref=e154] [cursor=pointer]:
+                        - generic [ref=e155]: 
+                        - paragraph [ref=e156]: Case Note
+                      - button " Prescription" [ref=e157] [cursor=pointer]:
+                        - generic [ref=e158]: 
+                        - paragraph [ref=e159]: Prescription
+                      - button " Drug Charts" [ref=e160] [cursor=pointer]:
+                        - generic [ref=e161]: 
+                        - paragraph [ref=e162]: Drug Charts
+                      - button " Progress Note" [ref=e163] [cursor=pointer]:
+                        - generic [ref=e164]: 
+                        - paragraph [ref=e165]: Progress Note
+                      - button " Investigation" [ref=e166] [cursor=pointer]:
+                        - generic [ref=e167]: 
+                        - paragraph [ref=e168]: Investigation
+                      - button " File Upload" [ref=e169] [cursor=pointer]:
+                        - generic [ref=e170]: 
+                        - paragraph [ref=e171]: File Upload
+                      - button " Referral" [ref=e172] [cursor=pointer]:
+                        - generic [ref=e173]: 
+                        - paragraph [ref=e174]: Referral
+                      - button " Procedures" [ref=e175] [cursor=pointer]:
+                        - generic [ref=e176]: 
+                        - paragraph [ref=e177]: Procedures
+                      - button "Daily Bills" [ref=e178] [cursor=pointer]:
+                        - paragraph [ref=e179]: Daily Bills
+                      - button " Custom Records" [ref=e180] [cursor=pointer]:
+                        - generic [ref=e181]: 
+                        - paragraph [ref=e182]: Custom Records
+                    - generic [ref=e185]:
+                      - heading "Referral" [level=4] [ref=e187]
+                      - generic [ref=e188]:
+                        - button "Show All (5) " [ref=e189] [cursor=pointer]:
+                          - generic [ref=e190]: Show All (5)
+                          - generic [ref=e191]: 
+                        - button " Add Entry" [ref=e193] [cursor=pointer]:
+                          - generic [ref=e194]: 
+                          - text: Add Entry
+                      - generic [ref=e195]:
+                        - generic [ref=e198]:
+                          - generic [ref=e199]:
+                            - generic [ref=e200]:
+                              - generic [ref=e201]:
+                                - heading "Date:" [level=3] [ref=e202]
+                                - heading "03/Nov/2025 2:32 AM" [level=3] [ref=e203]
+                              - generic [ref=e204]:
+                                - heading "Branch:" [level=3] [ref=e205]
+                                - heading [level=3]
+                              - generic [ref=e206]:
+                                - heading "Specialty:" [level=3] [ref=e207]
+                                - heading "Ophthalmology" [level=3] [ref=e209]
+                            - generic [ref=e210]:
+                              - generic [ref=e211]:
+                                - heading "Operator:" [level=3] [ref=e212]
+                                - heading "Ibukun" [level=3] [ref=e213]
+                              - generic [ref=e214]:
+                                - heading "Requested By:" [level=3] [ref=e215]
+                                - heading "Ibukun" [level=3] [ref=e216]
+                              - generic [ref=e217]:
+                                - heading "Patient Name:" [level=3] [ref=e218]
+                                - heading "Zack Cruickshank" [level=3] [ref=e219]
+                            - generic [ref=e220]:
+                              - generic [ref=e221]:
+                                - heading "Patient MRN:" [level=3] [ref=e222]
+                                - heading "Luth01352" [level=3] [ref=e223]
+                              - generic [ref=e224]:
+                                - heading "Patient Email:" [level=3] [ref=e225]
+                                - heading "oo@inboxkiten.com" [level=3] [ref=e227]
+                              - generic [ref=e228]:
+                                - heading "Phone Number:" [level=3] [ref=e229]
+                                - heading "14043719859" [level=3] [ref=e230]
+                          - generic [ref=e231]:
+                            - heading "Standard Referral" [level=3] [ref=e232]
+                            - 'button "Date: 03-Nov-2025 02:32 am Operator:Ibukun Referred by:Ibukun Reason for referral:This is a test purpose for refer Signed By:Ibukun Hospital Name:Charity Vision Physician Name:Bantu Simba" [ref=e234] [cursor=pointer]':
+                              - generic [ref=e235]: "Date: 03-Nov-2025 02:32 am"
+                              - generic [ref=e236]: Operator:Ibukun
+                              - generic [ref=e237]: Referred by:Ibukun
+                              - generic [ref=e238]: Reason for referral:This is a test purpose for refer
+                              - generic [ref=e239]: Signed By:Ibukun
+                              - generic [ref=e240]: Hospital Name:Charity Vision
+                              - generic [ref=e241]: Physician Name:Bantu Simba
+                        - generic [ref=e244]:
+                          - generic [ref=e245]:
+                            - generic [ref=e246]:
+                              - generic [ref=e247]:
+                                - heading "Date:" [level=3] [ref=e248]
+                                - heading "03/Nov/2025 3:03 AM" [level=3] [ref=e249]
+                              - generic [ref=e250]:
+                                - heading "Branch:" [level=3] [ref=e251]
+                                - heading [level=3]
+                              - generic [ref=e252]:
+                                - heading "Specialty:" [level=3] [ref=e253]
+                                - heading "Ophthalmology" [level=3] [ref=e255]
+                            - generic [ref=e256]:
+                              - generic [ref=e257]:
+                                - heading "Operator:" [level=3] [ref=e258]
+                                - heading "Ibukun" [level=3] [ref=e259]
+                              - generic [ref=e260]:
+                                - heading "Requested By:" [level=3] [ref=e261]
+                                - heading "Ibukun" [level=3] [ref=e262]
+                              - generic [ref=e263]:
+                                - heading "Patient Name:" [level=3] [ref=e264]
+                                - heading "Zack Cruickshank" [level=3] [ref=e265]
+                            - generic [ref=e266]:
+                              - generic [ref=e267]:
+                                - heading "Patient MRN:" [level=3] [ref=e268]
+                                - heading "Luth01352" [level=3] [ref=e269]
+                              - generic [ref=e270]:
+                                - heading "Patient Email:" [level=3] [ref=e271]
+                                - heading "oo@inboxkiten.com" [level=3] [ref=e273]
+                              - generic [ref=e274]:
+                                - heading "Phone Number:" [level=3] [ref=e275]
+                                - heading "14043719859" [level=3] [ref=e276]
+                          - generic [ref=e277]:
+                            - heading "Standard Referral" [level=3] [ref=e278]
+                            - 'button "Date: 03-Nov-2025 03:03 am Operator:Ibukun Referred by:Ibukun Reason for referral:This is a test purpose Signed By:Ibukun Hospital Name:Charity Vision Physician Name:Bantu Simba" [ref=e280] [cursor=pointer]':
+                              - generic [ref=e281]: "Date: 03-Nov-2025 03:03 am"
+                              - generic [ref=e282]: Operator:Ibukun
+                              - generic [ref=e283]: Referred by:Ibukun
+                              - generic [ref=e284]: Reason for referral:This is a test purpose
+                              - generic [ref=e285]: Signed By:Ibukun
+                              - generic [ref=e286]: Hospital Name:Charity Vision
+                              - generic [ref=e287]: Physician Name:Bantu Simba
+                        - generic [ref=e290]:
+                          - generic [ref=e291]:
+                            - generic [ref=e292]:
+                              - generic [ref=e293]:
+                                - heading "Date:" [level=3] [ref=e294]
+                                - heading "03/Nov/2025 3:05 AM" [level=3] [ref=e295]
+                              - generic [ref=e296]:
+                                - heading "Branch:" [level=3] [ref=e297]
+                                - heading [level=3]
+                              - generic [ref=e298]:
+                                - heading "Specialty:" [level=3] [ref=e299]
+                                - heading "Ophthalmology" [level=3] [ref=e301]
+                            - generic [ref=e302]:
+                              - generic [ref=e303]:
+                                - heading "Operator:" [level=3] [ref=e304]
+                                - heading "Ibukun" [level=3] [ref=e305]
+                              - generic [ref=e306]:
+                                - heading "Requested By:" [level=3] [ref=e307]
+                                - heading "Ibukun" [level=3] [ref=e308]
+                              - generic [ref=e309]:
+                                - heading "Patient Name:" [level=3] [ref=e310]
+                                - heading "Zack Cruickshank" [level=3] [ref=e311]
+                            - generic [ref=e312]:
+                              - generic [ref=e313]:
+                                - heading "Patient MRN:" [level=3] [ref=e314]
+                                - heading "Luth01352" [level=3] [ref=e315]
+                              - generic [ref=e316]:
+                                - heading "Patient Email:" [level=3] [ref=e317]
+                                - heading "oo@inboxkiten.com" [level=3] [ref=e319]
+                              - generic [ref=e320]:
+                                - heading "Phone Number:" [level=3] [ref=e321]
+                                - heading "14043719859" [level=3] [ref=e322]
+                          - generic [ref=e323]:
+                            - heading "Standard Referral" [level=3] [ref=e324]
+                            - 'button "Date: 03-Nov-2025 03:05 am Operator:Ibukun Referred by:Ibukun Reason for referral:This is a test purpose Signed By:Ibukun Hospital Name:Charity Vision Physician Name:Bantu Simba" [ref=e326] [cursor=pointer]':
+                              - generic [ref=e327]: "Date: 03-Nov-2025 03:05 am"
+                              - generic [ref=e328]: Operator:Ibukun
+                              - generic [ref=e329]: Referred by:Ibukun
+                              - generic [ref=e330]: Reason for referral:This is a test purpose
+                              - generic [ref=e331]: Signed By:Ibukun
+                              - generic [ref=e332]: Hospital Name:Charity Vision
+                              - generic [ref=e333]: Physician Name:Bantu Simba
+                        - generic [ref=e336]:
+                          - generic [ref=e337]:
+                            - generic [ref=e338]:
+                              - generic [ref=e339]:
+                                - heading "Date:" [level=3] [ref=e340]
+                                - heading "03/Nov/2025 3:07 AM" [level=3] [ref=e341]
+                              - generic [ref=e342]:
+                                - heading "Branch:" [level=3] [ref=e343]
+                                - heading [level=3]
+                              - generic [ref=e344]:
+                                - heading "Specialty:" [level=3] [ref=e345]
+                                - heading "Ophthalmology" [level=3] [ref=e347]
+                            - generic [ref=e348]:
+                              - generic [ref=e349]:
+                                - heading "Operator:" [level=3] [ref=e350]
+                                - heading "Ibukun" [level=3] [ref=e351]
+                              - generic [ref=e352]:
+                                - heading "Requested By:" [level=3] [ref=e353]
+                                - heading "Ibukun" [level=3] [ref=e354]
+                              - generic [ref=e355]:
+                                - heading "Patient Name:" [level=3] [ref=e356]
+                                - heading "Zack Cruickshank" [level=3] [ref=e357]
+                            - generic [ref=e358]:
+                              - generic [ref=e359]:
+                                - heading "Patient MRN:" [level=3] [ref=e360]
+                                - heading "Luth01352" [level=3] [ref=e361]
+                              - generic [ref=e362]:
+                                - heading "Patient Email:" [level=3] [ref=e363]
+                                - heading "oo@inboxkiten.com" [level=3] [ref=e365]
+                              - generic [ref=e366]:
+                                - heading "Phone Number:" [level=3] [ref=e367]
+                                - heading "14043719859" [level=3] [ref=e368]
+                          - generic [ref=e369]:
+                            - heading "Standard Referral" [level=3] [ref=e370]
+                            - 'button "Date: 03-Nov-2025 03:07 am Operator:Ibukun Referred by:Ibukun Reason for referral:This is a test purpose Signed By:Ibukun Hospital Name:Charity Vision Physician Name:Bantu Simba" [ref=e372] [cursor=pointer]':
+                              - generic [ref=e373]: "Date: 03-Nov-2025 03:07 am"
+                              - generic [ref=e374]: Operator:Ibukun
+                              - generic [ref=e375]: Referred by:Ibukun
+                              - generic [ref=e376]: Reason for referral:This is a test purpose
+                              - generic [ref=e377]: Signed By:Ibukun
+                              - generic [ref=e378]: Hospital Name:Charity Vision
+                              - generic [ref=e379]: Physician Name:Bantu Simba
+                        - generic [ref=e382]:
+                          - generic [ref=e383]:
+                            - generic [ref=e384]:
+                              - generic [ref=e385]:
+                                - heading "Date:" [level=3] [ref=e386]
+                                - heading "03/Nov/2025 3:16 AM" [level=3] [ref=e387]
+                              - generic [ref=e388]:
+                                - heading "Branch:" [level=3] [ref=e389]
+                                - heading [level=3]
+                              - generic [ref=e390]:
+                                - heading "Specialty:" [level=3] [ref=e391]
+                                - heading "Ophthalmology" [level=3] [ref=e393]
+                            - generic [ref=e394]:
+                              - generic [ref=e395]:
+                                - heading "Operator:" [level=3] [ref=e396]
+                                - heading "Ibukun" [level=3] [ref=e397]
+                              - generic [ref=e398]:
+                                - heading "Requested By:" [level=3] [ref=e399]
+                                - heading "Ibukun" [level=3] [ref=e400]
+                              - generic [ref=e401]:
+                                - heading "Patient Name:" [level=3] [ref=e402]
+                                - heading "Zack Cruickshank" [level=3] [ref=e403]
+                            - generic [ref=e404]:
+                              - generic [ref=e405]:
+                                - heading "Patient MRN:" [level=3] [ref=e406]
+                                - heading "Luth01352" [level=3] [ref=e407]
+                              - generic [ref=e408]:
+                                - heading "Patient Email:" [level=3] [ref=e409]
+                                - heading "oo@inboxkiten.com" [level=3] [ref=e411]
+                              - generic [ref=e412]:
+                                - heading "Phone Number:" [level=3] [ref=e413]
+                                - heading "14043719859" [level=3] [ref=e414]
+                          - generic [ref=e415]:
+                            - heading "Standard Referral" [level=3] [ref=e416]
+                            - 'button "Date: 03-Nov-2025 03:16 am Operator:Ibukun Referred by:Ibukun Reason for referral:This is a test purpose Signed By:Ibukun Hospital Name:Charity Vision Physician Name:Bantu Simba" [ref=e418] [cursor=pointer]':
+                              - generic [ref=e419]: "Date: 03-Nov-2025 03:16 am"
+                              - generic [ref=e420]: Operator:Ibukun
+                              - generic [ref=e421]: Referred by:Ibukun
+                              - generic [ref=e422]: Reason for referral:This is a test purpose
+                              - generic [ref=e423]: Signed By:Ibukun
+                              - generic [ref=e424]: Hospital Name:Charity Vision
+                              - generic [ref=e425]: Physician Name:Bantu Simba
+                        - generic [ref=e428]:
+                          - generic [ref=e429]:
+                            - generic [ref=e430]:
+                              - generic [ref=e431]:
+                                - heading "Date:" [level=3] [ref=e432]
+                                - heading "03/Nov/2025 3:24 AM" [level=3] [ref=e433]
+                              - generic [ref=e434]:
+                                - heading "Branch:" [level=3] [ref=e435]
+                                - heading [level=3]
+                              - generic [ref=e436]:
+                                - heading "Specialty:" [level=3] [ref=e437]
+                                - heading "Ophthalmology" [level=3] [ref=e439]
+                            - generic [ref=e440]:
+                              - generic [ref=e441]:
+                                - heading "Operator:" [level=3] [ref=e442]
+                                - heading "Ibukun" [level=3] [ref=e443]
+                              - generic [ref=e444]:
+                                - heading "Requested By:" [level=3] [ref=e445]
+                                - heading "Ibukun" [level=3] [ref=e446]
+                              - generic [ref=e447]:
+                                - heading "Patient Name:" [level=3] [ref=e448]
+                                - heading "Zack Cruickshank" [level=3] [ref=e449]
+                            - generic [ref=e450]:
+                              - generic [ref=e451]:
+                                - heading "Patient MRN:" [level=3] [ref=e452]
+                                - heading "Luth01352" [level=3] [ref=e453]
+                              - generic [ref=e454]:
+                                - heading "Patient Email:" [level=3] [ref=e455]
+                                - heading "oo@inboxkiten.com" [level=3] [ref=e457]
+                              - generic [ref=e458]:
+                                - heading "Phone Number:" [level=3] [ref=e459]
+                                - heading "14043719859" [level=3] [ref=e460]
+                          - generic [ref=e461]:
+                            - heading "Standard Referral" [level=3] [ref=e462]
+                            - 'button "Date: 03-Nov-2025 03:24 am Operator:Ibukun Referred by:Ibukun Reason for referral:This is a test purpose for refer Signed By:Ibukun Hospital Name:Charity Vision Physician Name:Bantu Simba" [ref=e464] [cursor=pointer]':
+                              - generic [ref=e465]: "Date: 03-Nov-2025 03:24 am"
+                              - generic [ref=e466]: Operator:Ibukun
+                              - generic [ref=e467]: Referred by:Ibukun
+                              - generic [ref=e468]: Reason for referral:This is a test purpose for refer
+                              - generic [ref=e469]: Signed By:Ibukun
+                              - generic [ref=e470]: Hospital Name:Charity Vision
+                              - generic [ref=e471]: Physician Name:Bantu Simba
+                        - generic [ref=e474]:
+                          - generic [ref=e475]:
+                            - generic [ref=e476]:
+                              - generic [ref=e477]:
+                                - heading "Date:" [level=3] [ref=e478]
+                                - heading "03/Nov/2025 3:25 AM" [level=3] [ref=e479]
+                              - generic [ref=e480]:
+                                - heading "Branch:" [level=3] [ref=e481]
+                                - heading [level=3]
+                              - generic [ref=e482]:
+                                - heading "Specialty:" [level=3] [ref=e483]
+                                - heading "Ophthalmology" [level=3] [ref=e485]
+                            - generic [ref=e486]:
+                              - generic [ref=e487]:
+                                - heading "Operator:" [level=3] [ref=e488]
+                                - heading "Ibukun" [level=3] [ref=e489]
+                              - generic [ref=e490]:
+                                - heading "Requested By:" [level=3] [ref=e491]
+                                - heading "Ibukun" [level=3] [ref=e492]
+                              - generic [ref=e493]:
+                                - heading "Patient Name:" [level=3] [ref=e494]
+                                - heading "Zack Cruickshank" [level=3] [ref=e495]
+                            - generic [ref=e496]:
+                              - generic [ref=e497]:
+                                - heading "Patient MRN:" [level=3] [ref=e498]
+                                - heading "Luth01352" [level=3] [ref=e499]
+                              - generic [ref=e500]:
+                                - heading "Patient Email:" [level=3] [ref=e501]
+                                - heading "oo@inboxkiten.com" [level=3] [ref=e503]
+                              - generic [ref=e504]:
+                                - heading "Phone Number:" [level=3] [ref=e505]
+                                - heading "14043719859" [level=3] [ref=e506]
+                          - generic [ref=e507]:
+                            - heading "Standard Referral" [level=3] [ref=e508]
+                            - 'button "Date: 03-Nov-2025 03:25 am Operator:Ibukun Referred by:Ibukun Reason for referral:Not Provided Signed By:Ibukun Hospital Name:Charity Vision Physician Name:Bantu Simba" [ref=e510] [cursor=pointer]':
+                              - generic [ref=e511]: "Date: 03-Nov-2025 03:25 am"
+                              - generic [ref=e512]: Operator:Ibukun
+                              - generic [ref=e513]: Referred by:Ibukun
+                              - generic [ref=e514]: Reason for referral:Not Provided
+                              - generic [ref=e515]: Signed By:Ibukun
+                              - generic [ref=e516]: Hospital Name:Charity Vision
+                              - generic [ref=e517]: Physician Name:Bantu Simba
+                        - generic [ref=e520]:
+                          - generic [ref=e521]:
+                            - generic [ref=e522]:
+                              - generic [ref=e523]:
+                                - heading "Date:" [level=3] [ref=e524]
+                                - heading "03/Nov/2025 10:02 AM" [level=3] [ref=e525]
+                              - generic [ref=e526]:
+                                - heading "Branch:" [level=3] [ref=e527]
+                                - heading [level=3]
+                              - generic [ref=e528]:
+                                - heading "Specialty:" [level=3] [ref=e529]
+                                - heading "Ophthalmology" [level=3] [ref=e531]
+                            - generic [ref=e532]:
+                              - generic [ref=e533]:
+                                - heading "Operator:" [level=3] [ref=e534]
+                                - heading "Ibukun" [level=3] [ref=e535]
+                              - generic [ref=e536]:
+                                - heading "Requested By:" [level=3] [ref=e537]
+                                - heading "Ibukun" [level=3] [ref=e538]
+                              - generic [ref=e539]:
+                                - heading "Patient Name:" [level=3] [ref=e540]
+                                - heading "Zack Cruickshank" [level=3] [ref=e541]
+                            - generic [ref=e542]:
+                              - generic [ref=e543]:
+                                - heading "Patient MRN:" [level=3] [ref=e544]
+                                - heading "Luth01352" [level=3] [ref=e545]
+                              - generic [ref=e546]:
+                                - heading "Patient Email:" [level=3] [ref=e547]
+                                - heading "oo@inboxkiten.com" [level=3] [ref=e549]
+                              - generic [ref=e550]:
+                                - heading "Phone Number:" [level=3] [ref=e551]
+                                - heading "14043719859" [level=3] [ref=e552]
+                          - generic [ref=e553]:
+                            - heading "Standard Referral" [level=3] [ref=e554]
+                            - 'button "Date: 03-Nov-2025 10:02 am Operator:Ibukun Referred by:Ibukun Reason for referral:This is a test purpose for refer Signed By:Ibukun Hospital Name:Charity Vision Physician Name:Bantu Simba" [ref=e556] [cursor=pointer]':
+                              - generic [ref=e557]: "Date: 03-Nov-2025 10:02 am"
+                              - generic [ref=e558]: Operator:Ibukun
+                              - generic [ref=e559]: Referred by:Ibukun
+                              - generic [ref=e560]: Reason for referral:This is a test purpose for refer
+                              - generic [ref=e561]: Signed By:Ibukun
+                              - generic [ref=e562]: Hospital Name:Charity Vision
+                              - generic [ref=e563]: Physician Name:Bantu Simba
+                        - generic [ref=e566]:
+                          - generic [ref=e567]:
+                            - generic [ref=e568]:
+                              - generic [ref=e569]:
+                                - heading "Date:" [level=3] [ref=e570]
+                                - heading "03/Nov/2025 11:33 AM" [level=3] [ref=e571]
+                              - generic [ref=e572]:
+                                - heading "Branch:" [level=3] [ref=e573]
+                                - heading [level=3]
+                              - generic [ref=e574]:
+                                - heading "Specialty:" [level=3] [ref=e575]
+                                - heading "Ophthalmology" [level=3] [ref=e577]
+                            - generic [ref=e578]:
+                              - generic [ref=e579]:
+                                - heading "Operator:" [level=3] [ref=e580]
+                                - heading "Adeolu1 Ogungbesan" [level=3] [ref=e581]
+                              - generic [ref=e582]:
+                                - heading "Requested By:" [level=3] [ref=e583]
+                                - heading "Adeolu1 Ogungbesan" [level=3] [ref=e584]
+                              - generic [ref=e585]:
+                                - heading "Patient Name:" [level=3] [ref=e586]
+                                - heading "Zack Cruickshank" [level=3] [ref=e587]
+                            - generic [ref=e588]:
+                              - generic [ref=e589]:
+                                - heading "Patient MRN:" [level=3] [ref=e590]
+                                - heading "Luth01352" [level=3] [ref=e591]
+                              - generic [ref=e592]:
+                                - heading "Patient Email:" [level=3] [ref=e593]
+                                - heading "oo@inboxkiten.com" [level=3] [ref=e595]
+                              - generic [ref=e596]:
+                                - heading "Phone Number:" [level=3] [ref=e597]
+                                - heading "14043719859" [level=3] [ref=e598]
+                          - generic [ref=e599]:
+                            - heading "Standard Referral" [level=3] [ref=e600]
+                            - 'button "Date: 03-Nov-2025 11:33 am Operator:Adeolu1 Ogungbesan Referred by:Adeolu1 Ogungbesan Reason for referral:This is a test purpose Signed By:Adeolu1 Ogungbesan Hospital Name:Charity Vision Physician Name:Bantu Simba" [ref=e602] [cursor=pointer]':
+                              - generic [ref=e603]: "Date: 03-Nov-2025 11:33 am"
+                              - generic [ref=e604]: Operator:Adeolu1 Ogungbesan
+                              - generic [ref=e605]: Referred by:Adeolu1 Ogungbesan
+                              - generic [ref=e606]: Reason for referral:This is a test purpose
+                              - generic [ref=e607]: Signed By:Adeolu1 Ogungbesan
+                              - generic [ref=e608]: Hospital Name:Charity Vision
+                              - generic [ref=e609]: Physician Name:Bantu Simba
+                        - generic [ref=e612]:
+                          - generic [ref=e613]:
+                            - generic [ref=e614]:
+                              - generic [ref=e615]:
+                                - heading "Date:" [level=3] [ref=e616]
+                                - heading "03/Nov/2025 11:43 AM" [level=3] [ref=e617]
+                              - generic [ref=e618]:
+                                - heading "Branch:" [level=3] [ref=e619]
+                                - heading [level=3]
+                              - generic [ref=e620]:
+                                - heading "Specialty:" [level=3] [ref=e621]
+                                - heading "Ophthalmology" [level=3] [ref=e623]
+                            - generic [ref=e624]:
+                              - generic [ref=e625]:
+                                - heading "Operator:" [level=3] [ref=e626]
+                                - heading "Adeolu1 Ogungbesan" [level=3] [ref=e627]
+                              - generic [ref=e628]:
+                                - heading "Requested By:" [level=3] [ref=e629]
+                                - heading "Adeolu1 Ogungbesan" [level=3] [ref=e630]
+                              - generic [ref=e631]:
+                                - heading "Patient Name:" [level=3] [ref=e632]
+                                - heading "Zack Cruickshank" [level=3] [ref=e633]
+                            - generic [ref=e634]:
+                              - generic [ref=e635]:
+                                - heading "Patient MRN:" [level=3] [ref=e636]
+                                - heading "Luth01352" [level=3] [ref=e637]
+                              - generic [ref=e638]:
+                                - heading "Patient Email:" [level=3] [ref=e639]
+                                - heading "oo@inboxkiten.com" [level=3] [ref=e641]
+                              - generic [ref=e642]:
+                                - heading "Phone Number:" [level=3] [ref=e643]
+                                - heading "14043719859" [level=3] [ref=e644]
+                          - generic [ref=e645]:
+                            - heading "Standard Referral" [level=3] [ref=e646]
+                            - 'button "Date: 03-Nov-2025 11:43 am Operator:Adeolu1 Ogungbesan Referred by:Adeolu1 Ogungbesan Reason for referral:This is a test purpose Signed By:Adeolu1 Ogungbesan Hospital Name:Charity Vision Physician Name:Bantu Simba" [ref=e648] [cursor=pointer]':
+                              - generic [ref=e649]: "Date: 03-Nov-2025 11:43 am"
+                              - generic [ref=e650]: Operator:Adeolu1 Ogungbesan
+                              - generic [ref=e651]: Referred by:Adeolu1 Ogungbesan
+                              - generic [ref=e652]: Reason for referral:This is a test purpose
+                              - generic [ref=e653]: Signed By:Adeolu1 Ogungbesan
+                              - generic [ref=e654]: Hospital Name:Charity Vision
+                              - generic [ref=e655]: Physician Name:Bantu Simba
+                        - generic [ref=e658]:
+                          - generic [ref=e659]:
+                            - generic [ref=e660]:
+                              - generic [ref=e661]:
+                                - heading "Date:" [level=3] [ref=e662]
+                                - heading "03/Nov/2025 11:44 AM" [level=3] [ref=e663]
+                              - generic [ref=e664]:
+                                - heading "Branch:" [level=3] [ref=e665]
+                                - heading [level=3]
+                              - generic [ref=e666]:
+                                - heading "Specialty:" [level=3] [ref=e667]
+                                - heading "Ophthalmology" [level=3] [ref=e669]
+                            - generic [ref=e670]:
+                              - generic [ref=e671]:
+                                - heading "Operator:" [level=3] [ref=e672]
+                                - heading "Adeolu1 Ogungbesan" [level=3] [ref=e673]
+                              - generic [ref=e674]:
+                                - heading "Requested By:" [level=3] [ref=e675]
+                                - heading "Adeolu1 Ogungbesan" [level=3] [ref=e676]
+                              - generic [ref=e677]:
+                                - heading "Patient Name:" [level=3] [ref=e678]
+                                - heading "Zack Cruickshank" [level=3] [ref=e679]
+                            - generic [ref=e680]:
+                              - generic [ref=e681]:
+                                - heading "Patient MRN:" [level=3] [ref=e682]
+                                - heading "Luth01352" [level=3] [ref=e683]
+                              - generic [ref=e684]:
+                                - heading "Patient Email:" [level=3] [ref=e685]
+                                - heading "oo@inboxkiten.com" [level=3] [ref=e687]
+                              - generic [ref=e688]:
+                                - heading "Phone Number:" [level=3] [ref=e689]
+                                - heading "14043719859" [level=3] [ref=e690]
+                          - generic [ref=e691]:
+                            - heading "Standard Referral" [level=3] [ref=e692]
+                            - 'button "Date: 03-Nov-2025 11:44 am Operator:Adeolu1 Ogungbesan Referred by:Adeolu1 Ogungbesan Reason for referral:This is a test purpose Signed By:Adeolu1 Ogungbesan Hospital Name:Charity Vision Physician Name:Bantu Simba" [ref=e694] [cursor=pointer]':
+                              - generic [ref=e695]: "Date: 03-Nov-2025 11:44 am"
+                              - generic [ref=e696]: Operator:Adeolu1 Ogungbesan
+                              - generic [ref=e697]: Referred by:Adeolu1 Ogungbesan
+                              - generic [ref=e698]: Reason for referral:This is a test purpose
+                              - generic [ref=e699]: Signed By:Adeolu1 Ogungbesan
+                              - generic [ref=e700]: Hospital Name:Charity Vision
+                              - generic [ref=e701]: Physician Name:Bantu Simba
+  - dialog [ref=e702]:
+    - document:
+      - generic [ref=e707]:
+        - heading "Referral" [level=3] [ref=e709]
+        - img [ref=e711] [cursor=pointer]
+  - dialog [ref=e715]:
+    - document:
+      - generic [ref=e717]:
+        - generic [ref=e718]:
+          - heading "Referral Form" [level=4] [ref=e719]
+          - img [ref=e720] [cursor=pointer]
+        - img "Hospital logo" [ref=e723]
+        - generic [ref=e725]:
+          - generic [ref=e726]:
+            - paragraph [ref=e727]: "Hospital Name:"
+            - paragraph [ref=e728]: Lemon Group of Hospitals
+          - generic [ref=e729]:
+            - paragraph [ref=e730]: "Hospital Address:"
+            - paragraph [ref=e731]: Harvard University, Cambridge, MA, USA
+          - generic [ref=e732]:
+            - paragraph [ref=e733]: "Hospital Email:"
+            - paragraph [ref=e734]: luth@inboxkitten.com
+          - generic [ref=e735]:
+            - paragraph [ref=e736]: "Hospital Phone Number:"
+            - paragraph [ref=e737]: "23470"
+        - generic [ref=e738]:
+          - heading "Patient Details" [level=5] [ref=e739]
+          - generic [ref=e740]:
+            - generic [ref=e741]:
+              - generic [ref=e742]: Patient Name:Zack Cruickshank
+              - generic [ref=e743]: DOB:23/08/1977
+              - generic [ref=e744]: HMO:None
+              - generic [ref=e745]: Allergy:-
+            - generic [ref=e746]:
+              - generic [ref=e747]: Age:48
+              - generic [ref=e748]: Sex:Female
+              - generic [ref=e749]: Phone Number:14043719859
+              - generic [ref=e750]: Blood Group:-
+        - generic [ref=e751]:
+          - heading "Clinical Information" [level=5] [ref=e752]
+          - generic [ref=e753]:
+            - generic [ref=e754]: Left Eye Diagnosis:Not Provided
+            - generic [ref=e755]: Right Eye Diagnosis:Not Provided
+            - generic [ref=e756]: Complaint:-
+            - generic [ref=e757]: Investigations:-
+            - generic [ref=e758]: "Medications:"
+            - table [ref=e762]:
+              - rowgroup [ref=e763]:
+                - row "Drug Dosage Duration" [ref=e764]:
+                  - cell "Drug" [ref=e765]
+                  - cell "Dosage" [ref=e766]
+                  - cell "Duration" [ref=e767]
+                  - cell [ref=e768]
+              - rowgroup [ref=e769]:
+                - row "Amoxicillin 500 5  " [ref=e770]:
+                  - cell "Amoxicillin" [ref=e771]
+                  - cell "500" [ref=e772]
+                  - cell "5" [ref=e773]
+                  - cell " " [ref=e774]:
+                    - generic [ref=e775]:
+                      - generic [ref=e776] [cursor=pointer]: 
+                      - generic [ref=e777] [cursor=pointer]: 
+            - generic [ref=e778]:
+              - generic [ref=e780]:
+                - generic [ref=e782]: Drug
+                - generic [ref=e783]:
+                  - log [ref=e785]
+                  - generic [ref=e786]:
+                    - generic [ref=e787]:
+                      - generic [ref=e788]: Amoxicillin
+                      - combobox [ref=e790]
+                    - img [ref=e793]
+              - generic [ref=e796]:
+                - generic [ref=e797]: Duration
+                - textbox "Type here" [ref=e798]: "10"
+              - generic [ref=e800]:
+                - generic [ref=e801]:
+                  - generic [ref=e802]:
+                    - generic [ref=e803]: Dosage
+                    - textbox "0" [ref=e804]: "400"
+                  - generic [ref=e805]:
+                    - generic [ref=e806]: 
+                    - generic [ref=e807]: 
+                - paragraph [ref=e808]
+              - button " Add Medication" [ref=e810] [cursor=pointer]:
+                - generic [ref=e811]: 
+                - generic [ref=e812]: Add Medication
+              - generic [ref=e814]:
+                - generic [ref=e815]: Reason For Referral
+                - textbox "Type here" [ref=e816]: This is a test purpose
+              - generic [ref=e818]:
+                - generic [ref=e819]: Comment
+                - textbox "Type here" [ref=e820]: Take after meal please
+          - generic [ref=e821]:
+            - heading "Referring Physician Information" [level=5] [ref=e822]
+            - generic [ref=e823]:
+              - generic [ref=e825] [cursor=pointer]:
+                - text: Internal
+                - radio "Internal"
+              - generic [ref=e828] [cursor=pointer]:
+                - text: External
+                - radio "External" [checked] [active]
+            - generic [ref=e830]:
+              - generic [ref=e832]:
+                - generic [ref=e833]: Hospital Branch
+                - textbox "Type here" [ref=e834]
+              - generic [ref=e836]:
+                - generic [ref=e837]: Physician Name
+                - textbox "Type here" [ref=e838]
+              - generic [ref=e840]:
+                - generic [ref=e841]: Specialty
+                - textbox "Type here" [ref=e842]
+            - generic [ref=e844]:
+              - generic [ref=e846]: 
+              - generic [ref=e847] [cursor=pointer]: Add Attachment
+          - button "Signed By:" [ref=e849] [cursor=pointer]
+        - button "Submit" [disabled] [ref=e853]
+```
